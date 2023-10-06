@@ -97,6 +97,549 @@
 							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any"/>
 						</Entrance>
 					</entrances>
+					<StopPlaceType>railStation</StopPlaceType>
+					<BorderCrossing>false</BorderCrossing>
+					<quays>
+						<Quay id="de:06411:4734:62" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>d188ebb4-c300-4543-b13f-2a22c9ff62de</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B01</Value>
+								</KeyValue>
+							</keyList>
+							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht? -->
+							<Name lang="de">Bahnhsteig 1</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:06411:4734:62:62" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>54ff3fd8-5124-4cf9-82db-fef4091da38f</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B01-G01</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">1</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="a6a2a5e9-a915-454b-ad13-1b28701fae3f" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.85</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:62"/>
+						</Quay>
+						<Quay id="de:06411:4734:64" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>d38424c4-e74c-46b2-997c-30d05a4d18bb</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B02</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Bahnsteig 2, Gleis 3/4</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.873045</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:06411:4734:64:63" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>4e04618e-0cc7-4286-9aee-e2ebcd38c971</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B02-G03</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">3</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<!-- Länge des Gleises? -->
+							<placeEquipments>
+								<AccessVehicleEquipment id ="2b73c406-9100-473e-94be-9be9a165fb3df" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.96</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:64"/>
+						</Quay>
+						<Quay id="de:06411:4734:64:64" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>54ff3fd8-5124-4cf9-82db-fef4091da38f</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B02-G04</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">4</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="d40d70de-1ed4-4ae0-8020-640b75f41bf7" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.96</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:64"/>
+						</Quay>
+						<Quay id="de:06411:4734:41" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>ebe7d3e6-25ec-4fe3-bd02-1a1fa4b19dfe</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B03</Value>
+								</KeyValue>
+							</keyList>
+							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht? -->
+							<Name lang="de">Bahnsteig 3, Gleis 5/6</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.873045</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:06411:4734:41:65" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>d1e19abb-6e56-4c31-86ed-1bd6b24b6fa6</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B03-G05</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">5</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="f6e7ce6b-8dcd-40cb-83af-5b59568ba9e8" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41"/>
+						</Quay>
+						<Quay id="de:06411:4734:61:41" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>4e374ffc-0794-4004-8608-6d5959639ec0</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B03-G06</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">6</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="5b34e5ce-4dbd-4c78-a120-42e7d095bb3f" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:64"/>
+						</Quay>
+						<Quay id="de:06411:4734:44" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>7db6ad05-ef86-4e93-9f31-534338155326</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B04</Value>
+								</KeyValue>
+							</keyList>
+							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht? -->
+							<Name lang="de">Bahnsteig 4, Gleis 7/8</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.873045</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:06411:4734:44:66" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>01ccf473-4df2-4fb8-800e-6f9031486767</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B04-G07</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">7</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="350d613f-6145-4270-9208-a3ce8c733dc6" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:44"/>
+						</Quay>
+						<Quay id="de:06411:4734:44:44" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>94f1f400-501e-439f-b141-5f850dc8b10f</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B04-G08</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">8</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="3c26a740-5da1-4551-9699-8f0c0deeed49" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:44"/>
+						</Quay>
+						<Quay id="de:06411:4734:42" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>27d87d49-75e9-46d0-91ae-5f08f7aea632</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B05</Value>
+								</KeyValue>
+							</keyList>
+							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht? -->
+							<Name lang="de">Bahnsteig 5, Gleis 9/10</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.873045</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:06411:4734:42:69" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>06134455-2466-44e7-a4f7-857bb0bfa30b</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B05-G09</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">9</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="e87aff14-b06f-4cfa-b356-6c5f1c11134c" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42"/>
+						</Quay>
+						<Quay id="de:06411:4734:42:42" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>7130458e-528b-48c7-bc7f-e88b142f87c4</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B05-G10</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">10</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="f1e50b34-8c00-4fe2-84e8-a9f21758e7a1" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42"/>
+						</Quay>
+						<Quay id="de:06411:4734:43" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>65d9c75c-0ffd-4517-b3f8-cee21de189f4</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B06</Value>
+								</KeyValue>
+							</keyList>
+							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht? -->
+							<Name lang="de">Bahnsteig 6, Gleis 11/12</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.873045</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:06411:4734:43:70" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>f4b3c552-4a72-4ba0-87c2-43c1cb29e344</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B06-G11</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">11</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="42da4dd6-8494-4f4b-9039-4dbfc1d9f57d" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43"/>
+						</Quay>
+						<Quay id="de:06411:4734:43:43" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>e13ac721-30d3-4489-95d6-448c10ddb039</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>PrivateCode</Key>
+									<Value>01126-01-B06-G12</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8000068</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>FD</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">12</Name>
+							<Centroid>
+								<Location>
+									<Longitude>8.629165</Longitude>
+									<Latitude>49.87304</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<placeEquipments>
+								<AccessVehicleEquipment id ="0f03061a-9c85-4456-8ef1-231239c3ec0a" version="any">
+									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
+									<BoardingHeight>0.76</BoardingHeight>
+									<GapToPlatform>0.1</GapToPlatform>
+								</AccessVehicleEquipment>
+							</placeEquipments>
+							<QuayType>railPlatform</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43"/>
+						</Quay>
+					</quays>
 					<accessSpaces>
 						<AccessSpace id="6b2a29f6-ae27-4da8-b566-b5aa5fa54701" version="any">
 							<Name lang="de">Empfangsgebäude</Name>
@@ -132,8 +675,6 @@
 							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any"/>
 						</AccessSpace>
 					</accessSpaces>
-					<StopPlaceType>railStation</StopPlaceType>
-					<BorderCrossing>false</BorderCrossing>
 				</StopPlace>
 			</stopPlaces>
 		</SiteFrame>
