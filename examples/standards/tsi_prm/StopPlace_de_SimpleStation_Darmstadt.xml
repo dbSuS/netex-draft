@@ -150,7 +150,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="a6a2a5e9-a915-454b-ad13-1b28701fae3f" version="any">
+								<AccessVehicleEquipment id="a6a2a5e9-a915-454b-ad13-1b28701fae3f" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.85</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -209,7 +209,7 @@
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<!-- Länge des Gleises? -->
 							<placeEquipments>
-								<AccessVehicleEquipment id ="2b73c406-9100-473e-94be-9be9a165fb3df" version="any">
+								<AccessVehicleEquipment id="2b73c406-9100-473e-94be-9be9a165fb3df" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.96</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -246,7 +246,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="d40d70de-1ed4-4ae0-8020-640b75f41bf7" version="any">
+								<AccessVehicleEquipment id="d40d70de-1ed4-4ae0-8020-640b75f41bf7" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.96</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -305,7 +305,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="f6e7ce6b-8dcd-40cb-83af-5b59568ba9e8" version="any">
+								<AccessVehicleEquipment id="f6e7ce6b-8dcd-40cb-83af-5b59568ba9e8" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -342,7 +342,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="5b34e5ce-4dbd-4c78-a120-42e7d095bb3f" version="any">
+								<AccessVehicleEquipment id="5b34e5ce-4dbd-4c78-a120-42e7d095bb3f" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -401,7 +401,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="350d613f-6145-4270-9208-a3ce8c733dc6" version="any">
+								<AccessVehicleEquipment id="350d613f-6145-4270-9208-a3ce8c733dc6" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -438,7 +438,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="3c26a740-5da1-4551-9699-8f0c0deeed49" version="any">
+								<AccessVehicleEquipment id="3c26a740-5da1-4551-9699-8f0c0deeed49" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -497,7 +497,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="e87aff14-b06f-4cfa-b356-6c5f1c11134c" version="any">
+								<AccessVehicleEquipment id="e87aff14-b06f-4cfa-b356-6c5f1c11134c" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -534,7 +534,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="f1e50b34-8c00-4fe2-84e8-a9f21758e7a1" version="any">
+								<AccessVehicleEquipment id="f1e50b34-8c00-4fe2-84e8-a9f21758e7a1" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -593,7 +593,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="42da4dd6-8494-4f4b-9039-4dbfc1d9f57d" version="any">
+								<AccessVehicleEquipment id="42da4dd6-8494-4f4b-9039-4dbfc1d9f57d" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
@@ -630,7 +630,7 @@
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<placeEquipments>
-								<AccessVehicleEquipment id ="0f03061a-9c85-4456-8ef1-231239c3ec0a" version="any">
+								<AccessVehicleEquipment id="0f03061a-9c85-4456-8ef1-231239c3ec0a" version="any">
 									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
 									<BoardingHeight>0.76</BoardingHeight>
 									<GapToPlatform>0.1</GapToPlatform>
