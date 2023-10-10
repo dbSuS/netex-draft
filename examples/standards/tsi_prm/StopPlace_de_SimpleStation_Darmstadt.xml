@@ -111,7 +111,7 @@
 									<Value>01126-01-B01</Value>
 								</KeyValue>
 							</keyList>
-							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht? -->
+							<!-- Sicherstellen, dass hier der gleiche Name im ZHV steht!? -->
 							<Name lang="de">Bahnhsteig 1</Name>
 							<Centroid>
 								<Location>
