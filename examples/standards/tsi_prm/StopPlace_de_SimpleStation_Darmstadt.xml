@@ -120,6 +120,8 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>208</Length>
+							<Width>5.98</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:62:62" version="any">
@@ -149,14 +151,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="a6a2a5e9-a915-454b-ad13-1b28701fae3f" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.85</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>208</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.85</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:62"/>
 						</Quay>
 						<Quay id="de:06411:4734:64" version="any">
@@ -178,6 +176,8 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>257</Length>
+							<Width>8.53</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:64:63" version="any">
@@ -207,15 +207,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<!-- Länge des Gleises? -->
-							<placeEquipments>
-								<AccessVehicleEquipment id="2b73c406-9100-473e-94be-9be9a165fb3df" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.96</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>257</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.96</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:64"/>
 						</Quay>
 						<Quay id="de:06411:4734:64:64" version="any">
@@ -245,14 +240,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="d40d70de-1ed4-4ae0-8020-640b75f41bf7" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.96</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>257</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.96</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:64"/>
 						</Quay>
 						<Quay id="de:06411:4734:41" version="any">
@@ -275,6 +266,8 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>443</Length>
+							<Width>8.37</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:41:65" version="any">
@@ -304,14 +297,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="f6e7ce6b-8dcd-40cb-83af-5b59568ba9e8" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>443.00</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:41"/>
 						</Quay>
 						<Quay id="de:06411:4734:61:41" version="any">
@@ -341,14 +330,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="5b34e5ce-4dbd-4c78-a120-42e7d095bb3f" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>443.15</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:64"/>
 						</Quay>
 						<Quay id="de:06411:4734:44" version="any">
@@ -371,6 +356,8 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>288</Length>
+							<Width>6.76</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:44:66" version="any">
@@ -400,14 +387,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="350d613f-6145-4270-9208-a3ce8c733dc6" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>288</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:44"/>
 						</Quay>
 						<Quay id="de:06411:4734:44:44" version="any">
@@ -437,14 +420,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="3c26a740-5da1-4551-9699-8f0c0deeed49" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>288</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:44"/>
 						</Quay>
 						<Quay id="de:06411:4734:42" version="any">
@@ -467,6 +446,8 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>376.45</Length>
+							<Width>6.38</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:42:69" version="any">
@@ -496,14 +477,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="e87aff14-b06f-4cfa-b356-6c5f1c11134c" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>376.45</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:42"/>
 						</Quay>
 						<Quay id="de:06411:4734:42:42" version="any">
@@ -533,14 +510,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="f1e50b34-8c00-4fe2-84e8-a9f21758e7a1" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>376.45</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:42"/>
 						</Quay>
 						<Quay id="de:06411:4734:43" version="any">
@@ -563,6 +536,8 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>410.25</Length>
+							<Width>5.55</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:43:70" version="any">
@@ -592,14 +567,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="42da4dd6-8494-4f4b-9039-4dbfc1d9f57d" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>409.2</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:43"/>
 						</Quay>
 						<Quay id="de:06411:4734:43:43" version="any">
@@ -629,14 +600,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<placeEquipments>
-								<AccessVehicleEquipment id="0f03061a-9c85-4456-8ef1-231239c3ec0a" version="any">
-									<!-- Vorschlag: Wir nutzen das Feld fuer die Bahnsteighoehe, obwohl es nicht ganz passt -->
-									<BoardingHeight>0.76</BoardingHeight>
-									<GapToPlatform>0.1</GapToPlatform>
-								</AccessVehicleEquipment>
-							</placeEquipments>
+							<Length>410.25</Length>
 							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.76</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:43"/>
 						</Quay>
 					</quays>
