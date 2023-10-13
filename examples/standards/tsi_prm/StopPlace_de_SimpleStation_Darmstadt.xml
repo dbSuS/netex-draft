@@ -6,6 +6,17 @@
 		<SiteFrame version="any" id="9616cea6-e8e9-4943-be9c-354d5678321d">
 			<stopPlaces>
 				<StopPlace version="any" id="de:06411:4734">
+					<placeEquipments>
+						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 1</Name>
+							<PrivateCode>10543458</PrivateCode>
+							<TypeOfEquipmentRef ref="EFA_AUF" version="any"/>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>800</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+						</LiftEquipment>
+					</placeEquipments>
 					<keyList>
 						<KeyValue>
 							<Key>UUID</Key>
@@ -142,6 +153,31 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any"/>
+						</AccessSpace>
+						<AccessSpace id="ee2968fd-fc42-4743-af0b-5ec01ba3992a" version="any">
+						  <!--	Diesen Platz gibt es nich in SAP-PM	-->
+							<Name lang="de-DE">Brücke</Name>
+							<PrivateCode>01126-XX-EG</PrivateCode>
+							<Centroid>
+								<Location>
+									<Longitude>8.629636</Longitude>
+									<Latitude>49.872503</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="1ebb8531-c6fb-4ffd-b9b7-c4b36f86a3ed" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6303864</Longitude>
+											<Latitude>49.8725612</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 						</AccessSpace>
 					</accessSpaces>
 					<StopPlaceType>railStation</StopPlaceType>
