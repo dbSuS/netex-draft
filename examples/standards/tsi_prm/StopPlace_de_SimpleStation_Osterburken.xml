@@ -120,16 +120,15 @@
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:08225:8200:1:1" />
+							<ParentQuayRef ref="de:08225:8200:1:1"/>
 						</Quay>
 						<Quay id="5d30c93b-b638-425c-9649-fb650450af00" version="any">
 							<Length>25</Length>
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.36</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:08225:8200:1:1" />
+							<ParentQuayRef ref="de:08225:8200:1:1"/>
 						</Quay>
-
 						<!--Banhsteig 2/3/4-->
 						<Quay id="de:08225:8200:2" version="any">
 							<keyList>
@@ -252,7 +251,6 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:08225:8200:2"/>
 						</Quay>
-
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d053b9c9-28c2-47c5-bfd1-7be534a970d6" version="any">
 							<Centroid>
@@ -265,7 +263,7 @@
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.36</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:08225:8200:2:4" />
+							<ParentQuayRef ref="de:08225:8200:2:4"/>
 						</Quay>
 						<Quay id="05c5218e-7233-475b-9a08-8da84fda6b8d" version="any">
 							<Centroid>
@@ -278,7 +276,7 @@
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.28</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:08225:8200:2:4" />
+							<ParentQuayRef ref="de:08225:8200:2:4"/>
 						</Quay>
 					</quays>
 				</StopPlace>
