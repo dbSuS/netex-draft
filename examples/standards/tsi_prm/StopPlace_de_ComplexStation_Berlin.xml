@@ -155,6 +155,91 @@
 							<LevelRef ref="f98ea597-2086-4235-b027-08971a3c5193" version="any"/>
 						</Entrance>
 					</entrances>
+					<StopPlaceType>railStation</StopPlaceType>
+					<BorderCrossing>false</BorderCrossing>
+					<quays>
+						<!--Bahnsteigbereich 2. UG.-->
+						<!--Banhsteig 1/2-->
+						<Quay id="de:11000:900003200:1" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>ebb92402-e8aa-49f4-8183-ee94f67e1236</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Bahnhsteig 1/2</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<Width>9.50</Width>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<!--Banhsteig 3/4-->
+						<Quay id="de:11000:900003200:2" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Bahnhsteig 3/4</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<Width>9.50</Width>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<!--Banhsteig 5/6-->
+						<Quay id="de:11000:900003200:3" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Bahnhsteig 5/6</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<Width>9.50</Width>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<!--Banhsteig 7/8-->
+						<Quay id="de:11000:900003200:4" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Bahnhsteig 7/8</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<Width>9.50</Width>
+							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+					</quays>
 					<accessSpaces>
 						<AccessSpace id="b84bd3b1-8f19-4e75-8158-f8f31c2688af" version="any">
 							<Name lang="de-DE">1. Untergeschoss</Name>
@@ -190,8 +275,6 @@
 							<LevelRef ref="f612a826-7255-44e7-98ff-e040a5c6e287" version="any"/>
 						</AccessSpace>
 					</accessSpaces>
-					<StopPlaceType>railStation</StopPlaceType>
-					<BorderCrossing>false</BorderCrossing>
 				</StopPlace>
 			</stopPlaces>
 		</SiteFrame>
