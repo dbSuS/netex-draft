@@ -345,15 +345,74 @@
 							<ParentQuayRef ref="de:06411:4734:41"/>
 							<boardingPositions>
 								<BoardingPosition id="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd" version="any">
+									<Name>A</Name>
 									<Centroid>
 										<Location>
 											<Longitude>8.629165</Longitude>
 											<Latitude>49.87304</Latitude>
 										</Location>
 									</Centroid>
-									<Length>443</Length>
-									<PlatformHeight>0.76</PlatformHeight>
-									<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+									<Length>98.35</Length>
+								</BoardingPosition>
+								<BoardingPosition id="ccba8e2f-8fa8-49d3-bdb3-27b92a96d609" version="any">
+									<Name>B</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.629165</Longitude>
+											<Latitude>49.87304</Latitude>
+										</Location>
+									</Centroid>
+									<Length>48</Length>
+								</BoardingPosition>
+								<BoardingPosition id="e81575ab-5d9a-419e-866f-b3e70aca75dc" version="any">
+									<Name>C</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.629165</Longitude>
+											<Latitude>49.87304</Latitude>
+										</Location>
+									</Centroid>
+									<Length>48</Length>
+								</BoardingPosition>
+								<BoardingPosition id="443e7549-0ad5-47bb-8e17-bdbc5f334f00" version="any">
+									<Name>D</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.629165</Longitude>
+											<Latitude>49.87304</Latitude>
+										</Location>
+									</Centroid>
+									<Length>26.30</Length>
+								</BoardingPosition>
+								<BoardingPosition id="f53a5215-8216-45a9-bcba-1cb9d64fdae8" version="any">
+									<Name>E</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.629165</Longitude>
+											<Latitude>49.87304</Latitude>
+										</Location>
+									</Centroid>
+									<Length>48.05</Length>
+								</BoardingPosition>
+								<BoardingPosition id="81eee594-7697-418d-84be-fda6b2c06f65" version="any">
+									<Name>F</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.629165</Longitude>
+											<Latitude>49.87304</Latitude>
+										</Location>
+									</Centroid>
+									<Length>48.05</Length>
+								</BoardingPosition>
+								<BoardingPosition id="5572e80a-92f1-49c7-a8d8-62dfdfbd8478" version="any">
+									<Name>G</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.629165</Longitude>
+											<Latitude>49.87304</Latitude>
+										</Location>
+									</Centroid>
+									<Length>48.05</Length>
 								</BoardingPosition>
 							</boardingPositions>
 						</Quay>
@@ -389,62 +448,6 @@
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:64"/>
-						</Quay>
-						<Quay id="b96eedc6-52d8-4781-b18b-252bfb05f230" version="any">
-							<Name>A</Name>
-							<Length>98.35</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
-						</Quay>
-						<Quay id="29c889ea-31cd-47e2-b7d2-4dfded19c30a" version="any">
-							<Name>B</Name>
-							<Length>48</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
-						</Quay>
-						<Quay id="be3c71aa-23ec-40d4-8e8d-e2876d5d93c1" version="any">
-							<Name>C</Name>
-							<Length>48</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
-						</Quay>
-						<Quay id="caaa8715-ec62-4214-9b7d-325f07957f47" version="any">
-							<Name>D</Name>
-							<Length>26.30</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
-						</Quay>
-						<Quay id="6b438913-890a-4de3-8105-14113032cb5d" version="any">
-							<Name>E</Name>
-							<Length>48.05</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
-						</Quay>
-						<Quay id="a3d4cc24-6e70-4d14-a680-dd5e07df91ba" version="any">
-							<Name>F</Name>
-							<Length>48.05</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
-						</Quay>
-						<Quay id="15154b41-12f7-4f4a-a9c9-c532eece982e" version="any">
-							<Name>G</Name>
-							<Length>48.05</Length>
-							<QuayType>railPlatformSector</QuayType>
-							<boardingPositions>
-								<BoardingPositionRef ref="4ad144d2-8bd2-49ff-bd2f-6faa6ea414cd"/>
-							</boardingPositions>
 						</Quay>
 						<!--Banhsteig 7/8-->
 						<Quay id="de:06411:4734:44" version="any">
