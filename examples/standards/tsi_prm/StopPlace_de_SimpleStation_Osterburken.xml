@@ -117,7 +117,7 @@
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d451c5c4-12f4-4a71-91d7-70b1bbf6a161" version="any">
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:platformHeight" />
+								<TypeOfPlaceRef ref="quay:platformHeight"/>
 							</placeTypes>
 							<Length>140</Length>
 							<QuayType>railPlatformSector</QuayType>
@@ -127,7 +127,7 @@
 						</Quay>
 						<Quay id="5d30c93b-b638-425c-9649-fb650450af00" version="any">
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:platformHeight" />
+								<TypeOfPlaceRef ref="quay:platformHeight"/>
 							</placeTypes>
 							<Length>25</Length>
 							<QuayType>railPlatformSector</QuayType>
@@ -260,7 +260,7 @@
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d053b9c9-28c2-47c5-bfd1-7be534a970d6" version="any">
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:platformHeight" />
+								<TypeOfPlaceRef ref="quay:platformHeight"/>
 							</placeTypes>
 							<Length>166.60</Length>
 							<QuayType>railPlatformSector</QuayType>
@@ -270,7 +270,7 @@
 						</Quay>
 						<Quay id="05c5218e-7233-475b-9a08-8da84fda6b8d" version="any">
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:platformHeight" />
+								<TypeOfPlaceRef ref="quay:platformHeight"/>
 							</placeTypes>
 							<Length>264.50</Length>
 							<QuayType>railPlatformSector</QuayType>
