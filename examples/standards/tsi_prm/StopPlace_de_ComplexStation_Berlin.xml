@@ -179,6 +179,62 @@
 							<Width>9.50</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
+						<Quay id="de:11000:900003200:1:50" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>68d036ae-abd4-4065-9be9-83371bb34a28</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">1</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:1" />
+						</Quay>
+						<Quay id="de:11000:900003200:1:51" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>b02f779d-cea7-45fe-ab0b-e9babea77f20</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">2</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:1" />
+						</Quay>
 						<!--Banhsteig 3/4-->
 						<Quay id="de:11000:900003200:2" version="any">
 							<keyList>
@@ -198,6 +254,62 @@
 							<Length>430</Length>
 							<Width>9.50</Width>
 							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:11000:900003200:2:52" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>376e31c9-8226-4ab9-9eda-fb0062e4f7e8</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">3</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:2" />
+						</Quay>
+						<Quay id="de:11000:900003200:2:53" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>231e2996-3004-44aa-8e03-9e0eba3e0fee</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">4</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:2" />
 						</Quay>
 						<!--Banhsteig 5/6-->
 						<Quay id="de:11000:900003200:3" version="any">
@@ -219,12 +331,68 @@
 							<Width>9.50</Width>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
+						<Quay id="de:11000:900003200:3:54" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>231e2996-3004-44aa-8e03-9e0eba3e0fee</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">5</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:3" />
+						</Quay>
+						<Quay id="de:11000:900003200:3:55" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>231e2996-3004-44aa-8e03-9e0eba3e0fee</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">6</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:3" />
+						</Quay>
 						<!--Banhsteig 7/8-->
 						<Quay id="de:11000:900003200:4" version="any">
 							<keyList>
 								<KeyValue>
 									<Key>UUID</Key>
-									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
+									<Value>5b457e20-000d-4dac-92f4-25a9d6ab63b8</Value>
 								</KeyValue>
 							</keyList>
 							<Name lang="de-DE">Bahnhsteig 7/8</Name>
@@ -238,6 +406,62 @@
 							<Length>430</Length>
 							<Width>9.50</Width>
 							<QuayType>railIslandPlaform</QuayType>
+						</Quay>
+						<Quay id="de:11000:900003200:4:54" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>9c5539f2-4235-407e-93f8-0d936425d3d2</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">7</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:4" />
+						</Quay>
+						<Quay id="de:11000:900003200:4:55" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>8d5f9021-1120-4110-9725-07326da94c67</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>8098160</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>BL</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de-DE">8</Name>
+							<Centroid>
+								<Location>
+									<Longitude>13.369545</Longitude>
+									<Latitude>52.525592</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:11000:900003200:4" />
 						</Quay>
 					</quays>
 					<accessSpaces>
