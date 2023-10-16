@@ -419,7 +419,7 @@
 						<Quay id="25b5ec08-e51b-4600-81f6-a815e8dee386" version="any">
 							<Name lang="de">A</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>98.35</Length>
@@ -429,7 +429,7 @@
 						<Quay id="bcd37d8c-8f44-4b94-8d82-becf1574585c" version="any">
 							<Name lang="de">B</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -439,7 +439,7 @@
 						<Quay id="c64748cb-9cc1-4078-a291-08bf021b5322" version="any">
 							<Name lang="de">C</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -449,7 +449,7 @@
 						<Quay id="f3d09218-5348-41d7-b2d8-fcdd60fb173f" version="any">
 							<Name lang="de">D</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>26.30</Length>
@@ -459,7 +459,7 @@
 						<Quay id="02d4f161-40b8-40fc-9958-6f8818c5e15b" version="any">
 							<Name lang="de">E</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -469,7 +469,7 @@
 						<Quay id="11177cbc-21cb-4eb3-9c01-434af11edfb3" version="any">
 							<Name lang="de">F</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -479,7 +479,7 @@
 						<Quay id="2a99ba52-5eba-4cff-bc6b-b3b65c7c7210" version="any">
 							<Name lang="de">G</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -522,7 +522,7 @@
 						<Quay id="f03b87ea-6c32-11ee-b962-0242ac120002" version="any">
 							<Name lang="de">A</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>98.35</Length>
@@ -532,7 +532,7 @@
 						<Quay id="eb3ca3d2-6c32-11ee-b962-0242ac120002" version="any">
 							<Name lang="de">B</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -542,7 +542,7 @@
 						<Quay id="e618c26e-6c32-11ee-b962-0242ac120002" version="any">
 							<Name lang="de">C</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -552,7 +552,7 @@
 						<Quay id="dffab482-6c32-11ee-b962-0242ac120002" version="any">
 							<Name lang="de">D</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>26.30</Length>
@@ -562,7 +562,7 @@
 						<Quay id="0806bf64-2d09-4ddb-8e55-7bc8f5c8c944" version="any">
 							<Name lang="de">E</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -572,7 +572,7 @@
 						<Quay id="d23ab0a4-6c32-11ee-b962-0242ac120002" version="any">
 							<Name lang="de">F</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -582,7 +582,7 @@
 						<Quay id="c27cb45a-6c32-11ee-b962-0242ac120002" version="any">
 							<Name lang="de">G</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -737,12 +737,11 @@
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:42"/>
-
 						</Quay>
 						<Quay id="01b49cb0-fdcd-42de-b08c-55a14db88597" version="any">
 							<Name lang="de">A</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>98.35</Length>
@@ -752,7 +751,7 @@
 						<Quay id="65d26cf9-c29d-4b6d-893c-6b656669d8fe" version="any">
 							<Name lang="de">B</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -762,7 +761,7 @@
 						<Quay id="cf8efe35-8c6f-4d71-9b2a-684a6b8b547e" version="any">
 							<Name lang="de">C</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -772,7 +771,7 @@
 						<Quay id="c6890911-fad9-4282-a515-cb6e907ef61d" version="any">
 							<Name lang="de">D</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>26.30</Length>
@@ -782,7 +781,7 @@
 						<Quay id="d71fb73c-9e17-4e41-86b5-ee3ff8f7504c" version="any">
 							<Name lang="de">E</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -792,7 +791,7 @@
 						<Quay id="e8321fce-da0b-4597-8b39-bda233407199" version="any">
 							<Name lang="de">F</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -802,7 +801,7 @@
 						<Quay id="73662a9c-d40a-4a2c-b6ae-1745d7627c7c" version="any">
 							<Name lang="de">G</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -917,7 +916,7 @@
 						<Quay id="2c095357-da19-4820-9b5c-5c19c885349d" version="any">
 							<Name lang="de">A</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>98.35</Length>
@@ -927,7 +926,7 @@
 						<Quay id="31137a68-8264-4c00-a876-db380e395106" version="any">
 							<Name lang="de">B</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -937,7 +936,7 @@
 						<Quay id="b7d10c68-19a9-4410-a351-5ecc99c0b530" version="any">
 							<Name lang="de">C</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -947,7 +946,7 @@
 						<Quay id="2bcde3f1-5a3f-4a94-8b84-6f2cb085d8a1" version="any">
 							<Name lang="de">D</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>26.30</Length>
@@ -957,7 +956,7 @@
 						<Quay id="abd7ae09-b2ea-4dd5-ae13-692038d19144" version="any">
 							<Name lang="de">E</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -967,7 +966,7 @@
 						<Quay id="b3dd2e70-ce35-4ca4-b904-eb1ddf63c52b" version="any">
 							<Name lang="de">F</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -977,7 +976,7 @@
 						<Quay id="011a7270-e155-4557-9178-290bb2c43d59" version="any">
 							<Name lang="de">G</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -1045,7 +1044,7 @@
 						<Quay id="12ae6339-ff75-41f6-9cd5-31dd4771bc35" version="any">
 							<Name lang="de">A</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>98.35</Length>
@@ -1055,7 +1054,7 @@
 						<Quay id="5ff96ad0-c2e4-4735-b224-8eb44f83b543" version="any">
 							<Name lang="de">B</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -1065,7 +1064,7 @@
 						<Quay id="c1b455e0-4f57-4099-82a9-116521981df3" version="any">
 							<Name lang="de">C</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -1075,7 +1074,7 @@
 						<Quay id="1b25aff3-5885-4764-90b2-5ae5b00d331e" version="any">
 							<Name lang="de">D</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>26.30</Length>
@@ -1085,7 +1084,7 @@
 						<Quay id="eacf56a4-971d-46a0-8c83-d1824aadbe5e" version="any">
 							<Name lang="de">E</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -1095,7 +1094,7 @@
 						<Quay id="7c1c9832-2805-4a68-96dd-d4e19ae1cb9c" version="any">
 							<Name lang="de">F</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -1105,7 +1104,7 @@
 						<Quay id="69a44a22-3c89-4a1b-a79c-a960e1ac3080" version="any">
 							<Name lang="de">G</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -1148,7 +1147,7 @@
 						<Quay id="ce146482-f407-4fdb-a67c-fe9ce938260c" version="any">
 							<Name lang="de">A</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>98.35</Length>
@@ -1158,7 +1157,7 @@
 						<Quay id="c54f9bb7-28fa-4b60-87a8-c2a3b339bb88" version="any">
 							<Name lang="de">B</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -1168,7 +1167,7 @@
 						<Quay id="048f22ee-f2cb-4af4-968d-ce69054f03a5" version="any">
 							<Name lang="de">C</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48</Length>
@@ -1178,7 +1177,7 @@
 						<Quay id="9cb0aa05-83e0-4c07-bc49-da3f45b2594a" version="any">
 							<Name lang="de">D</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>26.30</Length>
@@ -1188,7 +1187,7 @@
 						<Quay id="c7c6395f-bd9c-4ba5-ab48-d8afbc1b5f6f" version="any">
 							<Name lang="de">E</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -1198,7 +1197,7 @@
 						<Quay id="299fc9f8-9478-4092-a073-b80c3e6417f6" version="any">
 							<Name lang="de">F</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
@@ -1208,7 +1207,7 @@
 						<Quay id="4db69037-9d24-49f3-a22d-cd57f43b1b82" version="any">
 							<Name lang="de">G</Name>
 							<placeTypes>
-								<TypeOfPlaceRef ref="quay:section" />
+								<TypeOfPlaceRef ref="quay:section"/>
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
