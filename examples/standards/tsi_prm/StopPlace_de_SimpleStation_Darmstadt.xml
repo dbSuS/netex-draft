@@ -416,6 +416,76 @@
 								</BoardingPosition>
 							</boardingPositions>
 						</Quay>
+						<Quay id="25b5ec08-e51b-4600-81f6-a815e8dee386" version="any">
+							<Name lang="de">A</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>98.35</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
+						<Quay id="bcd37d8c-8f44-4b94-8d82-becf1574585c" version="any">
+							<Name lang="de">B</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
+						<Quay id="c64748cb-9cc1-4078-a291-08bf021b5322" version="any">
+							<Name lang="de">C</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
+						<Quay id="f3d09218-5348-41d7-b2d8-fcdd60fb173f" version="any">
+							<Name lang="de">D</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>26.30</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
+						<Quay id="02d4f161-40b8-40fc-9958-6f8818c5e15b" version="any">
+							<Name lang="de">E</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
+						<Quay id="11177cbc-21cb-4eb3-9c01-434af11edfb3" version="any">
+							<Name lang="de">F</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
+						<Quay id="2a99ba52-5eba-4cff-bc6b-b3b65c7c7210" version="any">
+							<Name lang="de">G</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
 						<Quay id="de:06411:4734:61:41" version="any">
 							<keyList>
 								<KeyValue>
@@ -448,78 +518,76 @@
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:64"/>
-							<boardingPositions>
-								<BoardingPosition id="1dad3e2f-86de-4699-b3a9-68c20e34027e" version="any">
-									<Name>A</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>98.35</Length>
-								</BoardingPosition>
-								<BoardingPosition id="89fb2e28-fd7d-41fe-acbf-737f818d7124" version="any">
-									<Name>B</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="9f5ab1d2-c2ef-452b-96bf-35b1d5aba811" version="any">
-									<Name>C</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="ee82d80c-adcc-4496-ab5c-11b59002b0ea" version="any">
-									<Name>D</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>26.30</Length>
-								</BoardingPosition>
-								<BoardingPosition id="ae479da0-70e2-43a8-94b2-6c8018637244" version="any">
-									<Name>E</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="ae17f910-047c-4315-ac87-3150716e93c2" version="any">
-									<Name>F</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="0a656626-f324-4af9-bd69-1be3bad2d169" version="any">
-									<Name>G</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-							</boardingPositions>
+						</Quay>
+						<Quay id="f03b87ea-6c32-11ee-b962-0242ac120002" version="any">
+							<Name lang="de">A</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>98.35</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
+						<Quay id="eb3ca3d2-6c32-11ee-b962-0242ac120002" version="any">
+							<Name lang="de">B</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
+						<Quay id="e618c26e-6c32-11ee-b962-0242ac120002" version="any">
+							<Name lang="de">C</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
+						<Quay id="dffab482-6c32-11ee-b962-0242ac120002" version="any">
+							<Name lang="de">D</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>26.30</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
+						<Quay id="0806bf64-2d09-4ddb-8e55-7bc8f5c8c944" version="any">
+							<Name lang="de">E</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
+						<Quay id="d23ab0a4-6c32-11ee-b962-0242ac120002" version="any">
+							<Name lang="de">F</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
+						<Quay id="c27cb45a-6c32-11ee-b962-0242ac120002" version="any">
+							<Name lang="de">G</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
 						</Quay>
 						<!--Banhsteig 7/8-->
 						<Quay id="de:06411:4734:44" version="any">
@@ -669,78 +737,77 @@
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:42"/>
-							<boardingPositions>
-								<BoardingPosition id="dcd5bf03-e1c9-473d-8692-6a6eb5484a47" version="any">
-									<Name>A</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>98.35</Length>
-								</BoardingPosition>
-								<BoardingPosition id="41eea7f6-eb62-4ea3-a624-72f3b8120de2" version="any">
-									<Name>B</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="e73e481c-4d9e-42dc-aed4-f1745c1b81ac" version="any">
-									<Name>C</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="1b5f9beb-772a-4143-a92e-24b59554e96b" version="any">
-									<Name>D</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>26.30</Length>
-								</BoardingPosition>
-								<BoardingPosition id="c814e865-d693-4a51-8454-38393ae2700e" version="any">
-									<Name>E</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="d32ffaad-68e8-4c2b-8075-07333d27bfb1" version="any">
-									<Name>F</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="e4107742-a637-462f-a68f-a02e61b70c4d" version="any">
-									<Name>G</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-							</boardingPositions>
+
+						</Quay>
+						<Quay id="01b49cb0-fdcd-42de-b08c-55a14db88597" version="any">
+							<Name lang="de">A</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>98.35</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
+						<Quay id="65d26cf9-c29d-4b6d-893c-6b656669d8fe" version="any">
+							<Name lang="de">B</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
+						<Quay id="cf8efe35-8c6f-4d71-9b2a-684a6b8b547e" version="any">
+							<Name lang="de">C</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
+						<Quay id="c6890911-fad9-4282-a515-cb6e907ef61d" version="any">
+							<Name lang="de">D</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>26.30</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
+						<Quay id="d71fb73c-9e17-4e41-86b5-ee3ff8f7504c" version="any">
+							<Name lang="de">E</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
+						<Quay id="e8321fce-da0b-4597-8b39-bda233407199" version="any">
+							<Name lang="de">F</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
+						<Quay id="73662a9c-d40a-4a2c-b6ae-1745d7627c7c" version="any">
+							<Name lang="de">G</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
 						</Quay>
 						<Quay id="de:06411:4734:42:42" version="any">
 							<keyList>
@@ -769,7 +836,7 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
-							<Length>376.45</Length>
+							<Length>376.5</Length>
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
@@ -847,6 +914,76 @@
 								</BoardingPosition>
 							</boardingPositions>
 						</Quay>
+						<Quay id="2c095357-da19-4820-9b5c-5c19c885349d" version="any">
+							<Name lang="de">A</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>98.35</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="31137a68-8264-4c00-a876-db380e395106" version="any">
+							<Name lang="de">B</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="b7d10c68-19a9-4410-a351-5ecc99c0b530" version="any">
+							<Name lang="de">C</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="2bcde3f1-5a3f-4a94-8b84-6f2cb085d8a1" version="any">
+							<Name lang="de">D</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>26.30</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="abd7ae09-b2ea-4dd5-ae13-692038d19144" version="any">
+							<Name lang="de">E</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="b3dd2e70-ce35-4ca4-b904-eb1ddf63c52b" version="any">
+							<Name lang="de">F</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="011a7270-e155-4557-9178-290bb2c43d59" version="any">
+							<Name lang="de">G</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
 						<!--Banhsteig 11/12-->
 						<Quay id="de:06411:4734:43" version="any">
 							<keyList>
@@ -904,78 +1041,76 @@
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:43"/>
-							<boardingPositions>
-								<BoardingPosition id="8c409627-21f0-4853-88a9-08958323f739" version="any">
-									<Name>A</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>98.35</Length>
-								</BoardingPosition>
-								<BoardingPosition id="bac089e5-edec-438a-bb71-8ab98376ac02" version="any">
-									<Name>B</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="28f9db99-ed2d-468e-af79-d14574bc9241" version="any">
-									<Name>C</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="283754d3-dda7-480e-8e6e-3563cc48edac" version="any">
-									<Name>D</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>26.30</Length>
-								</BoardingPosition>
-								<BoardingPosition id="bcd974ba-78bf-41d1-ada9-6e7f196bd469" version="any">
-									<Name>E</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="3da5b267-0182-4b6d-9e56-cf70065b6af8" version="any">
-									<Name>F</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="f4b124d7-8d46-4820-9bf8-88410e90c3f2" version="any">
-									<Name>G</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-							</boardingPositions>
+						</Quay>
+						<Quay id="12ae6339-ff75-41f6-9cd5-31dd4771bc35" version="any">
+							<Name lang="de">A</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>98.35</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
+						<Quay id="5ff96ad0-c2e4-4735-b224-8eb44f83b543" version="any">
+							<Name lang="de">B</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
+						<Quay id="c1b455e0-4f57-4099-82a9-116521981df3" version="any">
+							<Name lang="de">C</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
+						<Quay id="1b25aff3-5885-4764-90b2-5ae5b00d331e" version="any">
+							<Name lang="de">D</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>26.30</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
+						<Quay id="eacf56a4-971d-46a0-8c83-d1824aadbe5e" version="any">
+							<Name lang="de">E</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
+						<Quay id="7c1c9832-2805-4a68-96dd-d4e19ae1cb9c" version="any">
+							<Name lang="de">F</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
+						<Quay id="69a44a22-3c89-4a1b-a79c-a960e1ac3080" version="any">
+							<Name lang="de">G</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
 						</Quay>
 						<Quay id="de:06411:4734:43:43" version="any">
 							<keyList>
@@ -1009,78 +1144,76 @@
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:43"/>
-							<boardingPositions>
-								<BoardingPosition id="85304a9a-4a9e-40b0-afaf-ab93e1f9ba3f" version="any">
-									<Name>A</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>98.35</Length>
-								</BoardingPosition>
-								<BoardingPosition id="dfeffe41-e9cc-407d-b4c3-ccbd5ac69e1f" version="any">
-									<Name>B</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="dc9d6515-1acd-4247-9122-057fd44a738a" version="any">
-									<Name>C</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48</Length>
-								</BoardingPosition>
-								<BoardingPosition id="9e7d1eef-3fce-42a7-bbfb-47b10e38dddb" version="any">
-									<Name>D</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>26.30</Length>
-								</BoardingPosition>
-								<BoardingPosition id="014fedf4-f6be-446a-857f-fd4e6220aad8" version="any">
-									<Name>E</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="87793f80-04d3-4dde-b3a3-090fcb3729b3" version="any">
-									<Name>F</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-								<BoardingPosition id="dde916d6-51a0-483a-9177-7ef62753de9b" version="any">
-									<Name>G</Name>
-									<Centroid>
-										<Location>
-											<Longitude>8.629165</Longitude>
-											<Latitude>49.87304</Latitude>
-										</Location>
-									</Centroid>
-									<Length>48.05</Length>
-								</BoardingPosition>
-							</boardingPositions>
+						</Quay>
+						<Quay id="ce146482-f407-4fdb-a67c-fe9ce938260c" version="any">
+							<Name lang="de">A</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>98.35</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
+						<Quay id="c54f9bb7-28fa-4b60-87a8-c2a3b339bb88" version="any">
+							<Name lang="de">B</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
+						<Quay id="048f22ee-f2cb-4af4-968d-ce69054f03a5" version="any">
+							<Name lang="de">C</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
+						<Quay id="9cb0aa05-83e0-4c07-bc49-da3f45b2594a" version="any">
+							<Name lang="de">D</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>26.30</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
+						<Quay id="c7c6395f-bd9c-4ba5-ab48-d8afbc1b5f6f" version="any">
+							<Name lang="de">E</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
+						<Quay id="299fc9f8-9478-4092-a073-b80c3e6417f6" version="any">
+							<Name lang="de">F</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
+						<Quay id="4db69037-9d24-49f3-a22d-cd57f43b1b82" version="any">
+							<Name lang="de">G</Name>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:section" />
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
 						</Quay>
 					</quays>
 					<accessSpaces>
@@ -1121,5 +1254,20 @@
 				</StopPlace>
 			</stopPlaces>
 		</SiteFrame>
+		<ResourceFrame version="any" id="00244041-ef22-4af2-96e2-cffc6c8c603f">
+			<typesOfValue>
+				<ValueSet version="any" id="quays">
+					<Name>Types of quays</Name>
+					<values>
+						<TypeOfPlace version="any" id="quay:platformHeight">
+							<Name>Height of a platform as sector</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="quay:section">
+							<Name>Height of a platform as sector Gleis 1 A</Name>
+						</TypeOfPlace>
+					</values>
+				</ValueSet>
+			</typesOfValue>
+		</ResourceFrame>
 	</dataObjects>
 </PublicationDelivery>
