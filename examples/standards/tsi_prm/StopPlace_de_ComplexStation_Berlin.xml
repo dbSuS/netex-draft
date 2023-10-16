@@ -278,5 +278,20 @@
 				</StopPlace>
 			</stopPlaces>
 		</SiteFrame>
+		<ResourceFrame version="any" id="c7d5938f-a7ff-443b-8818-cbc2c28895c8">
+			<typesOfValue>
+				<ValueSet version="any" id="quays">
+					<Name>Types of quays</Name>
+					<values>
+						<TypeOfPlace version="any" id="quay:platformHeight">
+							<Name lang="de-DE">Höhe einer Bahnsteigkante</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="quay:section">
+							<Name lang="de-DE">Gleisabschnitt z.B. Gleis 1 B</Name>
+						</TypeOfPlace>
+					</values>
+				</ValueSet>
+			</typesOfValue>
+		</ResourceFrame>
 	</dataObjects>
 </PublicationDelivery>

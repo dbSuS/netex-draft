@@ -116,6 +116,9 @@
 						</Quay>
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d451c5c4-12f4-4a71-91d7-70b1bbf6a161" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:platformHeight" />
+							</placeTypes>
 							<Length>140</Length>
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
@@ -123,6 +126,9 @@
 							<ParentQuayRef ref="de:08225:8200:1:1"/>
 						</Quay>
 						<Quay id="5d30c93b-b638-425c-9649-fb650450af00" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:platformHeight" />
+							</placeTypes>
 							<Length>25</Length>
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.36</PlatformHeight>
@@ -253,12 +259,9 @@
 						</Quay>
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d053b9c9-28c2-47c5-bfd1-7be534a970d6" version="any">
-							<Centroid>
-								<Location>
-									<Longitude>9.422692</Longitude>
-									<Latitude>49.429657</Latitude>
-								</Location>
-							</Centroid>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:platformHeight" />
+							</placeTypes>
 							<Length>166.60</Length>
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.36</PlatformHeight>
@@ -266,12 +269,9 @@
 							<ParentQuayRef ref="de:08225:8200:2:4"/>
 						</Quay>
 						<Quay id="05c5218e-7233-475b-9a08-8da84fda6b8d" version="any">
-							<Centroid>
-								<Location>
-									<Longitude>9.422692</Longitude>
-									<Latitude>49.429657</Latitude>
-								</Location>
-							</Centroid>
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:platformHeight" />
+							</placeTypes>
 							<Length>264.50</Length>
 							<QuayType>railPlatformSector</QuayType>
 							<PlatformHeight>0.28</PlatformHeight>
@@ -282,5 +282,20 @@
 				</StopPlace>
 			</stopPlaces>
 		</SiteFrame>
+		<ResourceFrame version="any" id="e84d07ca-b1e1-416c-b134-219f29b349d3">
+			<typesOfValue>
+				<ValueSet version="any" id="quays">
+					<Name>Types of quays</Name>
+					<values>
+						<TypeOfPlace version="any" id="quay:platformHeight">
+							<Name lang="de-DE">Höhe einer Bahnsteigkante</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="quay:section">
+							<Name lang="de-DE">Gleisabschnitt z.B. Gleis 1 B</Name>
+						</TypeOfPlace>
+					</values>
+				</ValueSet>
+			</typesOfValue>
+		</ResourceFrame>
 	</dataObjects>
 </PublicationDelivery>
