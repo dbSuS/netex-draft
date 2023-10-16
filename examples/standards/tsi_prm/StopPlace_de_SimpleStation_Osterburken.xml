@@ -70,7 +70,7 @@
 									<Value>04790-01-B01</Value>
 								</KeyValue>
 							</keyList>
-							<Name lang="de">Bahnsteig 1</Name>
+							<Name lang="de-DE">Bahnsteig 1</Name>
 							<Centroid>
 								<Location>
 									<Longitude>9.422692</Longitude>
@@ -141,7 +141,7 @@
 									<Value>04790-01-B02</Value>
 								</KeyValue>
 							</keyList>
-							<Name lang="de">Bahnsteig 2, Gleis 2/3/4</Name>
+							<Name lang="de-DE">Bahnsteig 2, Gleis 2/3/4</Name>
 							<Centroid>
 								<Location>
 									<Longitude>9.422692</Longitude>

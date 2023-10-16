@@ -167,7 +167,7 @@
 									<Value>ebb92402-e8aa-49f4-8183-ee94f67e1236</Value>
 								</KeyValue>
 							</keyList>
-							<Name lang="de">Bahnhsteig 1/2</Name>
+							<Name lang="de-DE">Bahnhsteig 1/2</Name>
 							<Centroid>
 								<Location>
 									<Longitude>13.369545</Longitude>
@@ -187,7 +187,7 @@
 									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
 								</KeyValue>
 							</keyList>
-							<Name lang="de">Bahnhsteig 3/4</Name>
+							<Name lang="de-DE">Bahnhsteig 3/4</Name>
 							<Centroid>
 								<Location>
 									<Longitude>13.369545</Longitude>
@@ -207,7 +207,7 @@
 									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
 								</KeyValue>
 							</keyList>
-							<Name lang="de">Bahnhsteig 5/6</Name>
+							<Name lang="de-DE">Bahnhsteig 5/6</Name>
 							<Centroid>
 								<Location>
 									<Longitude>13.369545</Longitude>
@@ -227,7 +227,7 @@
 									<Value>0312a4be-f7d3-4792-afec-b1b330b9b25e</Value>
 								</KeyValue>
 							</keyList>
-							<Name lang="de">Bahnhsteig 7/8</Name>
+							<Name lang="de-DE">Bahnhsteig 7/8</Name>
 							<Centroid>
 								<Location>
 									<Longitude>13.369545</Longitude>
