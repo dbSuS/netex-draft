@@ -110,7 +110,7 @@
 						</Entrance>
 					</entrances>
 					<placeEquipments>
-						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any" >
+						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any">
 							<Name lang="de">Aufzug zu Gleis 1</Name>
 							<PrivateCode>10543458</PrivateCode>
 							<!-- This should be at least 90 cm according to TSI-PRM	-->
