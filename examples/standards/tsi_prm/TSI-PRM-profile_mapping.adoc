@@ -177,7 +177,7 @@ Bahnhofseingänge (siehe *entrances*) werden zu den Gebäudeteile über das Feld
 |===
 
 == Bahnsteig Layout
-NeTEx liefert bei der Abbildung auf Bahnsteigen, Bahnsteigkanten, Abschnitte, Kundenteilgleise und Höhenstufen auf die NeTEx Elemente *Quay* und *BoardingPosition* Freiheiten.
+NeTEx liefert bei der Abbildung auf Bahnsteigen, Bahnsteigkanten, Abschnitte, Kundenteilgleise, gleisbezogene Bahnsteignutzlänge und Höhenstufen auf die NeTEx Elemente *Quay* Freiheiten.
 Dieses Kapitel beschreibt die Fachlichkeit und die daraus folgende NeTEx Abbildung.
 
 
@@ -189,7 +189,7 @@ Für ein Bahnsteig werden die folgenden Werte ausgegeben:
 
 * der Name des Bahnsteiges laut Beschilderung im Bahnhof
 * die GeoPosition
-* die Länge (NeTEx Element *Length*) und die Breite (NeTEx Element *PlatformHeight*) des öffentlich zugänglichen Bereich ausgegeben.
+* die Länge (NeTEx Element *Length*) und die Breite (NeTEx Element *Width*) des öffentlich zugänglichen Bereich ausgegeben.
 
 Die Bahnsteigkanten aka Gleise werden über die Eltern-Kind-Beziehung des NeTEx *Quays* modelliert.
 
@@ -212,14 +212,21 @@ Der zu der Bahnsteigkante gehörende Bahnsteig wird über die Eltern-Kind-Bezieh
 Der Begriff *Sektor* wird in VDV 454 verwendet, um die Abschnitte des Gleises zu benennen, an denen (Abschnitts-)Würfel mit den Aufschriften 'A' - 'G' (vereinzelt auch weiter im Alphabet) hängen.
 Die Sektoren dienen u.a. dazu, einem Reisenden die Position des Fahrzeugs, in dem seine Reservierung zu finden ist, mitzuteilen.
 
-Ein Abschnitt aka Sektor wird über das NeTEx Element *BoardingPosition* repräsentiert. Für eine  *BoardingPosition* werden, wie für die Bahnsteigkante, der Name, die Länge, Höhe und der Abstand von der Gleiskante zu dem Mittelpunkt des Gleiskörpers ausgegeben.
+Ein Abschnitt aka Sektor wird über das NeTEx Element *Quay* mit dem *QuayType* *railPlatformSector* und der Ausprägung des Typens über *TypeOfPlaceRef* und der id *quay:section* repräsentiert. Für einen
+Abschnitt werden, wie für die
+Bahnsteigkante, der Name,
+die Länge,
+Höhe und der Abstand von der Gleiskante
+zu dem Mittelpunkt des Gleiskörpers ausgegeben.
+
+Der zum Abschnitt gehörende Bahnsteigkante wird über die Eltern-Kind-Beziehung des NeTEx *Quays* abgebildet.
 
 === Kundenteilgleise
 Kundenteilgleise sind eine Spezialform von Bahsteigkanten. In manchen Fällen (z.B. in Mainz Hbf - de:07315:9037, Gleis 4a und 4b) werden zu einer Bahnsteigkante mehrere Kundenteilgleise genutzt. Kundenteilgleise werden sowohl in der Bahnhofsauschilderung als auch im Fahrplan als Gleisangabe verwendet.
 Kundenteilgleise werden über das NeTEx Element *Quay* mit dem *QuayType* *railPlaform* abgebildet.
 Da ein Kundenteilgleis eine Spezialform von einer Bahnsteigkante ist, werden im Kundenteilgleis die gleichen Informationen ausgegeben, wie bei einer Bahsteigkante.
 
-Die *BoardingPosition* aus der Bahnsteigkante werd in dem Kundenteilgleis referenziert.
+Die Abschnitte der Kundenteilgleise werden referenizeren als Kind-Element auf das Kundenteilgleis.
 
 Die zu dem Kundenteilgleis gehörende Gleiskante wird über die Eltern-Kind-Beziehung des NeTEx *Quays* abgebildet.
 
@@ -227,8 +234,17 @@ Die zu dem Kundenteilgleis gehörende Gleiskante wird über die Eltern-Kind-Bezi
 Unter Umständen hat eine Bahnsteigkante aus baulichen Gründen mehrere Höhenstufen. Eine Höhenstufe ist jeder Abschnitt einer Bahnsteigkante mit einer einheitlichen Bahnsteighöhe. Eine Höhenstufe kann zu einer oder mehreren Bahnsteigkanten zugeordnet sein.
 Die Höhenstufe kann zur Beurteilung, ob ein MER einen Zug ohne fremde Hilfe besteigen kann, verwendet werden.
 
-Eine Höhenstufe wird über das NeTEx Element *Quay* mit dem *QuayType* *railPlaformSector* abgebildet.
+Eine Höhenstufe wird über das NeTEx Element *Quay* mit dem *QuayType* *railPlatformSector* mit der Ausprägung des Typens über *TypeOfPlaceRef* und der id *quay:platformHeight* repräsentiert.
 Für eine Höhenstufe werden, wie für die Bahnsteigkante, die Länge, Höhe und der Abstand von der Gleiskante zu dem Mittelpunkt des Gleiskörpers ausgegeben.
+
+=== gleisbezogene Bahnsteignutzlänge
+Die Angabe einer gleisbezogenen Bahnsteignutzlänge ist speziell für EVUs notwendig, um beispielsweise zu ermitteln ob ein Zug weitere Waggons anhängen kann. Die gleisbezogenen Bahnsteignutzlänge
+ist immer kleiner als die Bahnsteiglänge.
+
+eine gleisbezogene Bahnsteignutzlänge wird über das NeTEx Element *Quay* mit dem *QuayType* *railPlatformSector* mit der Ausprägung des Typens über *TypeOfPlaceRef* und der id *quay:section*
+repräsentiert.
+
+Die gleisbezogene Bahnsteignutzlänge wird über die Eltern-Kind-Beziehung des NeTEx *Quays* der Bahnsteigkante oder Kundenteilgleis abgebildet.
 
 === Beispiel Oserburken Bahsteig 2
 
