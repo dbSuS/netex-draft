@@ -110,20 +110,29 @@
 						</Entrance>
 					</entrances>
 					<placeEquipments>
-						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any">
+						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any" >
 							<Name lang="de">Aufzug zu Gleis 1</Name>
 							<PrivateCode>10543458</PrivateCode>
 							<!-- This should be at least 90 cm according to TSI-PRM	-->
-							<!-- Cant find this in SAP-PM -->
+							<!-- Should be in SAP-PM but isn't -->
 							<Width>0.8</Width>
-							<!-- Cant find this in SAP-PM -->
+							<!-- Should be in SAP-PM but isn't -->
 							<Depth>1</Depth>
 							<MaximumLoad>1050</MaximumLoad>
-							<!-- Cant find this in SAP-PM -->
+							<!-- Should be in SAP-PM but isn't -->
 							<InternalWidth>1.8</InternalWidth>
 							<!-- This should be between 80 and 100 cm according to TSI-PRM	-->
 							<!-- Cant find this in SAP-PM -->
 							<ButtonsHeight>80</ButtonsHeight>
+							<!-- Cant find this in SAP-PM -->
+							<CallButtonHeight>80</CallButtonHeight>
+							<!-- Cant find this in SAP-PM -->
+							<BrailleButtons>true</BrailleButtons>
+							<!-- This should be both sided according TSI-PRM	 -->
+							<!-- Cant find this in SAP-PM -->
+							<HandrailType>bothSides</HandrailType>
+							<!-- Cant find this in SAP-PM -->
+							<HandrailHeight>80</HandrailHeight>
 						</LiftEquipment>
 						<LiftEquipment id="c4f9509a-208a-4a83-b5a3-49777ef8540d" status="active" version="any">
 							<Name lang="de">Aufzug zu Gleis 3/4</Name>
