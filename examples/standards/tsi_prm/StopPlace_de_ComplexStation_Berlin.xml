@@ -156,417 +156,129 @@
 						</Entrance>
 					</entrances>
 					<placeEquipments>
-						<LiftEquipment id="6546766e-a90e-45df-b8ad-e37b6d08f9bc" status="active" version="any">
-							<Name lang="de">zu Gleis 1/2</Name>
-							<PrivateCode>10314887</PrivateCode>
+						<LiftEquipment id="ae62920b-6f6b-4e70-9c22-238694f56d51" status="active" version="any">
+							<Name lang="de">Gleis 3/4 (C/D) - Gleis 15/16</Name>
+							<PrivateCode>10315352</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="cb620188-7201-4610-9cde-e396214ffd21" status="active" version="any">
-							<Name lang="de">zu Gleis 1/2</Name>
-							<PrivateCode>10314922</PrivateCode>
+						<LiftEquipment id="260eaf7c-9234-4177-8eba-4a648785b138" status="active" version="any">
+							<Name lang="de">Gleis 5/6 (C/D) - Gleis 15/16</Name>
+							<PrivateCode>10315353</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="59808a7a-7a30-4dbd-971e-2bc077173d1b" status="active" version="any">
-							<Name lang="de">zu Gleis 1/2</Name>
-							<PrivateCode>10314926</PrivateCode>
+						<LiftEquipment id="7c1169ae-9c08-4a67-be99-e9ff285cdd64" status="active" version="any">
+							<Name lang="de">Gleis 5/6 (C/D) - Gleis 13/14</Name>
+							<PrivateCode>10315354</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="36e42811-31f8-43c1-afaf-274ce16f63e3" status="active" version="any">
-							<Name lang="de">von Gleis 1/2 zu 1.UG</Name>
-							<PrivateCode>10314987</PrivateCode>
+						<LiftEquipment id="89c7bf25-a388-4557-9e67-a411d318b8c9" status="active" version="any">
+							<Name lang="de">Gleis 5/6 (C/D) - Gleis 11/12</Name>
+							<PrivateCode>10315355</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="17729102-092b-436b-a39d-fdc184904062" status="active" version="any">
-							<Name lang="de">von Gleis 1/2 zu 1.UG</Name>
-							<PrivateCode>10314988</PrivateCode>
+						<LiftEquipment id="b24dd1ee-8524-436b-8e18-9842bdf071e4" status="active" version="any">
+							<Name lang="de">Gleis 3/4 (C/D) - Gleis 13/14</Name>
+							<PrivateCode>10315425</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="7cd35769-1304-42fe-b694-d4d7bc937903" status="active" version="any">
-							<Name lang="de">zu Gleis 1/2</Name>
-							<PrivateCode>10314989</PrivateCode>
+						<LiftEquipment id="29b75f4b-0a20-442f-b9a7-ad477be961b3" status="active" version="any">
+							<Name lang="de">Gleis 3/4 (C/D) - Gleis 11/12</Name>
+							<PrivateCode>10315426</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="6ae047ad-9ca7-4c8a-913a-1e48b08516ea" status="active" version="any">
-							<Name lang="de">zu Gleis 3/4</Name>
-							<PrivateCode>10314999</PrivateCode>
+						<LiftEquipment id="7e1c0d6f-4e9c-4487-93ad-60f2f61e159d" status="active" version="any">
+							<Name lang="de">von Parkhaus A zum 1. UG</Name>
+							<PrivateCode>10316245</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="595bd48b-ffa3-4640-9260-c40ee531622e" status="active" version="any">
-							<Name lang="de">zu Gleis 3/4</Name>
-							<PrivateCode>10315000</PrivateCode>
+						<LiftEquipment id="da84c165-28cd-47a4-b0fa-249eae57cd1e" status="active" version="any">
+							<Name lang="de">von Parkhaus A zum 1. UG</Name>
+							<PrivateCode>10316246</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="277ce615-086d-410d-9b21-1ac7669a1ab4" status="active" version="any">
-							<Name lang="de">zu Gleis 3/4</Name>
-							<PrivateCode>10315001</PrivateCode>
+						<LiftEquipment id="941dbf43-f05b-48ff-8437-d2b7d8564346" status="active" version="any">
+							<Name lang="de">von Parkhaus B zu EG</Name>
+							<PrivateCode>10316250</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="9f2a55be-024c-45ad-818e-7f982cb530ad" status="active" version="any">
-							<Name lang="de">zu Gleis 3/4</Name>
-							<PrivateCode>10315004</PrivateCode>
+						<LiftEquipment id="6cbd9be2-9115-4ee9-ba78-085a1af7a2ab" status="active" version="any">
+							<Name lang="de">von Parkhaus B zu EG</Name>
+							<PrivateCode>10316251</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="c285fcbc-8865-4ac3-bdf6-9ea77a4cf65e" status="active" version="any">
-							<Name lang="de">zu Gleis 3/4</Name>
-							<PrivateCode>10315069</PrivateCode>
+						<LiftEquipment id="be6a466d-dbd5-4e9f-a8d1-da38d3e8f5d1" status="active" version="any">
+							<Name lang="de">von Parkhaus C zu 1.UG</Name>
+							<PrivateCode>10316254</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="36f4b6c9-3ddc-4c41-ad1d-c9d42ab85c24" status="active" version="any">
-							<Name lang="de">zu Gleis 3/4</Name>
-							<PrivateCode>10315071</PrivateCode>
+						<LiftEquipment id="29441424-b0db-4f0b-87c5-269dbe32b1eb" status="active" version="any">
+							<Name lang="de">von Parkhaus C zu 1.UG</Name>
+							<PrivateCode>10316256</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="a1b7f156-49ec-4be0-af89-45a6f4fc85b0" status="active" version="any">
-							<Name lang="de">zu Gleis 5/6</Name>
-							<PrivateCode>10315073</PrivateCode>
+						<LiftEquipment id="96ae2f8f-b805-43d0-8cad-b4e42c39544d" status="active" version="any">
+							<Name lang="de">Gleis 1/2 (C/D) - 1.UG - EG</Name>
+							<PrivateCode>10316332</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="84478e30-5c8c-4535-b5be-bf7e3c1c05c4" status="active" version="any">
-							<Name lang="de">zu Gleis 5/6</Name>
-							<PrivateCode>10315077</PrivateCode>
+						<LiftEquipment id="786e81f3-6e45-43e5-ba85-b591ca1e1c7c" status="active" version="any">
+							<Name lang="de">Gleis 7/8 (C/D) - 1.UG - EG</Name>
+							<PrivateCode>10316334</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="37cb1ea9-c833-43f7-9a1a-d99711ebbc28" status="active" version="any">
-							<Name lang="de">zu Gleis 5/6</Name>
-							<PrivateCode>10315078</PrivateCode>
+						<LiftEquipment id="8a345b5a-21f4-4230-8d14-343d106cf322" status="active" version="any">
+							<Name lang="de">FA 26 Gl. 11/12 West</Name>
+							<PrivateCode>10316340</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
 						</LiftEquipment>
-						<LiftEquipment id="307aaa2e-27f8-43ba-a488-bc25a2c3e3f2" status="active" version="any">
-							<Name lang="de">zu Gleis 5/6</Name>
-							<PrivateCode>10315079</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="e6ceefae-884e-482f-8c75-f571af901e26" status="active" version="any">
-							<Name lang="de">zu Gleis 5/6</Name>
-							<PrivateCode>10315080</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="5d2dbeb0-be71-4de8-abfb-ed3d542ee380" status="active" version="any">
-							<Name lang="de">zu Gleis 5/6</Name>
-							<PrivateCode>10315081</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="239c17f0-d991-4c30-b5a4-437e44077cff" status="active" version="any">
-							<Name lang="de">zu Gleis 7/8</Name>
-							<PrivateCode>10315082</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="4ebd7705-7c2a-495f-aead-5800fc93ae63" status="active" version="any">
-							<Name lang="de">zu Gleis 7/8</Name>
-							<PrivateCode>10315083</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="f7d03711-65dd-4f7e-b5d8-c84375ee1a79" status="active" version="any">
-							<Name lang="de">zu Gleis 7/8</Name>
-							<PrivateCode>10315084</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="ba2574c0-cbee-4c2b-ac6c-774bc2f8b9ed" status="active" version="any">
-							<Name lang="de">zu Gleis 7/8</Name>
-							<PrivateCode>10315085</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="df3164e9-a6b4-4afc-93a3-91c9ff7ff9d2" status="active" version="any">
-							<Name lang="de">zu Gleis 7/8</Name>
-							<PrivateCode>10315086</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="8a83bbea-a22f-4b38-8290-3984619f6e59" status="active" version="any">
-							<Name lang="de">zu Gleis 7/8</Name>
-							<PrivateCode>10315087</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="38271ed1-09c8-492d-86d1-89b7d1fcb752" status="active" version="any">
-							<Name lang="de">zu Gleis 13/14</Name>
-							<PrivateCode>10317782</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="8df2fa8b-283e-4366-a406-b295f8b45532" status="active" version="any">
-							<Name lang="de">zu Gleis 13/14</Name>
-							<PrivateCode>10317783</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="48cc70e7-0be6-4373-96d7-6d63d6995013" status="active" version="any">
-							<Name lang="de">zu Gleis 11/12</Name>
-							<PrivateCode>10317784</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="1226c0c4-1cc0-4cbc-b61f-52d6f5957200" status="active" version="any">
-							<Name lang="de">zu Gleis 11/12</Name>
-							<PrivateCode>10317785</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="a585dca5-9802-4298-b5e9-9c5e1accbbc2" status="active" version="any">
-							<Name lang="de">zu Gleis 13/14</Name>
-							<PrivateCode>10317788</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="2a2aa901-d219-40cb-bfbd-f6bd4081bb37" status="active" version="any">
-							<Name lang="de">zu Gleis 13/14</Name>
-							<PrivateCode>10317789</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="890f5610-1d2d-4242-a975-6f0415732a6d" status="active" version="any">
-							<Name lang="de">zu Gleis 11/12</Name>
-							<PrivateCode>10317790</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="193d18e2-20a3-4aee-9288-56f64882b75c" status="active" version="any">
-							<Name lang="de">zu Gleis 11/12</Name>
-							<PrivateCode>10317791</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="624f507c-42d9-41e9-ba15-1b154441ebe6" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317792</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="58e31465-0416-427d-8cc0-ff3b5b7faeaa" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317793</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="8a7df38a-38f1-41d4-9cc8-db53d9a57fc3" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317794</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="5b7ecd26-cbdd-4806-bc31-a742fc501d00" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317795</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="6f5a3a42-8662-4270-a130-aed36a71c548" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317796</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="70be4704-5c47-4adb-be40-14078bbcc90a" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317797</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="ff319d5d-1fe8-4e0e-950a-1955d6249875" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317798</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="d86d2700-99ad-4068-930f-aca90aa0bf1f" status="active" version="any">
-							<Name lang="de">von EG zu 1.UG</Name>
-							<PrivateCode>10317799</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="a25c1101-e993-4abf-a12a-af068e574244" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317800</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="abaee841-4678-4253-9a73-a34b6b896b75" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317801</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="d5f10483-3d1a-4a1c-8dd9-90529e5b6852" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317802</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="b136b038-587a-4b5c-a190-d37b1612f3a1" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317803</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="5bff647f-3fc7-4807-9083-9d89c1616801" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317804</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="ed751547-5487-4e06-b010-9cbb056f691c" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317805</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="eac0b75f-bc20-4748-9cdc-6c53bd1d9f71" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317806</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="f9fcf165-c60b-422b-ac42-6ca035b90621" status="active" version="any">
-							<Name lang="de">von EG zu 1.OG</Name>
-							<PrivateCode>10317807</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="79d7ab14-491d-4983-8b0c-cac753798569" status="active" version="any">
-							<Name lang="de">zu Gleis 15/16</Name>
-							<PrivateCode>10843404</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="2dc97a62-2519-42ca-8725-6489dce7da43" status="active" version="any">
-							<Name lang="de">zu Gleis 15/16 (S-Bahn)</Name>
-							<PrivateCode>10843405</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="7bbf521b-5c9c-4bc8-8469-521c3232de58" status="active" version="any">
-							<Name lang="de">zu Gleis 15/16</Name>
-							<PrivateCode>10843430</PrivateCode>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-						<LiftEquipment id="3fb8e67f-f491-4a3f-9db3-dd2988a644cf" status="active" version="any">
-							<Name lang="de">zu Gleis 15/16 (S-Bahn)</Name>
-							<PrivateCode>10843431</PrivateCode>
+						<LiftEquipment id="ef056dde-5966-4f8f-a26b-daef579f218d" status="active" version="any">
+							<Name lang="de">FA 42 Lobby SW</Name>
+							<PrivateCode>10447508</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
 							<MaximumLoad>800</MaximumLoad>
