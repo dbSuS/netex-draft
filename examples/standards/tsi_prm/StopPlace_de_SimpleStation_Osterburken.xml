@@ -114,6 +114,15 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:08225:8200:1"/>
 						</Quay>
+						<Quay id="8dc6ba42-a035-4f9a-9ea1-8d387b6e3371" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<Length>160</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:08225:8200:1:1"/>
+						</Quay>
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d451c5c4-12f4-4a71-91d7-70b1bbf6a161" version="any">
 							<placeTypes>
@@ -192,6 +201,15 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:08225:8200:2"/>
 						</Quay>
+						<Quay id="ac878dbb-57e2-4580-8bfe-b7565ad4000d" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<Length>163</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:08225:8200:2:2"/>
+						</Quay>
 						<Quay id="de:08225:8200:2:3" version="any">
 							<keyList>
 								<KeyValue>
@@ -225,6 +243,15 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:08225:8200:2"/>
 						</Quay>
+						<Quay id="4b456f65-e00b-4dfe-955f-fea0f5637412" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<Length>164</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:08225:8200:2:3"/>
+						</Quay>
 						<Quay id="de:08225:8200:2:4" version="any">
 							<keyList>
 								<KeyValue>
@@ -257,6 +284,15 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:08225:8200:2"/>
 						</Quay>
+						<Quay id="d26465ea-d8d3-44d6-b21d-342f7ca6b57f" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<Length>400</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:08225:8200:2:4"/>
+						</Quay>
 						<!-- According to https://github.com/NeTEx-CEN/NeTEx/pull/276 a sector is not e.g. 1 A. It describes the platformHeights -->
 						<Quay id="d053b9c9-28c2-47c5-bfd1-7be534a970d6" version="any">
 							<placeTypes>
@@ -285,13 +321,16 @@
 		<ResourceFrame version="any" id="e84d07ca-b1e1-416c-b134-219f29b349d3">
 			<typesOfValue>
 				<ValueSet version="any" id="quays">
-					<Name>Types of quays</Name>
+					<Name lang="de-DE">Ausprägungestypen von Quays</Name>
 					<values>
 						<TypeOfPlace version="any" id="quay:platformHeight">
 							<Name lang="de-DE">Höhe einer Bahnsteigkante</Name>
 						</TypeOfPlace>
 						<TypeOfPlace version="any" id="quay:section">
 							<Name lang="de-DE">Gleisabschnitt z.B. Gleis 1 B</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="quay:maxLengthTrain">
+							<Name lang="de-DE">Gleisbezogene Bahnsteignutzlänge</Name>
 						</TypeOfPlace>
 					</values>
 				</ValueSet>

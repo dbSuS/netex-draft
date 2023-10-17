@@ -210,6 +210,15 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:62"/>
 						</Quay>
+						<Quay id="da3396e9-c554-43ea-b180-9ef0d48097a2" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>200</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:62"/>
+						</Quay>
 						<!--Banhsteig 3/4-->
 						<Quay id="de:06411:4734:64" version="any">
 							<keyList>
@@ -267,6 +276,15 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:06411:4734:64"/>
 						</Quay>
+						<Quay id="4a1d8920-66f3-4d91-9992-f466e51d3812" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>200</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:64"/>
+						</Quay>
 						<Quay id="de:06411:4734:64:64" version="any">
 							<keyList>
 								<KeyValue>
@@ -298,6 +316,15 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.96</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:06411:4734:64"/>
+						</Quay>
+						<Quay id="13c470d0-cbec-41d8-b416-a92595ecd3a1" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>200</Length>
+							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:64"/>
 						</Quay>
 						<!--Banhsteig 5/6-->
@@ -428,6 +455,15 @@
 							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:41:65"/>
 						</Quay>
+						<Quay id="3b198a20-31f7-4a5c-af9b-8cd15c376675" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>440</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:41:65"/>
+						</Quay>
 						<Quay id="de:06411:4734:61:41" version="any">
 							<keyList>
 								<KeyValue>
@@ -531,6 +567,15 @@
 							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:61:41"/>
 						</Quay>
+						<Quay id="f25eef0c-838f-4ff8-a47b-85d37c2d54a3" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>440</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:61:41"/>
+						</Quay>
 						<!--Banhsteig 7/8-->
 						<Quay id="de:06411:4734:44" version="any">
 							<keyList>
@@ -620,6 +665,15 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:06411:4734:44"/>
+						</Quay>
+						<Quay id="66de389a-f3b4-4065-bcba-5d35f3d781fc" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>280</Length>
+							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:44"/>
 						</Quay>
 						<!--Banhsteig 9/10-->
@@ -750,6 +804,15 @@
 							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:42:69"/>
 						</Quay>
+						<Quay id="e5a196b1-6a83-4150-8109-236e2e0c9e65" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>370</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:69"/>
+						</Quay>
 						<Quay id="de:06411:4734:42:42" version="any">
 							<keyList>
 								<KeyValue>
@@ -850,6 +913,15 @@
 							</placeTypes>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
 							<Length>48.05</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:42:42"/>
+						</Quay>
+						<Quay id="a1d97524-2496-46fe-8ac9-8b20484b4313" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>370</Length>
 							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:42:42"/>
 						</Quay>
@@ -981,6 +1053,15 @@
 							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:43:70"/>
 						</Quay>
+						<Quay id="1fc18072-ec63-4671-b72f-84416cc60aca" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>410</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:70"/>
+						</Quay>
 						<Quay id="de:06411:4734:43:43" version="any">
 							<keyList>
 								<KeyValue>
@@ -1084,6 +1165,15 @@
 							<QuayType>railPlatformSector</QuayType>
 							<ParentQuayRef ref="de:06411:4734:43:43"/>
 						</Quay>
+						<Quay id="08b093db-d8b4-40f1-bddb-46fde3fc6539" version="any">
+							<placeTypes>
+								<TypeOfPlaceRef ref="quay:maxLengthTrain"/>
+							</placeTypes>
+							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any"/>
+							<Length>410</Length>
+							<QuayType>railPlatformSector</QuayType>
+							<ParentQuayRef ref="de:06411:4734:43:43"/>
+						</Quay>
 					</quays>
 					<accessSpaces>
 						<AccessSpace id="6b2a29f6-ae27-4da8-b566-b5aa5fa54701" version="any">
@@ -1144,13 +1234,16 @@
 		<ResourceFrame version="any" id="00244041-ef22-4af2-96e2-cffc6c8c603f">
 			<typesOfValue>
 				<ValueSet version="any" id="quays">
-					<Name>Types of quays</Name>
+					<Name lang="de-DE">Ausprägungestypen von Quays</Name>
 					<values>
 						<TypeOfPlace version="any" id="quay:platformHeight">
 							<Name lang="de-DE">Höhe einer Bahnsteigkante</Name>
 						</TypeOfPlace>
 						<TypeOfPlace version="any" id="quay:section">
 							<Name lang="de-DE">Gleisabschnitt z.B. Gleis 1 B</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="quay:maxLengthTrain">
+							<Name lang="de-DE">Gleisbezogene Bahnsteignutzlänge</Name>
 						</TypeOfPlace>
 					</values>
 				</ValueSet>
