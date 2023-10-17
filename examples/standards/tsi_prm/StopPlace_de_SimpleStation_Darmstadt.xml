@@ -210,7 +210,7 @@
 							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any"/>
 						</AccessSpace>
 						<AccessSpace id="ee2968fd-fc42-4743-af0b-5ec01ba3992a" version="any">
-						  <!--	Diesen Platz gibt es nich in SAP-PM	-->
+							<!--	Diesen Platz gibt es nich in SAP-PM	-->
 							<Name lang="de-DE">Querbahnsteig Personensteg</Name>
 							<PrivateCode>01126-24</PrivateCode>
 							<Centroid>
