@@ -6,17 +6,6 @@
 		<SiteFrame version="any" id="9616cea6-e8e9-4943-be9c-354d5678321d">
 			<stopPlaces>
 				<StopPlace version="any" id="de:06411:4734">
-					<placeEquipments>
-						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any">
-							<Name lang="de">Aufzug zu Gleis 1</Name>
-							<PrivateCode>10543458</PrivateCode>
-							<TypeOfEquipmentRef ref="EFA_AUF" version="any"/>
-							<Width>0.8</Width>
-							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
-							<InternalWidth>1.8</InternalWidth>
-						</LiftEquipment>
-					</placeEquipments>
 					<keyList>
 						<KeyValue>
 							<Key>UUID</Key>
@@ -120,10 +109,67 @@
 							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any"/>
 						</Entrance>
 					</entrances>
+					<placeEquipments>
+						<LiftEquipment id="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 1</Name>
+							<PrivateCode>10543458</PrivateCode>
+							<!-- This should be at least 90 cm according to TSI-PRM	-->
+							<!-- Cant find this in SAP-PM -->
+							<Width>0.8</Width>
+							<!-- Cant find this in SAP-PM -->
+							<Depth>1</Depth>
+							<MaximumLoad>1050</MaximumLoad>
+							<!-- Cant find this in SAP-PM -->
+							<InternalWidth>1.8</InternalWidth>
+							<!-- This should be between 80 and 100 cm according to TSI-PRM	-->
+							<!-- Cant find this in SAP-PM -->
+							<ButtonsHeight>80</ButtonsHeight>
+						</LiftEquipment>
+						<LiftEquipment id="c4f9509a-208a-4a83-b5a3-49777ef8540d" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 3/4</Name>
+							<PrivateCode>10543453</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>800</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+						</LiftEquipment>
+						<LiftEquipment id="74c1a1e1-58fc-435d-a0bc-57b16d5eebbf" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 5/6</Name>
+							<PrivateCode>10543454</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>800</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+						</LiftEquipment>
+						<LiftEquipment id="9241ecf2-c5b9-41c7-9978-d2cd057030eb" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 7/8</Name>
+							<PrivateCode>10543455</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>800</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+						</LiftEquipment>
+						<LiftEquipment id="83d84c1d-dec0-4d54-984a-ca52dbdf7b23" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 9/10</Name>
+							<PrivateCode>10543456</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>800</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+						</LiftEquipment>
+						<LiftEquipment id="7b02b91f-d792-44d1-ba7d-9c50bb6c30b5" status="active" version="any">
+							<Name lang="de">Aufzug zu Gleis 11/12</Name>
+							<PrivateCode>10543457</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>800</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+						</LiftEquipment>
+					</placeEquipments>
 					<accessSpaces>
 						<AccessSpace id="6b2a29f6-ae27-4da8-b566-b5aa5fa54701" version="any">
 							<Name lang="de-DE">Empfangsgebäude</Name>
-							<PrivateCode>01126-04-EG</PrivateCode>
+							<PrivateCode>01126-04</PrivateCode>
 							<Centroid>
 								<Location>
 									<Longitude>8.629636</Longitude>
@@ -134,7 +180,7 @@
 						</AccessSpace>
 						<AccessSpace id="613996d3-03bd-4317-9064-7d4b9adcd253" version="any">
 							<Name lang="de-DE">BahnGalerie 1.UG</Name>
-							<PrivateCode>01126-05-1UG</PrivateCode>
+							<PrivateCode>01126-05</PrivateCode>
 							<Centroid>
 								<Location>
 									<Longitude>8.629636</Longitude>
@@ -145,7 +191,7 @@
 						</AccessSpace>
 						<AccessSpace id="100251e4-4830-41a2-85be-fcb4f5baea6d" version="any">
 							<Name lang="de-DE">BahnGalerie Erdgeschoss</Name>
-							<PrivateCode>01126-05-EG</PrivateCode>
+							<PrivateCode>01126-05</PrivateCode>
 							<Centroid>
 								<Location>
 									<Longitude>8.629636</Longitude>
@@ -156,8 +202,8 @@
 						</AccessSpace>
 						<AccessSpace id="ee2968fd-fc42-4743-af0b-5ec01ba3992a" version="any">
 						  <!--	Diesen Platz gibt es nich in SAP-PM	-->
-							<Name lang="de-DE">Brücke</Name>
-							<PrivateCode>01126-XX-EG</PrivateCode>
+							<Name lang="de-DE">Querbahnsteig Personensteg</Name>
+							<PrivateCode>01126-24</PrivateCode>
 							<Centroid>
 								<Location>
 									<Longitude>8.629636</Longitude>
@@ -175,6 +221,61 @@
 									</Centroid>
 									<placeEquipments>
 										<LiftEquipmentRef ref="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="f02f4c80-125d-426f-b7dc-77aef2c5b307" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6300911</Longitude>
+											<Latitude>49.8725678</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="74c1a1e1-58fc-435d-a0bc-57b16d5eebbf" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="fec2bbe9-ed8c-4f72-88dc-13ba68e7289b" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6298163</Longitude>
+											<Latitude>49.8725555</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="9241ecf2-c5b9-41c7-9978-d2cd057030eb" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="03f63ea6-1a2a-4297-8655-e80682df4cac" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6295535</Longitude>
+											<Latitude>49.87254</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="9241ecf2-c5b9-41c7-9978-d2cd057030eb" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="f6c48bf0-a348-4d69-bc88-3d5d83c6fd14" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6293117</Longitude>
+											<Latitude>49.8725263</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="83d84c1d-dec0-4d54-984a-ca52dbdf7b23" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="ea9cd39b-5f06-43a3-aa66-7b5a04dd4756" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6290451</Longitude>
+											<Latitude>49.8725147</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="7b02b91f-d792-44d1-ba7d-9c50bb6c30b5" version="any"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
