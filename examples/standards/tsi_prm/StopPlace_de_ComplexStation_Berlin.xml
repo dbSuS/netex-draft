@@ -519,7 +519,7 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:11000:900003201:1" />
+							<ParentQuayRef ref="de:11000:900003201:1"/>
 						</Quay>
 						<Quay id="de:11000:900003201:1:51" version="any">
 							<keyList>
@@ -548,7 +548,7 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:11000:900003201:1" />
+							<ParentQuayRef ref="de:11000:900003201:1"/>
 						</Quay>
 						<!--Banhsteig 13/14-->
 						<Quay id="de:11000:900003201:2" version="any">
@@ -597,7 +597,7 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:11000:900003201:2" />
+							<ParentQuayRef ref="de:11000:900003201:2"/>
 						</Quay>
 						<Quay id="de:11000:900003201:2:53" version="any">
 							<keyList>
@@ -626,7 +626,7 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:11000:900003201:2" />
+							<ParentQuayRef ref="de:11000:900003201:2"/>
 						</Quay>
 						<!--Banhsteig (S) 15/16-->
 						<Quay id="de:11000:900003201:3" version="any">
@@ -675,7 +675,7 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.96</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:11000:900003201:3" />
+							<ParentQuayRef ref="de:11000:900003201:3"/>
 						</Quay>
 						<Quay id="de:11000:900003201:3:55" version="any">
 							<keyList>
@@ -704,7 +704,7 @@
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.96</PlatformHeight>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
-							<ParentQuayRef ref="de:11000:900003201:3" />
+							<ParentQuayRef ref="de:11000:900003201:3"/>
 						</Quay>
 					</quays>
 					<accessSpaces>
