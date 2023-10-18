@@ -121,18 +121,18 @@
 							<MaximumLoad>1050</MaximumLoad>
 							<!-- Should be in SAP-PM but isn't -->
 							<InternalWidth>1.8</InternalWidth>
-							<!-- This should be between 80 and 100 cm according to TSI-PRM	-->
-							<!-- Cant find this in SAP-PM -->
-							<ButtonsHeight>80</ButtonsHeight>
-							<!-- Cant find this in SAP-PM -->
-							<CallButtonHeight>80</CallButtonHeight>
-							<!-- Cant find this in SAP-PM -->
-							<BrailleButtons>true</BrailleButtons>
 							<!-- This should be both sided according TSI-PRM	 -->
 							<!-- Cant find this in SAP-PM -->
 							<HandrailType>bothSides</HandrailType>
 							<!-- Cant find this in SAP-PM -->
 							<HandrailHeight>80</HandrailHeight>
+							<!-- Cant find this in SAP-PM -->
+							<CallButtonHeight>80</CallButtonHeight>
+							<!-- Cant find this in SAP-PM -->
+							<BrailleButtons>true</BrailleButtons>
+							<!-- This should be between 80 and 100 cm according to TSI-PRM	-->
+							<!-- Cant find this in SAP-PM -->
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="c4f9509a-208a-4a83-b5a3-49777ef8540d" status="active" version="any">
 							<Name lang="de">Aufzug zu Gleis 3/4</Name>
