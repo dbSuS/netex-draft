@@ -109,6 +109,7 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<TransportMode>rail</TransportMode>
 							<Length>165</Length>
 							<QuayType>railPlatform</QuayType>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
@@ -195,6 +196,7 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<TransportMode>rail</TransportMode>
 							<Length>166.60</Length>
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
@@ -237,6 +239,7 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<TransportMode>rail</TransportMode>
 							<Length>166.00</Length>
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
@@ -279,6 +282,7 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="08f04ecc-9862-401b-a63c-6c85fe64bb93" version="any"/>
+							<TransportMode>rail</TransportMode>
 							<Length>410.00</Length>
 							<QuayType>railPlatform</QuayType>
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>

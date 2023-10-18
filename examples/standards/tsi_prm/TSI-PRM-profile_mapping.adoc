@@ -205,6 +205,7 @@ Für eine Bahnsteigkante werden die folgenden Werte ausgegeben.
 * die Bahnsteighöhe (NeTEx Element *PlatformHeight*). Mit Wissen des Aufbau des Fahrzeuges kann ermittelt werden, ob ein niveau gleicher Einstieg möglich ist. Die Bahnsteighöhe wird nur ausgegeben, wenn eine Bahnsteigkante eine durchgängie Höhe hat. Hat eine Bahsteigkante mehrere Höhenstufen, so wird die Höhe in der Höhenstufe angegeben.
 * die Länge (NeTEx Element *Length*)
 * der Abstand zwischen der Bahnsteigkante und dem Mittelpunkt des Gleiskörpers (NeTEx Element *EdgeToTrackCenterDistance*) ausgegeben. Mit Hilfe des Wertes und dem Wissen der Breite des Fahrzeuges kann des Spalt zwischen Bahnsteigkante und Fahrzeug ermittelt. Dieser Wert wird nur ausgegeben, wenn die baulichen Voraussetzung vorhanden sind.
+* der Transport-Typ (NeTEx *TransportMode*) bei Bahnhöfen wird in der Regel mit dem Wert *rail* befüllt
 
 Der zu der Bahnsteigkante gehörende Bahnsteig wird über die Eltern-Kind-Beziehung des NeTEx *Quays* abgebildet.
 
@@ -246,14 +247,14 @@ repräsentiert.
 
 Die gleisbezogene Bahnsteignutzlänge wird über die Eltern-Kind-Beziehung des NeTEx *Quays* der Bahnsteigkante oder Kundenteilgleis abgebildet.
 
-=== Beispiel Oserburken Bahsteig 2
+=== Beispiel Osterburken Bahsteig 2
 
-Die Schematische Darstellung des Bahnsteiges 2 in Oserburken verdeutlich die Abbildung der Höhenstufen
+Die Schematische Darstellung des Bahnsteiges 2 in Osterburken verdeutlich die Abbildung der Höhenstufen
 
-.A Bahnsteig 2 in Oserburg
-image::Osterburgen-Gleis-2-3-4.JPG[]
+.A Bahnsteig 2 in Osterburken
+image::Osterburken-Gleis-2-3-4.JPG[]
 
-An dem Bahnsteig 2 in Oserburken liegen die Bahsteigkanten 2, 3 und 4 mit verschiedenen Höhenstufen (siehe link:Osterburgen-Gleis-2-3-4.JPG[Osternburgen Bahnsteig 2])
+An dem Bahnsteig 2 in Osterburken liegen die Bahsteigkanten 2, 3 und 4 mit verschiedenen Höhenstufen (siehe link:Osterburken-Gleis-2-3-4.JPG[Osterburken Bahnsteig 2])
 
 === Abbildung Bahnsteig Layout auf NeTEx
 
@@ -313,56 +314,56 @@ An dem Bahnsteig 2 in Oserburken liegen die Bahsteigkanten 2, 3 und 4 mit versch
 |/StopPlace/quays/Quay[QuayType="railIslandPlaform"]/Width
 |Mittlere Breite des Bahnsteiges in Meter
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |
 |Quay
 |quay
 |/StopPlace/quays/Quay[QuayType="railPlaform"]
 |Eine Bahnsteigkante bzw. ein Kundenteilgleis wird über den QuayType *railPlaform* identifiziert.
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |Id
 |Quay
 |@Id
 |/StopPlace/quays/Quay[QuayType="railPlaform"]/@Id
 |Id eines Bahnsteiges ist die DHID::Mast aus dem ZHV.
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |Name
 |Quay
 |Name
 |/StopPlace/quays/Quay[QuayType="railPlaform"]/Name
 |Ausgeschilderte Name der Bahnsteigkante bzw. des Kundenteilgleis.
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |GPS coordinates
 |Location
 |
 |/StopPlace/quays/Quay[QuayType="railPlaform"]/Centroid/Location
 |GPS Cordinate wird mit Longitude und Latitude dargestellt
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |Länge
 |Quay
 |Length
 |/StopPlace/quays/Quay[QuayType="railPlaform"]/Length
-|Gesamtlänge der Bahnteigekanta ake Kundenteilgleis in Meter
+|Gesamtlänge der Bahnteigekanta aka Kundenteilgleis in Meter
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |Höhe
 |Quay
 |PlatformHeight
 |/StopPlace/quays/Quay[QuayType="railPlaform"]/PlatformHeight
 |Höhe der Bahnsteigkante. Der Wert wird nur ausgegeben, wenn die Bahnsteigkante eine durchgängige Höhe hat. Ansonsten werden die Höhen in der Höhenstufe angegeben.
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |Abstand vom der Bahnsteigkante zum Mittelpunkt des Gleiskörper
 |Quay
 |EdgeToTrackCenterDistance
 |/StopPlace/quays/Quay[QuayType="railPlaform"]/EdgeToTrackCenterDistance
 |Abstand vom der Bahnsteigkante zum Mittelpunkt des Gleiskörper.
 
-|*Bahnsteig-kante*
+|*Bahnsteigkante*
 |Zuordnung Bahsteig
 |Quay
 |ParentQuayRef
@@ -371,101 +372,137 @@ An dem Bahnsteig 2 in Oserburken liegen die Bahsteigkanten 2, 3 und 4 mit versch
 
 |*Abschnitt*
 |
-|BoardingPosition
-|boardingPositions
-|/StopPlace/quays/Quay[QuayType="railPlaform"/boardingPositions/BoardingPosition]
+|Quay
+|Quay
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]
 |Abschnitt aka Sektor, gewöhnlich durch den (Abschnitts-)Würfel mit den Aufschriften 'A' - 'G' gekennzeichnet.
 
 |*Abschnitt*
 |Id
 |BoardingPosition
 |@Id
-|/StopPlace/quays/Quay[QuayType="railPlaform"]/bordingPositions/BoardingPosition/@Id
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]/@Id
 |Id eines Abschnitt aka. Sektors ist die DHID::Halteposition aus dem ZHV
 
 |*Abschnitt*
 |Name
 |Quay
 |Name
-|/StopPlace/quays/Quay[QuayType="railPlaform"]/boardingPositions/BoardingPosition/Name
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]/Name
 |Ausgeschilderte Name des Abschnitt aka Sektor.
 
 |*Abschnitt*
 |
 |GPS coordinates
 |Location
-|/StopPlace/quays/Quay[QuayType="railPlaform"]/bordingPositions/BoardingPosition/Centroid/Location
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]/Centroid/Location
 |GPS Cordinate wird mit Longitude und Latitude dargestellt
 
 |*Abschnitt*
 |Länge
 |BoardinPosition
 |Length
-|/StopPlace/quays/Quay[QuayType="railPlaform"]/bordingPositions/BoardingPosition/Length
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]/Length
 |Gesamtlänge der Höhenstufe in Meter
 
 |*Abschnitt*
 |Höhe
 |BoardingPosition
 |PlatformHeight
-|/StopPlace/quays/Quay[QuayType="railPlaform"]/bordingPositions/BoardingPosition//PlatformHeight
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]/PlatformHeight
 |Höhe der Höhenstufe.
 
 |*Abschnitt*
 |Abstand vom der Bahnsteigkante zum Mittelpunkt des Gleiskörper
 |Quay
 |EdgeToTrackCenterDistance
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/EdgeToTrackCenterDistance
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:section"]/EdgeToTrackCenterDistance
 |Abstand vom der Bahnsteigkante zum Mittelpunkt des Gleiskörper.
 
 |*Höhenstufe*
 |
 |Quay
 |quay
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/
 |Eine Höhenstufe wird über den QuayType *railPlaformSector* identifiziert.
 
 |*Höhenstufe*
 |Id
 |Quay
 |@Id
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/@Id
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/@Id
 |Id einer Höhenstufe ist die DHID::Mast aus dem ZHV. Die Id der Höhenstufe ist eine UUID, da im ZHV Höhenstufen nicht abgebildet sind.
 
 |*Höhenstufe*
 |GPS coordinates
 |Location
 |
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/Centroid/Location
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/Centroid/Location
 |GPS Cordinate wird mit Longitude und Latitude dargestellt
 
 |*Höhenstufe*
 |Länge
 |Quay
 |Length
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/Length
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/Length
 |Gesamtlänge der Höhenstufe in Meter
 
 |*Höhenstufe*
 |Höhe
 |Quay
 |PlatformHeight
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/PlatformHeight
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/PlatformHeight
 |Höhe der Höhenstufe.
 
 |*Höhenstufe*
 |Abstand vom der Bahnsteigkante zum Mittelpunkt des Gleiskörper
 |Quay
 |EdgeToTrackCenterDistance
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/EdgeToTrackCenterDistance
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/EdgeToTrackCenterDistance
 |Abstand vom der Bahnsteigkante zum Mittelpunkt des Gleiskörper.
 
 |*Höhenstufe*
 |Zuordnung Bahsteig
 |Quay
 |ParentQuayRef
-|/StopPlace/quays/Quay[QuayType="railPlaformSector"]/ParentQuayRef
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:platformHeight"]/ParentQuayRef
 |Verweis auf die ID der Bahnsteigkante (/StopPlace/quays/Quay[Id="${"ParentQuayRef"}])
 
+
+
+|*gleisbezogene Bahnsteignutzlänge*
+|
+|Quay
+|quay
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:maxLengthTrain"]/
+|Eine gleisbezogene Bahnsteignutzlänge wird über den QuayType *railPlaformSector* identifiziert.
+
+|*gleisbezogene Bahnsteignutzlänge*
+|Id
+|Quay
+|@Id
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:maxLengthTrain"]/@Id
+|Id einer gleisbezogenen Nutzlänge ist eine generierte UUID.
+
+|*gleisbezogene Bahnsteignutzlänge*
+|GPS coordinates
+|Location
+|
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:maxLengthTrain"]/Centroid/Location
+|GPS Cordinate wird mit Longitude und Latitude dargestellt
+
+|*gleisbezogene Bahnsteignutzlänge*
+|Länge
+|Quay
+|Length
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:maxLengthTrain"]/Length
+|Gesamtlänge der gleisbezogene Bahnsteignutzlänge (gleisbezogene Nettolänge - Anhaltewegtoleranz) in Meter
+
+|*gleisbezogene Bahnsteignutzlänge*
+|Zuordnung Bahsteig
+|Quay
+|ParentQuayRef
+|/StopPlace/quays/Quay[QuayType="railPlatformSector"]/placeTypes/TypeOfPlaceRef[ref="quay:maxLengthTrain"]/ParentQuayRef
+|Verweis auf die ID der Bahnsteigkante (/StopPlace/quays/Quay[Id="${"ParentQuayRef"}])
 
 |===
