@@ -654,7 +654,7 @@ Die Merkmale eines Aufzuges werden im *LiftEquipment* modelliert. Die dafür ben
 |Gibt die Höhe des Handlaufes an. 
 
 
-*Aufzugs Bedienung*
+|*Aufzugs Bedienung*
 |Rufknopf Höhe
 |*LiftEquipment*
 |CallButtonHeight
@@ -662,7 +662,7 @@ Die Merkmale eines Aufzuges werden im *LiftEquipment* modelliert. Die dafür ben
 |Gibt die Höhe an in der die Rufknöpfe angebracht sind. Laut TSI-PRM müssen diese zwischen 80 und 100cm liegen
 
 
-*Aufzugs Bedienung*
+|*Aufzugs Bedienung*
 |Bedienelemente Höhe
 |*LiftEquipment*
 |ButtonsHeight
@@ -670,7 +670,7 @@ Die Merkmale eines Aufzuges werden im *LiftEquipment* modelliert. Die dafür ben
 |Gibt die Höhe an in der die Bedienelemente angebracht sind. Laut TSI-PRM müssen diese zwischen 80 und 100cm liegen.
 
 
-*Aufzugs Bedienung*
+|*Aufzugs Bedienung*
 |Braille Schrift
 |*LiftEquipment*
 |BrailleButtons
@@ -678,7 +678,7 @@ Die Merkmale eines Aufzuges werden im *LiftEquipment* modelliert. Die dafür ben
 |Gibt an ob die Bedienelemente mit Braille Schrift versehen sind.
 
 
-*Aufzug*
+|*Aufzug*
 |akustische Ansagen
 |*LiftEquipment*
 |AudioAnnouncements
