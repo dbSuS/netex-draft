@@ -179,6 +179,8 @@
 							<CallButtonHeight>80</CallButtonHeight>
 							<!-- Cant find this in SAP-PM -->
 							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
 							<!-- This should be between 80 and 100 cm according to TSI-PRM	-->
 							<!-- Cant find this in SAP-PM -->
 							<ButtonsHeight>80</ButtonsHeight>
@@ -189,8 +191,15 @@
 							<PrivateCode>10543453</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="74c1a1e1-58fc-435d-a0bc-57b16d5eebbf" status="active"
 							version="any">
@@ -198,8 +207,15 @@
 							<PrivateCode>10543454</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="9241ecf2-c5b9-41c7-9978-d2cd057030eb" status="active"
 							version="any">
@@ -207,8 +223,15 @@
 							<PrivateCode>10543455</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="83d84c1d-dec0-4d54-984a-ca52dbdf7b23" status="active"
 							version="any">
@@ -216,8 +239,15 @@
 							<PrivateCode>10543456</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="7b02b91f-d792-44d1-ba7d-9c50bb6c30b5" status="active"
 							version="any">
@@ -225,8 +255,15 @@
 							<PrivateCode>10543457</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
@@ -254,6 +291,21 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any" />
+							<equipmentPlaces>
+								<EquipmentPlace id="dd5cd8ae-807d-483c-abae-1091b765d7a3"
+									version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6303864</Longitude>
+											<Latitude>49.8725612</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d"
+											version="any" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>208</Length>
 							<Width>5.98</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -322,6 +374,21 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any" />
+							<equipmentPlaces>
+								<EquipmentPlace id="2624317b-c41a-4929-a6d0-295a8dc58cb6"
+									version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6300911</Longitude>
+											<Latitude>49.8725678</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="74c1a1e1-58fc-435d-a0bc-57b16d5eebbf"
+											version="any" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>257</Length>
 							<Width>8.53</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -434,6 +501,21 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any" />
+							<equipmentPlaces>
+								<EquipmentPlace id="8b77c724-9321-4613-a631-84b30a1cb1e5"
+									version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6298163</Longitude>
+											<Latitude>49.8725555</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="9241ecf2-c5b9-41c7-9978-d2cd057030eb"
+											version="any" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>443</Length>
 							<Width>8.37</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -686,6 +768,21 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any" />
+							<equipmentPlaces>
+								<EquipmentPlace id="b058a7b3-9db4-4433-a665-3058f110118f"
+									version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6295535</Longitude>
+											<Latitude>49.87254</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="9241ecf2-c5b9-41c7-9978-d2cd057030eb"
+											version="any" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>288</Length>
 							<Width>6.76</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -789,6 +886,21 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any" />
+							<equipmentPlaces>
+								<EquipmentPlace id="a1b5c713-d8be-44d9-a39c-c209cf084645"
+									version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6293117</Longitude>
+											<Latitude>49.8725263</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="83d84c1d-dec0-4d54-984a-ca52dbdf7b23"
+											version="any" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>376.45</Length>
 							<Width>6.38</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -1041,6 +1153,21 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="97aa5360-1cb9-4794-833a-63592830a564" version="any" />
+							<equipmentPlaces>
+								<EquipmentPlace id="9ab86c3d-d58c-483e-8a95-0636145d8678"
+									version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6290451</Longitude>
+											<Latitude>49.8725147</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="7b02b91f-d792-44d1-ba7d-9c50bb6c30b5"
+											version="any" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>410.25</Length>
 							<Width>5.55</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -1328,7 +1455,6 @@
 							<LevelRef ref="36ee84d3-9a99-4a6b-bd0a-9d8d657115c2" version="any" />
 						</AccessSpace>
 						<AccessSpace id="ee2968fd-fc42-4743-af0b-5ec01ba3992a" version="any">
-							<!--	Diesen Platz gibt es nich in SAP-PM	-->
 							<Name lang="de-DE">Querbahnsteig Personensteg</Name>
 							<PrivateCode>01126-24</PrivateCode>
 							<Centroid>

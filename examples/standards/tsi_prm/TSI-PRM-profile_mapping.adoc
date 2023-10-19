@@ -506,3 +506,42 @@ An dem Bahnsteig 2 in Osterburken liegen die Bahsteigkanten 2, 3 und 4 mit versc
 |Verweis auf die ID der Bahnsteigkante (/StopPlace/quays/Quay[Id="${"ParentQuayRef"}])
 
 |===
+
+== Equipments
+
+NeTEx liefert bei der Abbildung von verschiedenen Equipments und deren Standort verschiedene *Equipment* Klassen.
+Dessen Standorte können mit Hilfe von *equipmentPlaces* angegeben werden.
+Dies ist zum Beispiel besonders sinnvoll bei Equipments, die sich über mehrere Level erstecken wie zum Beispiel Aufzüge (*LiftEquipment*) oder Rolltreppen (*EscalatorEquipment*)
+Dieses Kapitel beschreibt die Fachlichkeit und die daraus folgende NeTEx Abbildung.
+
+=== EquipmentPlaces
+
+Der *EquipmentPlace* gibt an wo sich ein Equipment befindet und ist ein Kindelement von *AccessSpaces*, *Quays* und *Entrances*.
+Durch die Zuordnung einer der oben genannten Klassen lässt sich ermitteln, auf welchem Level das Equipment sich befindet.
+Innerhalb eines *EquipmentPlaces* können die an anderer Stelle definierten Equipments referenziert werden und damit einem Bestimmten Standort zugeordnet werden.
+
+==== Abbildung EquipmentPlaces in NeTEx
+
+.Table NeTEx Mapping - STATION GENERAL CHARACTERISTICS
+[%header,cols="1a,1a,2a,1a,1a,2a"]
+|===
+2+|Inventory of Assests (IoA)
+3+|NeTEx
+|
+
+|*STATION GENERAL CHARACTERISTICS*
+|*Format*
+|*Klasse*
+|*Element*
+|*Mapping*
+|*Beschreibung*
+
+
+|===
+
+=== LiftEquipments
+
+
+
+
+

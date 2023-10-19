@@ -238,8 +238,15 @@
 							<PrivateCode>10315352</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="260eaf7c-9234-4177-8eba-4a648785b138" status="active"
 							version="any">
@@ -247,8 +254,15 @@
 							<PrivateCode>10315353</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="7c1169ae-9c08-4a67-be99-e9ff285cdd64" status="active"
 							version="any">
@@ -256,8 +270,15 @@
 							<PrivateCode>10315354</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="89c7bf25-a388-4557-9e67-a411d318b8c9" status="active"
 							version="any">
@@ -265,8 +286,15 @@
 							<PrivateCode>10315355</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="b24dd1ee-8524-436b-8e18-9842bdf071e4" status="active"
 							version="any">
@@ -274,8 +302,15 @@
 							<PrivateCode>10315425</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="29b75f4b-0a20-442f-b9a7-ad477be961b3" status="active"
 							version="any">
@@ -283,8 +318,15 @@
 							<PrivateCode>10315426</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="7e1c0d6f-4e9c-4487-93ad-60f2f61e159d" status="active"
 							version="any">
@@ -292,8 +334,15 @@
 							<PrivateCode>10316245</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="da84c165-28cd-47a4-b0fa-249eae57cd1e" status="active"
 							version="any">
@@ -301,8 +350,15 @@
 							<PrivateCode>10316246</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="941dbf43-f05b-48ff-8437-d2b7d8564346" status="active"
 							version="any">
@@ -310,8 +366,15 @@
 							<PrivateCode>10316250</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="6cbd9be2-9115-4ee9-ba78-085a1af7a2ab" status="active"
 							version="any">
@@ -319,8 +382,15 @@
 							<PrivateCode>10316251</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="be6a466d-dbd5-4e9f-a8d1-da38d3e8f5d1" status="active"
 							version="any">
@@ -328,8 +398,15 @@
 							<PrivateCode>10316254</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="29441424-b0db-4f0b-87c5-269dbe32b1eb" status="active"
 							version="any">
@@ -337,8 +414,15 @@
 							<PrivateCode>10316256</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="96ae2f8f-b805-43d0-8cad-b4e42c39544d" status="active"
 							version="any">
@@ -346,8 +430,15 @@
 							<PrivateCode>10316332</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="786e81f3-6e45-43e5-ba85-b591ca1e1c7c" status="active"
 							version="any">
@@ -355,8 +446,15 @@
 							<PrivateCode>10316334</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="8a345b5a-21f4-4230-8d14-343d106cf322" status="active"
 							version="any">
@@ -364,8 +462,15 @@
 							<PrivateCode>10316340</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<LiftEquipment id="ef056dde-5966-4f8f-a26b-daef579f218d" status="active"
 							version="any">
@@ -373,8 +478,15 @@
 							<PrivateCode>10447508</PrivateCode>
 							<Width>0.8</Width>
 							<Depth>1</Depth>
-							<MaximumLoad>800</MaximumLoad>
+							<MaximumLoad>1050</MaximumLoad>
 							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
@@ -534,8 +646,8 @@
 									<Latitude>52.525592</Latitude>
 								</Location>
 							</Centroid>
-							<TransportMode>rail</TransportMode>
 							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any" />
+							<TransportMode>rail</TransportMode>
 							<Length>430</Length>
 							<QuayType>railPlatform</QuayType>
 							<PlatformHeight>0.76</PlatformHeight>
