@@ -281,14 +281,13 @@
 							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
-
 						<EscalatorEquipment id="868fef1a-3ff9-4389-98c8-6601669bc7a8" version="any">
 							<Name lang="de">Fahrtreppe von Zwischengeschoss nach Zugang Bahnhofsplatz</Name>
 							<PrivateCode>98</PrivateCode>
 							<Note lang="de">Kaputt</Note>
 							<OutOfService>true</OutOfService>
 							<Width>1.6</Width>
-							<DirectionOfUse>up</DirectionOfUse>							
+							<DirectionOfUse>up</DirectionOfUse>
 							<SafeForGuideDog>true</SafeForGuideDog>
 							<!-- nötig? -->
 							<Depth>0.30</Depth>
@@ -297,13 +296,13 @@
 							<StepColourContrast>true</StepColourContrast>
 							<DogsMustBeCarried>true</DogsMustBeCarried>
 						</EscalatorEquipment>
-						<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">	
+						<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">
 							<Name lang="de">Fahrsteig im Erdgeschoss</Name>
 							<PrivateCode>99</PrivateCode>
-							<Note lang="de"></Note>
+							<Note lang="de"/>
 							<OutOfService>false</OutOfService>
 							<Width>1.6</Width>
-							<DirectionOfUse>up</DirectionOfUse>							
+							<DirectionOfUse>up</DirectionOfUse>
 							<SafeForGuideDog>true</SafeForGuideDog>
 							<!-- nötig? -->
 							<Speed>7</Speed>
@@ -314,7 +313,7 @@
 						<RampEquipment id="dd85d48b-ca58-409f-b12a-0f71b2a9b96b" version="any">
 							<Name lang="de">Rampe von Zwischengeschoss nach Gleis 1</Name>
 							<PrivateCode>106</PrivateCode>
-							<Note lang="de"></Note>
+							<Note lang="de"/>
 							<OutOfService>true</OutOfService>
 							<Width>2.5</Width>
 							<DirectionOfUse>down</DirectionOfUse>
