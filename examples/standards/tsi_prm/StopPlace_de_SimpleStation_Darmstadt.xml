@@ -281,6 +281,55 @@
 							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
+
+						<EscalatorEquipment id="868fef1a-3ff9-4389-98c8-6601669bc7a8" version="any">
+							<Name lang="de">Fahrtreppe von Zwischengeschoss nach Zugang Bahnhofsplatz</Name>
+							<PrivateCode>98</PrivateCode>
+							<Note lang="de">Kaputt</Note>
+							<OutOfService>true</OutOfService>
+							<Width>1.6</Width>
+							<DirectionOfUse>up</DirectionOfUse>							
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<!-- nötig? -->
+							<Depth>0.30</Depth>
+							<!-- nötig? -->
+							<StepHeight>0.30</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<DogsMustBeCarried>true</DogsMustBeCarried>
+						</EscalatorEquipment>
+						<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">	
+							<Name lang="de">Fahrsteig im Erdgeschoss</Name>
+							<PrivateCode>99</PrivateCode>
+							<Note lang="de"></Note>
+							<OutOfService>false</OutOfService>
+							<Width>1.6</Width>
+							<DirectionOfUse>up</DirectionOfUse>							
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<!-- nötig? -->
+							<Speed>7</Speed>
+							<!-- nötig? -->
+							<Length>100</Length>
+							<Gradient>0</Gradient>
+						</TravelatorEquipment>
+						<RampEquipment id="dd85d48b-ca58-409f-b12a-0f71b2a9b96b" version="any">
+							<Name lang="de">Rampe von Zwischengeschoss nach Gleis 1</Name>
+							<PrivateCode>106</PrivateCode>
+							<Note lang="de"></Note>
+							<OutOfService>true</OutOfService>
+							<Width>2.5</Width>
+							<DirectionOfUse>down</DirectionOfUse>
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<Length>40</Length>
+							<Gradient>22</Gradient>
+							<GradientType>steep</GradientType>
+							<Pedestal>false</Pedestal>
+							<HandrailHeight>0.90</HandrailHeight>
+							<HandrailType>oneSide</HandrailType>
+							<TactileGuidanceStrips>false</TactileGuidanceStrips>
+							<VisualGuidanceBands>false</VisualGuidanceBands>
+							<Temporary>false</Temporary>
+							<SuitableForCycles>false</SuitableForCycles>
+						</RampEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
