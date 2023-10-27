@@ -523,7 +523,7 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EscalatorEquipmentRef ref="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e" />
+										<EscalatorEquipmentRef ref="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -1995,7 +1995,7 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EscalatorEquipmentRef ref="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e" />
+										<EscalatorEquipmentRef ref="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>

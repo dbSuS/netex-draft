@@ -311,7 +311,6 @@
 							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
-
 						<!--<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">
 							<Name lang="de">Fahrsteig im Erdgeschoss</Name>
 							<PrivateCode>99</PrivateCode>
