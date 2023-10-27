@@ -257,46 +257,62 @@
 							<AudioAnnouncements>true</AudioAnnouncements>
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
-						<StaircaseEquipment id="32c4b9f9-65c0-40b5-81e9-82492e498964" version="any">
-							<Name lang="de">Treppe von Zwischengeschoss nach Zugang Gürtel</Name>
-							<PrivateCode>121</PrivateCode>
+						<!--TSI-PRM: 4.2.1.2.2-->
+						<StaircaseEquipment id="fc7ee0e8-824e-44f3-9a44-8cd8628f835a" version="any">
+							<Name lang="de">Treppe zu Bahnsteig 1</Name>
+							<PrivateCode>10380248</PrivateCode>
+							<Description>Treppe neben Ämtergebäude</Description>
+							<!--
+								nicht vorhanden in sap-pm
+								TSI-PRM mind. 160cm breite gemessen zwischen den Handläufen
+							-->
 							<Width>1.6</Width>
+							<!--nicht gepflegt sap-pm-->
 							<NumberOfSteps>22</NumberOfSteps>
+							<!--nicht vorhanden in sap-pm-->
 							<StepHeight>0.17</StepHeight>
+							<!--Stufenmarkierung vorhanden aus sap-pm-->
+							<StepColourContrast>true</StepColourContrast>
+							<!--
+								nicht vorhanden in sap-pm
+								TSP-PRM relevant beide Seiten müssen ausgestattet sein
+							-->
 							<HandrailType>bothSides</HandrailType>
+							<!--nicht vorhanden in sap-pm-->
 							<HandrailHeight>1.2</HandrailHeight>
+							<!--
+								TSI-PRM Handläufe sind in zwei höhen auszustatten
+							-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
 								<!-- nötig? -->
 								<ContinuingHandrail>true</ContinuingHandrail>
+								<!--
+									TSI-PRM relevant
+								-->
 								<TexturedSurface>true</TexturedSurface>
+								<!--
+									TSI-PRM relevant
+								-->
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
 								<!-- nötig? -->
 								<ContinuingHandrail>true</ContinuingHandrail>
+								<!--
+									TSI-PRM relevant
+								-->
 								<TexturedSurface>true</TexturedSurface>
+								<!--
+									TSI-PRM relevant
+								-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
-						<EscalatorEquipment id="868fef1a-3ff9-4389-98c8-6601669bc7a8" version="any">
-							<Name lang="de">Fahrtreppe von Zwischengeschoss nach Zugang Bahnhofsplatz</Name>
-							<PrivateCode>98</PrivateCode>
-							<Note lang="de">Kaputt</Note>
-							<OutOfService>true</OutOfService>
-							<Width>1.6</Width>
-							<DirectionOfUse>up</DirectionOfUse>
-							<SafeForGuideDog>true</SafeForGuideDog>
-							<!-- nötig? -->
-							<Depth>0.30</Depth>
-							<!-- nötig? -->
-							<StepHeight>0.30</StepHeight>
-							<StepColourContrast>true</StepColourContrast>
-							<DogsMustBeCarried>true</DogsMustBeCarried>
-						</EscalatorEquipment>
-						<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">
+
+						<!--<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">
 							<Name lang="de">Fahrsteig im Erdgeschoss</Name>
 							<PrivateCode>99</PrivateCode>
 							<Note lang="de"/>
@@ -304,9 +320,9 @@
 							<Width>1.6</Width>
 							<DirectionOfUse>up</DirectionOfUse>
 							<SafeForGuideDog>true</SafeForGuideDog>
-							<!-- nötig? -->
+							&lt;!&ndash; nötig? &ndash;&gt;
 							<Speed>7</Speed>
-							<!-- nötig? -->
+							&lt;!&ndash; nötig? &ndash;&gt;
 							<Length>100</Length>
 							<Gradient>0</Gradient>
 						</TravelatorEquipment>
@@ -329,6 +345,7 @@
 							<Temporary>false</Temporary>
 							<SuitableForCycles>false</SuitableForCycles>
 						</RampEquipment>
+						-->
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -365,6 +382,17 @@
 									</Centroid>
 									<placeEquipments>
 										<LiftEquipmentRef ref="a2b2c43b-c42e-45b7-bf80-9d3ac36d7f8d" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="736a9b37-9250-4816-a01f-a06ab443a939" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6303864</Longitude>
+											<Latitude>49.8725612</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="fc7ee0e8-824e-44f3-9a44-8cd8628f835a" version="any"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -1581,6 +1609,17 @@
 									</Centroid>
 									<placeEquipments>
 										<LiftEquipmentRef ref="7b02b91f-d792-44d1-ba7d-9c50bb6c30b5" version="any"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="6d7184d6-fd68-4792-acb1-d6ac34d5e9c9" version="any">
+									<Centroid>
+										<Location>
+											<Longitude>8.6303864</Longitude>
+											<Latitude>49.8725612</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="fc7ee0e8-824e-44f3-9a44-8cd8628f835a" version="any"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
