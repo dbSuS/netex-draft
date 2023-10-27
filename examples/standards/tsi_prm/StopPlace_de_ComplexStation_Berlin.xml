@@ -470,6 +470,26 @@
 							<AudioAnnouncements>true</AudioAnnouncements>
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
+						<!--TSI-PRM muss noch geprüft werden, siehe auch 4.2.1.2.2. Vertikale Erschließung -->
+						<EscalatorEquipment id="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e" version="any">
+							<Name lang="de">zu Gleis 1/2</Name>
+							<PrivateCode>10314887</PrivateCode>
+							<Note lang="de">Fiktiver Text: Wegen bauarbeiten defekt bis: 01.01.2024</Note>
+							<OutOfService>true</OutOfService>
+							<!--nicht vorhanden in sap-pm-->
+							<Width>1.6</Width>
+							<!--nicht vorhanden in sap-pm-->
+							<DirectionOfUse>up</DirectionOfUse>
+							<!-- nötig? -->
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<!-- nötig (Tiefe der Stufen)? -->
+							<Depth>0.30</Depth>
+							<!-- nötig? -->
+							<StepHeight>0.30</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<!-- nötig? -->
+							<DogsMustBeCarried>true</DogsMustBeCarried>
+						</EscalatorEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -493,6 +513,20 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="943506af-f77e-49aa-b192-a492bff13b96" version="any">
+									<Name lang="de">Rolltreppe</Name>
+									<Centroid>
+										<Location>
+											<Longitude>13.36986945</Longitude>
+											<Latitude>52.5237573</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EscalatorEquipmentRef ref="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>430</Length>
 							<Width>9.50</Width>
 							<QuayType>railIslandPlaform</QuayType>
@@ -1951,6 +1985,20 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="f98ea597-2086-4235-b027-08971a3c5193" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="57c795d1-5acd-45b0-bb06-113bcebf95b3" version="any">
+									<Name lang="de">Rolltreppe</Name>
+									<Centroid>
+										<Location>
+											<Longitude>13.36986945</Longitude>
+											<Latitude>52.5237573</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EscalatorEquipmentRef ref="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 						</AccessSpace>
 						<AccessSpace id="687231ae-64d6-4171-8acb-84c28349679a" version="any">
 							<keyList>
