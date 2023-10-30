@@ -228,7 +228,7 @@
 							<ParentZoneRef version="any" ref="687231ae-64d6-4171-8acb-84c28349679a"/>
 							<LevelRef ref="f98ea597-2086-4235-b027-08971a3c5193" version="any"/>
 							<equipmentPlaces>
-								<EquipmentPlace id="ca13bb6b-0f75-4e0f-8996-146a1d158420" version="any" >
+								<EquipmentPlace id="ca13bb6b-0f75-4e0f-8996-146a1d158420" version="any">
 									<Name lang="de">Treppe Ausgang</Name>
 									<Centroid>
 										<Location>
@@ -2257,7 +2257,7 @@
 										<EscalatorEquipmentRef ref="9585a9f2-1957-4b31-8fc0-f601887dbf2b"/>
 									</placeEquipments>
 								</EquipmentPlace>
-								<EquipmentPlace id="7ed80bd4-a69e-40b6-a371-ef6ba6bec287" version="any" >
+								<EquipmentPlace id="7ed80bd4-a69e-40b6-a371-ef6ba6bec287" version="any">
 									<Name lang="de">Treppe Ausgang</Name>
 									<Centroid>
 										<Location>
