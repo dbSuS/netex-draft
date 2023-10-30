@@ -118,7 +118,7 @@
 							<keyList>
 								<KeyValue>
 									<Key>UUID</Key>
-									<Value>#gen.uuid#</Value>
+									<Value>ab1fda6b-9a44-4657-9240-bfa8ea1117af</Value>
 								</KeyValue>
 							</keyList>
 							<Name lang="de-DE">Bahnsteig 2, Gleis 14/16</Name>
@@ -131,7 +131,7 @@
 							<Name lang="de-DE">Unterführung</Name>
 							<LevelRef ref="4158e510-0af4-4617-a7b9-d9e3a4dfb293" version="any"/>
 							<equipmentPlaces>
-								<EquipmentPlace id="fece5c20-9596-4038-b031-a2a84741b9ba" version="any">
+								<EquipmentPlace id="429b53ed-9570-47dc-a9e3-9f302bab917d" version="any">
 									<Centroid>
 										<Location>
 											<Longitude>6.99124</Longitude>
