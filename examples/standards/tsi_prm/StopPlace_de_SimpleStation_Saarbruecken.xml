@@ -85,7 +85,6 @@
 							<LevelRef ref="caba8e6a-5f75-43c5-8676-9b9aee5582ed" version="any"/>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
-
 						<!--Banhsteig 5/6/8/11/12-->
 						<Quay id="de:10041:8000323:2" version="any">
 							<keyList>
@@ -105,14 +104,13 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<TravelatorEquipmentRef ref="f2b0a132-b137-470a-afd9-8d2b000ddeb3" />
-										<TravelatorEquipmentRef ref="28f0a3a6-fc78-4fb9-bcf5-a3486adb99f6" />
+										<TravelatorEquipmentRef ref="f2b0a132-b137-470a-afd9-8d2b000ddeb3"/>
+										<TravelatorEquipmentRef ref="28f0a3a6-fc78-4fb9-bcf5-a3486adb99f6"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<QuayType>railIslandPlaform</QuayType>
 						</Quay>
-
 						<!--Banhsteig 14/16-->
 						<Quay id="de:10041:8000323:6" version="any">
 							<keyList>
@@ -139,8 +137,8 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<TravelatorEquipmentRef ref="f2b0a132-b137-470a-afd9-8d2b000ddeb3" />
-										<TravelatorEquipmentRef ref="28f0a3a6-fc78-4fb9-bcf5-a3486adb99f6" />
+										<TravelatorEquipmentRef ref="f2b0a132-b137-470a-afd9-8d2b000ddeb3"/>
+										<TravelatorEquipmentRef ref="28f0a3a6-fc78-4fb9-bcf5-a3486adb99f6"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
