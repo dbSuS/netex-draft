@@ -280,9 +280,9 @@
 							<HandrailType>bothSides</HandrailType>
 							<!--nicht vorhanden in sap-pm-->
 							<HandrailHeight>1.2</HandrailHeight>
-							<!--
-								TSI-PRM Handläufe sind in zwei höhen auszustatten
-							-->
+							<!--in sap-pm: Handlaufschilder vorhanden j/n-->
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<!--TSI-PRM Handläufe sind in zwei höhen auszustatten-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
 								<!-- nötig? -->
