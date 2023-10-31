@@ -498,7 +498,7 @@
 							<DirectionOfUse>down</DirectionOfUse>
 							<!-- nötig? -->
 							<SafeForGuideDog>true</SafeForGuideDog>
-							<!-- nötig (Tiefe der Stufen)? -->
+							<!-- nötig? (Tiefe der Stufen) -->
 							<Depth>0.30</Depth>
 							<!-- nötig? -->
 							<StepHeight>0.30</StepHeight>

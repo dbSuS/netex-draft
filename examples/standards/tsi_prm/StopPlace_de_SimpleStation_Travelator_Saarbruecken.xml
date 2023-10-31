@@ -57,10 +57,10 @@
 							<SafeForGuideDog>true</SafeForGuideDog>
 							<!--nötig?-->
 							<Speed>7</Speed>
-							<!--nötig?-->
-							<Length>100</Length>
-							<!--nötig?-->
-							<Gradient>0</Gradient>
+							<!--Nötig? Könnten wir bereichnen aus sap-pm haben wir die Neigung und die Förderhöhe-->
+							<Length>36.09</Length>
+							<!--Neigung in metern in sap Förderlänge-->
+							<Gradient>36.54</Gradient>
 						</TravelatorEquipment>
 						<TravelatorEquipment id="f2b0a132-b137-470a-afd9-8d2b000ddeb3" version="any">
 							<Name lang="de">Fahrsteig Gl. 5-12 abwärts 462.01.001	</Name>
@@ -68,6 +68,10 @@
 							<OutOfService>false</OutOfService>
 							<Width>1.6</Width>
 							<DirectionOfUse>down</DirectionOfUse>
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<Speed>7</Speed>
+							<Length>36.09</Length>
+							<Gradient>36.54</Gradient>
 						</TravelatorEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
