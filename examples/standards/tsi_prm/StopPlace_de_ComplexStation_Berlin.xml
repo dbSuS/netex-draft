@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex ../../../xsd/NeTEx_publication.xsd">
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.netex.org.uk/netex"
+	xsi:schemaLocation="http://www.netex.org.uk/netex ../../../xsd/NeTEx_publication.xsd">
 	<PublicationTimestamp>2023-09-20T11:00:00.0Z</PublicationTimestamp>
 	<ParticipantRef>DB</ParticipantRef>
 	<dataObjects>
@@ -654,7 +655,7 @@
 							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="943506af-f77e-49aa-b192-a492bff13b96" version="any">
-									<Name lang="de">Rolltreppe</Name>
+									<Name lang="de">Auf-/Abgang</Name>
 									<Centroid>
 										<Location>
 											<Longitude>13.36986945</Longitude>

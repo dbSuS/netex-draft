@@ -56,7 +56,7 @@
 							<!--nötig?-->
 							<SafeForGuideDog>true</SafeForGuideDog>
 							<!--nötig?-->
-							<Speed>7</Speed>
+							<Speed>0.8</Speed>
 							<!--Nötig? Könnten wir bereichnen aus sap-pm haben wir die Neigung und die Förderhöhe-->
 							<Length>36.09</Length>
 							<!--Neigung in metern in sap Förderlänge-->

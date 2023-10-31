@@ -311,20 +311,7 @@
 							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
-						<!--<TravelatorEquipment id="12dedbfd-7110-43b2-8ab8-d9ace8a23339" version="any">
-							<Name lang="de">Fahrsteig im Erdgeschoss</Name>
-							<PrivateCode>99</PrivateCode>
-							<Note lang="de"/>
-							<OutOfService>false</OutOfService>
-							<Width>1.6</Width>
-							<DirectionOfUse>up</DirectionOfUse>
-							<SafeForGuideDog>true</SafeForGuideDog>
-							&lt;!&ndash; nötig? &ndash;&gt;
-							<Speed>7</Speed>
-							&lt;!&ndash; nötig? &ndash;&gt;
-							<Length>100</Length>
-							<Gradient>0</Gradient>
-						</TravelatorEquipment>
+						<!--
 						<RampEquipment id="dd85d48b-ca58-409f-b12a-0f71b2a9b96b" version="any">
 							<Name lang="de">Rampe von Zwischengeschoss nach Gleis 1</Name>
 							<PrivateCode>106</PrivateCode>

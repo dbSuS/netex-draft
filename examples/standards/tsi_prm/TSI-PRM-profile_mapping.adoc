@@ -687,8 +687,8 @@ Die Merkmale eines Aufzuges werden im *LiftEquipment* modelliert. Die dafür ben
 
 |===
 
-== StairCaseEquipments
-Treppen werden in NeTEx als StairCaseEquipments, eine Kindklasse der PlaceEquipments, modelliert. Die gesamtheit der PlaceEquipments werden auf der ersten ebene unterhalb des StopPlaces modelliert.
+== StaircaseEquipments
+Treppen werden in NeTEx als StaircaseEquipments, eine Kindklasse der PlaceEquipments, modelliert. Die gesamtheit der PlaceEquipments werden auf der ersten ebene unterhalb des StopPlaces modelliert.
 
 Die Merkmale einer Treppe werden im StaircaseEquipment modelliert. Die dafür benötigten Felder und deren Zielwerte lassen sich aus TSI-PRM entnehmen.
 
@@ -710,7 +710,7 @@ Die Merkmale einer Treppe werden im StaircaseEquipment modelliert. Die dafür be
 |*Treppe*
 |
 |*StaircaseEquipment*
-|StairCaseEquipments
+|StaircaseEquipments
 |/StopPlace/placeEquipments/StaircaseEquipment
 |Die Treppe wird durch StaircaseEquipment dargestellt
 
