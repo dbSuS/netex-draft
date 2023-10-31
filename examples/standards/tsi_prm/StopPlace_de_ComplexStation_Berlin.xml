@@ -503,6 +503,18 @@
 							<!-- nötig? -->
 							<StepHeight>0.30</StepHeight>
 							<StepColourContrast>true</StepColourContrast>
+							<TopEnd>
+								<!--TSI-PRM relevant?-->
+								<TexturedSurface>true</TexturedSurface>
+								<!--TSI-PRM relevant?-->
+								<VisualContrast>true</VisualContrast>
+							</TopEnd>
+							<BottomEnd>
+								<!--TSI-PRM relevant?-->
+								<TexturedSurface>true</TexturedSurface>
+								<!--TSI-PRM relevant?-->
+								<VisualContrast>true</VisualContrast>
+							</BottomEnd>
 							<!-- nötig? -->
 							<DogsMustBeCarried>true</DogsMustBeCarried>
 						</EscalatorEquipment>
@@ -580,32 +592,22 @@
 							<HandrailType>bothSides</HandrailType>
 							<!--nicht vorhanden in sap-pm-->
 							<HandrailHeight>1.2</HandrailHeight>
-							<!--
-								TSI-PRM Handläufe sind in zwei höhen auszustatten
-							-->
+							<!--TSI-PRM Handläufe sind in zwei höhen auszustatten-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
 								<!-- nötig? -->
 								<ContinuingHandrail>true</ContinuingHandrail>
-								<!--
-									TSI-PRM relevant
-								-->
+								<!--TSI-PRM relevant-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--
-									TSI-PRM relevant
-								-->
+								<!--TSI-PRM relevant-->
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
 								<!-- nötig? -->
 								<ContinuingHandrail>true</ContinuingHandrail>
-								<!--
-									TSI-PRM relevant
-								-->
+								<!--TSI-PRM relevant-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--
-									TSI-PRM relevant
-								-->
+								<!--TSI-PRM relevant-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 							<!-- nötig? -->
