@@ -731,7 +731,7 @@
 							</equipmentPlaces>
 							<Length>430</Length>
 							<Width>9.50</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003200:1:50" version="any">
 							<keyList>
@@ -970,7 +970,7 @@
 							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
 							<Length>430</Length>
 							<Width>9.50</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003200:2:52" version="any">
 							<keyList>
@@ -1209,7 +1209,7 @@
 							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
 							<Length>430</Length>
 							<Width>9.50</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003200:3:54" version="any">
 							<keyList>
@@ -1448,7 +1448,7 @@
 							<LevelRef ref="80cbec04-2e8d-4115-b249-781a9340facd" version="any"/>
 							<Length>430</Length>
 							<Width>9.50</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003200:4:54" version="any">
 							<keyList>
@@ -1689,7 +1689,7 @@
 							<LevelRef ref="edd79648-7a41-4305-aa41-a37f7b664b8a" version="any"/>
 							<Length>430</Length>
 							<Width>12.50</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003201:1:50" version="any">
 							<keyList>
@@ -1928,7 +1928,7 @@
 							<LevelRef ref="edd79648-7a41-4305-aa41-a37f7b664b8a" version="any"/>
 							<Length>430</Length>
 							<Width>12.50</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003201:2:52" version="any">
 							<keyList>
@@ -2088,7 +2088,7 @@
 							<LevelRef ref="edd79648-7a41-4305-aa41-a37f7b664b8a" version="any"/>
 							<Length>152.50</Length>
 							<Width>13</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:11000:900003201:3:54" version="any">
 							<keyList>

@@ -384,7 +384,7 @@
 							</equipmentPlaces>
 							<Length>208</Length>
 							<Width>5.98</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:62:62" version="any">
 							<keyList>
@@ -465,7 +465,7 @@
 							</equipmentPlaces>
 							<Length>257</Length>
 							<Width>8.53</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:64:63" version="any">
 							<keyList>
@@ -590,7 +590,7 @@
 							</equipmentPlaces>
 							<Length>443</Length>
 							<Width>8.37</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:41:65" version="any">
 							<keyList>
@@ -855,7 +855,7 @@
 							</equipmentPlaces>
 							<Length>288</Length>
 							<Width>6.76</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:44:66" version="any">
 							<keyList>
@@ -971,7 +971,7 @@
 							</equipmentPlaces>
 							<Length>376.45</Length>
 							<Width>6.38</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:42:69" version="any">
 							<keyList>
@@ -1236,7 +1236,7 @@
 							</equipmentPlaces>
 							<Length>410.25</Length>
 							<Width>5.55</Width>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<Quay id="de:06411:4734:43:70" version="any">
 							<keyList>
