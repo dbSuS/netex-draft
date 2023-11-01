@@ -311,27 +311,6 @@
 							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
-						<!--
-						<RampEquipment id="dd85d48b-ca58-409f-b12a-0f71b2a9b96b" version="any">
-							<Name lang="de">Rampe von Zwischengeschoss nach Gleis 1</Name>
-							<PrivateCode>106</PrivateCode>
-							<Note lang="de"/>
-							<OutOfService>true</OutOfService>
-							<Width>2.5</Width>
-							<DirectionOfUse>down</DirectionOfUse>
-							<SafeForGuideDog>true</SafeForGuideDog>
-							<Length>40</Length>
-							<Gradient>22</Gradient>
-							<GradientType>steep</GradientType>
-							<Pedestal>false</Pedestal>
-							<HandrailHeight>0.90</HandrailHeight>
-							<HandrailType>oneSide</HandrailType>
-							<TactileGuidanceStrips>false</TactileGuidanceStrips>
-							<VisualGuidanceBands>false</VisualGuidanceBands>
-							<Temporary>false</Temporary>
-							<SuitableForCycles>false</SuitableForCycles>
-						</RampEquipment>
-						-->
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
