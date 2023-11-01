@@ -66,15 +66,17 @@
 							<GradientType>medium</GradientType>
 							<!--keine Info in sap-pm gefunden-->
 							<Pedestal>false</Pedestal>
-							<!--nicht vorhanden in sap-pm-->
-							<HandrailHeight>1.2</HandrailHeight>
 							<!--
 								nicht vorhanden in sap-pm
 								TSP-PRM relevant beide Seiten müssen ausgestattet sein
 							-->
 							<HandrailType>bothSides</HandrailType>
-							<HandrailTactileSign>true</HandrailTactileSign>
+							<!--nicht vorhanden in sap-pm-->
+							<HandrailHeight>1.2</HandrailHeight>
+							<!--nicht vorhanden in sap-pm-->
 							<LowerHandrailHeight>0.8</LowerHandrailHeight>
+							<!--in sap-pm handlaufSchilderVorhanden j/n-->
+							<HandrailTactileSign>true</HandrailTactileSign>
 							<!--keine Info in sap-pm gefunden-->
 							<TactileGuidanceStrips>true</TactileGuidanceStrips>
 							<!--keine Info in sap-pm gefunden-->
