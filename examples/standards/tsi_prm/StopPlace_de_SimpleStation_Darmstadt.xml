@@ -274,7 +274,7 @@
 							<!--Stufenmarkierung vorhanden aus sap-pm-->
 							<StepColourContrast>true</StepColourContrast>
 							<!--
-								nicht vorhanden in sap-pm
+								nicht vorhanden in sap-pm // klasse für Handläufe gibt es in SAP
 								TSP-PRM relevant beide Seiten müssen ausgestattet sein
 							-->
 							<HandrailType>bothSides</HandrailType>
@@ -285,8 +285,6 @@
 							<!--TSI-PRM Handläufe sind in zwei höhen auszustatten-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
-								<!-- nötig? -->
-								<ContinuingHandrail>true</ContinuingHandrail>
 								<!--
 									TSI-PRM relevant
 								-->
@@ -297,8 +295,6 @@
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
-								<!-- nötig? -->
-								<ContinuingHandrail>true</ContinuingHandrail>
 								<!--
 									TSI-PRM relevant
 								-->
@@ -308,7 +304,6 @@
 								-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
-							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
 					</placeEquipments>

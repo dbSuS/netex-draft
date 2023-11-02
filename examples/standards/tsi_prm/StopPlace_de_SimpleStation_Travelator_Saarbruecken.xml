@@ -51,14 +51,9 @@
 							<Name lang="de">Fahrsteig Gl. 5-12 aufwärts 462.01.002</Name>
 							<PrivateCode>10055219</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<Width>1.6</Width>
+							<Width>1.0</Width>
 							<DirectionOfUse>up</DirectionOfUse>
-							<!--nötig?-->
-							<SafeForGuideDog>true</SafeForGuideDog>
-							<!--nötig?-->
 							<Speed>0.8</Speed>
-							<!--Nötig? Könnten wir bereichnen aus sap-pm haben wir die Neigung und die Förderhöhe-->
-							<Length>36.09</Length>
 							<!--Neigung in metern in sap Förderlänge-->
 							<Gradient>36.54</Gradient>
 						</TravelatorEquipment>
@@ -66,11 +61,9 @@
 							<Name lang="de">Fahrsteig Gl. 5-12 abwärts 462.01.001	</Name>
 							<PrivateCode>10055238</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<Width>1.6</Width>
+							<Width>1.0</Width>
 							<DirectionOfUse>down</DirectionOfUse>
-							<SafeForGuideDog>true</SafeForGuideDog>
 							<Speed>7</Speed>
-							<Length>36.09</Length>
 							<Gradient>36.54</Gradient>
 						</TravelatorEquipment>
 					</placeEquipments>
@@ -87,7 +80,7 @@
 							</keyList>
 							<Name lang="de-DE">Bahnsteig 1, Gleis 1/2/3</Name>
 							<LevelRef ref="caba8e6a-5f75-43c5-8676-9b9aee5582ed" version="any"/>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<!--Banhsteig 5/6/8/11/12-->
 						<Quay id="de:10041:8000323:2" version="any">
@@ -113,7 +106,7 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<!--Banhsteig 14/16-->
 						<Quay id="de:10041:8000323:6" version="any">
@@ -125,7 +118,7 @@
 							</keyList>
 							<Name lang="de-DE">Bahnsteig 2, Gleis 14/16</Name>
 							<LevelRef ref="caba8e6a-5f75-43c5-8676-9b9aee5582ed" version="any"/>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 					</quays>
 					<accessSpaces>

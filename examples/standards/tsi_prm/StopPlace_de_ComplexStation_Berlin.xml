@@ -493,14 +493,11 @@
 							<Note lang="de">Fiktiver Text: Wegen bauarbeiten defekt bis: 01.01.2024</Note>
 							<OutOfService>true</OutOfService>
 							<!--nicht vorhanden in sap-pm-->
-							<Width>1.6</Width>
+							<Width>0.8</Width>
 							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>down</DirectionOfUse>
-							<!-- nötig? -->
 							<SafeForGuideDog>true</SafeForGuideDog>
-							<!-- nötig? (Tiefe der Stufen) -->
 							<Depth>0.30</Depth>
-							<!-- nötig? -->
 							<StepHeight>0.30</StepHeight>
 							<StepColourContrast>true</StepColourContrast>
 							<TopEnd>
@@ -515,15 +512,13 @@
 								<!--TSI-PRM relevant?-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
-							<!-- nötig? -->
-							<DogsMustBeCarried>true</DogsMustBeCarried>
 						</EscalatorEquipment>
 						<EscalatorEquipment id="6cdd7b83-e1eb-49be-bc4f-de11147d76aa" version="any">
 							<Name lang="de">zu Gleis 1/2</Name>
 							<PrivateCode>10314922</PrivateCode>
 							<OutOfService>false</OutOfService>
 							<!--nicht vorhanden in sap-pm-->
-							<Width>1.6</Width>
+							<Width>1.0</Width>
 							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>down</DirectionOfUse>
 							<StepColourContrast>true</StepColourContrast>
@@ -597,22 +592,17 @@
 							<!--TSI-PRM Handläufe sind in zwei höhen auszustatten-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
-								<!-- nötig? -->
-								<ContinuingHandrail>true</ContinuingHandrail>
 								<!--TSI-PRM relevant-->
 								<TexturedSurface>true</TexturedSurface>
 								<!--TSI-PRM relevant-->
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
-								<!-- nötig? -->
-								<ContinuingHandrail>true</ContinuingHandrail>
 								<!--TSI-PRM relevant-->
 								<TexturedSurface>true</TexturedSurface>
 								<!--TSI-PRM relevant-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
-							<!-- nötig? -->
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
 						<StaircaseEquipment id="b60695d9-c0da-4ac1-828d-bb0f031bfd54" version="any">

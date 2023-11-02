@@ -56,11 +56,12 @@
 								TSI-PRM mind. 160cm breite gemessen zwischen den Handläufen
 							-->
 							<Width>1.6</Width>
-							<!--notwendig? keine Info in sap-pm gefunden-->
-							<SafeForGuideDog>true</SafeForGuideDog>
 							<!--keine Info in sap-pm gefunden-->
 							<Length>30</Length>
-							<!--Laut TSP-PRM: Stark geneigte Rampen sind nur für kurze Entfernungen zulässig. keine Info in sap-pm gefunden-->
+							<!--
+								Laut TSP-PRM: Stark geneigte Rampen sind nur für kurze Entfernungen zulässig.
+								keine Info in sap-pm gefunden
+							-->
 							<Gradient>3</Gradient>
 							<!--keine Info in sap-pm gefunden-->
 							<GradientType>medium</GradientType>
