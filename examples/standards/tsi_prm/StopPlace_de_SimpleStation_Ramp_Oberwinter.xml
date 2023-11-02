@@ -108,13 +108,13 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 						<!--Banhsteig 2-->
 						<Quay id="89e97739-8990-4c7a-8408-ae84f6e93c9f" version="any">
 							<Name lang="de-DE">Bahnsteig 2, Gleis 1</Name>
 							<LevelRef ref="a1affc87-9a43-4dd4-8331-3baf6c4cf506" version="any"/>
-							<QuayType>railIslandPlaform</QuayType>
+							<QuayType>railIslandPlatform</QuayType>
 						</Quay>
 					</quays>
 					<accessSpaces>
