@@ -169,7 +169,6 @@
 							<ParentZoneRef version="any" ref="687231ae-64d6-4171-8acb-84c28349679a"/>
 							<LevelRef ref="f612a826-7255-44e7-98ff-e040a5c6e287" version="any"/>
 							<placeEquipments>
-
 								<!--TSI-PRM: manuell bediente, halbautomatische oder automatische Türen.-->
 								<!--TSI-PRM: Türbedienelemente müssen in einer Höhe zwischen 80 cm und 110 cm.-->
 								<!--weitrBar: Der Zugang zum Empfangsgebäude ist über Automatiktüren oder Flügeltüren sichergestellt.-->
@@ -177,7 +176,7 @@
 									<Name>Doppelpendeltüren NordOst, Ebene +1/2</Name>
 									<PrivateCode>10347360</PrivateCode>
 									<!-- weitrBar: Der Zugang zum Empfangsgebäude ist über Automatiktüren oder Flügeltüren sichergestellt -->
-									<TypeOfEquipmentRef version="any" ref="door:doubleSwingDoor" />
+									<TypeOfEquipmentRef version="any" ref="door:doubleSwingDoor"/>
 									<!--
 										TSP-PRM:  lichte Breite von mindestens 90 (4.2.1.3)
 										nicht gepflegt
