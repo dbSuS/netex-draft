@@ -51,40 +51,18 @@
 							<Name lang="de">Rampe Bstg 1</Name>
 							<PrivateCode>50018784</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<!--
-								nicht vorhanden in sap-pm
-								TSI-PRM mind. 160cm breite gemessen zwischen den Handläufen
-							-->
 							<Width>1.6</Width>
-							<!--keine Info in sap-pm gefunden-->
 							<Length>30</Length>
-							<!--
-								Laut TSP-PRM: Stark geneigte Rampen sind nur für kurze Entfernungen zulässig.
-								keine Info in sap-pm gefunden
-							-->
 							<Gradient>3</Gradient>
-							<!--keine Info in sap-pm gefunden-->
 							<GradientType>medium</GradientType>
-							<!--keine Info in sap-pm gefunden-->
 							<Pedestal>false</Pedestal>
-							<!--
-								nicht vorhanden in sap-pm
-								TSP-PRM relevant beide Seiten müssen ausgestattet sein
-							-->
 							<HandrailType>bothSides</HandrailType>
-							<!--nicht vorhanden in sap-pm-->
 							<HandrailHeight>1.2</HandrailHeight>
-							<!--nicht vorhanden in sap-pm-->
 							<LowerHandrailHeight>0.8</LowerHandrailHeight>
-							<!--in sap-pm handlaufSchilderVorhanden j/n-->
 							<HandrailTactileSign>true</HandrailTactileSign>
-							<!--keine Info in sap-pm gefunden-->
 							<TactileGuidanceStrips>true</TactileGuidanceStrips>
-							<!--keine Info in sap-pm gefunden-->
 							<VisualGuidanceBands>true</VisualGuidanceBands>
-							<!--keine Info in sap-pm gefunden-->
 							<Temporary>false</Temporary>
-							<!--must have: keine Info aus sap-pm-->
 							<SuitableForCycles>true</SuitableForCycles>
 						</RampEquipment>
 					</placeEquipments>

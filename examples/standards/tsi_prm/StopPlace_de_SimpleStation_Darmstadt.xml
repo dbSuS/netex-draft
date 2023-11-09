@@ -257,51 +257,24 @@
 							<AudioAnnouncements>true</AudioAnnouncements>
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
-						<!--TSI-PRM: 4.2.1.2.2-->
 						<StaircaseEquipment id="fc7ee0e8-824e-44f3-9a44-8cd8628f835a" version="any">
 							<Name lang="de">Treppe zu Bahnsteig 1</Name>
 							<PrivateCode>10380248</PrivateCode>
 							<Description>Treppe neben Ämtergebäude</Description>
-							<!--
-								nicht vorhanden in sap-pm
-								TSI-PRM mind. 160cm breite gemessen zwischen den Handläufen
-							-->
 							<Width>1.6</Width>
-							<!--nicht gepflegt sap-pm-->
 							<NumberOfSteps>22</NumberOfSteps>
-							<!--nicht vorhanden in sap-pm-->
 							<StepHeight>0.17</StepHeight>
-							<!--Stufenmarkierung vorhanden aus sap-pm-->
 							<StepColourContrast>true</StepColourContrast>
-							<!--
-								nicht vorhanden in sap-pm // klasse für Handläufe gibt es in SAP
-								TSP-PRM relevant beide Seiten müssen ausgestattet sein
-							-->
 							<HandrailType>bothSides</HandrailType>
-							<!--nicht vorhanden in sap-pm-->
 							<HandrailHeight>1.2</HandrailHeight>
-							<!--in sap-pm: Handlaufschilder vorhanden j/n-->
 							<HandrailTactileSign>true</HandrailTactileSign>
-							<!--TSI-PRM Handläufe sind in zwei höhen auszustatten-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
-								<!--
-									TSI-PRM relevant
-								-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--
-									TSI-PRM relevant
-								-->
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
-								<!--
-									TSI-PRM relevant
-								-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--
-									TSI-PRM relevant
-								-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 							<SpiralStair>false</SpiralStair>

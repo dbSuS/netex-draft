@@ -54,7 +54,6 @@
 							<Width>1.0</Width>
 							<DirectionOfUse>up</DirectionOfUse>
 							<Speed>0.8</Speed>
-							<!--Neigung in metern in sap Förderlänge-->
 							<Gradient>36.54</Gradient>
 						</TravelatorEquipment>
 						<TravelatorEquipment id="f2b0a132-b137-470a-afd9-8d2b000ddeb3" version="any">

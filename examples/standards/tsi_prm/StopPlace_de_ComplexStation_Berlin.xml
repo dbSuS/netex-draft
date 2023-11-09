@@ -486,30 +486,23 @@
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
 						<!--Rolltreppen zu/von Gleis 1/2-->
-						<!--TSI-PRM muss noch geprüft werden, siehe auch 4.2.1.2.2. Vertikale Erschließung -->
 						<EscalatorEquipment id="eac0eadb-e07b-4a92-8d6b-3f34d4ee5a3e" version="any">
 							<Name lang="de">zu Gleis 1/2</Name>
 							<PrivateCode>10314887</PrivateCode>
 							<Note lang="de">Fiktiver Text: Wegen bauarbeiten defekt bis: 01.01.2024</Note>
 							<OutOfService>true</OutOfService>
-							<!--nicht vorhanden in sap-pm-->
 							<Width>0.8</Width>
-							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>down</DirectionOfUse>
 							<SafeForGuideDog>true</SafeForGuideDog>
 							<Depth>0.30</Depth>
 							<StepHeight>0.30</StepHeight>
 							<StepColourContrast>true</StepColourContrast>
 							<TopEnd>
-								<!--TSI-PRM relevant?-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--TSI-PRM relevant?-->
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
-								<!--TSI-PRM relevant?-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--TSI-PRM relevant?-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 						</EscalatorEquipment>
@@ -517,9 +510,7 @@
 							<Name lang="de">zu Gleis 1/2</Name>
 							<PrivateCode>10314922</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<!--nicht vorhanden in sap-pm-->
 							<Width>1.0</Width>
-							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>down</DirectionOfUse>
 							<StepColourContrast>true</StepColourContrast>
 						</EscalatorEquipment>
@@ -527,9 +518,7 @@
 							<Name lang="de">zu Gleis 1/2</Name>
 							<PrivateCode>10314926</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<!--nicht vorhanden in sap-pm-->
 							<Width>1.6</Width>
-							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>down</DirectionOfUse>
 							<StepColourContrast>true</StepColourContrast>
 						</EscalatorEquipment>
@@ -537,9 +526,7 @@
 							<Name lang="de">zu Gleis 1/2</Name>
 							<PrivateCode>10314989</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<!--nicht vorhanden in sap-pm-->
 							<Width>1.6</Width>
-							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>down</DirectionOfUse>
 							<StepColourContrast>true</StepColourContrast>
 						</EscalatorEquipment>
@@ -547,9 +534,7 @@
 							<Name lang="de">von Gleis 1/2 zu 1.UG</Name>
 							<PrivateCode>10314987</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<!--nicht vorhanden in sap-pm-->
 							<Width>1.6</Width>
-							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>up</DirectionOfUse>
 							<StepColourContrast>true</StepColourContrast>
 						</EscalatorEquipment>
@@ -557,50 +542,28 @@
 							<Name lang="de">von Gleis 1/2 zu 1.UG</Name>
 							<PrivateCode>10314988</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<!--nicht vorhanden in sap-pm-->
 							<Width>1.6</Width>
-							<!--nicht vorhanden in sap-pm-->
 							<DirectionOfUse>up</DirectionOfUse>
 							<StepColourContrast>true</StepColourContrast>
 						</EscalatorEquipment>
 						<!--Treppen-->
-						<!--TSI-PRM: 4.2.1.2.2-->
 						<StaircaseEquipment id="4a5e6dfa-3c54-4615-a8f0-772e371d5377" version="any">
-							<!--Bezeichnung aus sap-pm muss überprüft werden-->
 							<Name lang="de">Treppe E-2 bis-1,NST,S,Gl.1/2 Tr.13</Name>
 							<PrivateCode>50012887</PrivateCode>
-							<!--
-								nicht vorhanden in sap-pm
-								TSI-PRM mind. 160cm breite gemessen zwischen den Handläufen
-							-->
 							<Width>1.6</Width>
-							<!--nicht gepflegt sap-pm-->
 							<NumberOfSteps>22</NumberOfSteps>
-							<!--nicht vorhanden in sap-pm-->
 							<StepHeight>0.17</StepHeight>
-							<!--Stufenmarkierung vorhanden aus sap-pm-->
 							<StepColourContrast>true</StepColourContrast>
-							<!--
-								nicht vorhanden in sap-pm (nur handlaufschilder vorhanden j/n
-								TSP-PRM relevant beide Seiten müssen ausgestattet sein
-							-->
 							<HandrailType>bothSides</HandrailType>
-							<!--nicht vorhanden in sap-pm-->
 							<HandrailHeight>1.2</HandrailHeight>
-							<!--in sap-pm: Handlaufschilder vorhanden j/n-->
 							<HandrailTactileSign>true</HandrailTactileSign>
-							<!--TSI-PRM Handläufe sind in zwei höhen auszustatten-->
 							<LowerHandrailHeight>1.0</LowerHandrailHeight>
 							<TopEnd>
-								<!--TSI-PRM relevant-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--TSI-PRM relevant-->
 								<VisualContrast>true</VisualContrast>
 							</TopEnd>
 							<BottomEnd>
-								<!--TSI-PRM relevant-->
 								<TexturedSurface>true</TexturedSurface>
-								<!--TSI-PRM relevant-->
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 							<SpiralStair>false</SpiralStair>
