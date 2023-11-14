@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex ../../../xsd/NeTEx_publication.xsd">
+	<PublicationTimestamp>2023-09-20T11:00:00.0Z</PublicationTimestamp>
+	<ParticipantRef>DB</ParticipantRef>
+	<dataObjects>
+		<SiteFrame version="any" id="1c8772e4-f99e-4981-a58b-c127b06ac066">
+			<stopPlaces>
+				<StopPlace version="any" id="de:07315:9037">
+					<keyList>
+						<KeyValue>
+							<Key>UUID</Key>
+							<Value>f95d1a19-3f52-4085-9210-b6740e8344eb</Value>
+						</KeyValue>
+						<KeyValue>
+							<Key>stationId</Key>
+							<Value>3898</Value>
+						</KeyValue>
+						<KeyValue>
+							<Key>EVA</Key>
+							<Value>8000240</Value>
+						</KeyValue>
+						<KeyValue>
+							<Key>UIC</Key>
+							<Value>8019051</Value>
+						</KeyValue>
+					</keyList>
+					<Name lang="de-DE">Mainz Hbf</Name>
+					<Centroid>
+						<Location>
+							<Longitude>8.25872</Longitude>
+							<Latitude>50.001117</Latitude>
+						</Location>
+					</Centroid>
+					<Url>https://www.bahnhof.de/id/3898</Url>
+					<levels>
+						<Level version="any" id="96a6f6b1-c5e8-458c-a454-492016b3d6e1">
+							<Name lang="de-DE">Unterführung</Name>
+							<PublicCode>B1</PublicCode>
+							<PublicUse>true</PublicUse>
+							<RelativeLevelOrder>-1</RelativeLevelOrder>
+						</Level>
+						<Level version="any" id="O8d4c40d8-43d0-440c-a6c4-a863edf20cda">
+							<Name lang="de-DE">Bahnsteigebene</Name>
+							<PublicCode>G</PublicCode>
+							<PublicUse>true</PublicUse>
+							<RelativeLevelOrder>0</RelativeLevelOrder>
+						</Level>
+						<Level version="any" id="2e51d0ac-607e-40ab-aefa-60fd188ccd080">
+							<Name lang="de-DE">1. Obergeschoss</Name>
+							<PublicCode>1</PublicCode>
+							<PublicUse>true</PublicUse>
+							<RelativeLevelOrder>1</RelativeLevelOrder>
+						</Level>
+						<Level version="any" id="30e7f047-d081-41aa-a870-8dba86e3cee4">
+							<Name lang="de-DE">2. Obergeschoss</Name>
+							<PublicCode>2</PublicCode>
+							<PublicUse>true</PublicUse>
+							<RelativeLevelOrder>2</RelativeLevelOrder>
+						</Level>
+					</levels>
+					<placeEquipments>
+						<EntranceEquipment id="90e06d86-e987-42b6-95c6-4e7e1c257010" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>URI</Key>
+									<Value>https://data.bahnhof.de/resource/90e06d86-e987-42b6-95c6-4e7e1c257010</Value>
+								</KeyValue>
+							</keyList>
+							<Name>Schiebetür zu Gleis 1 rechts</Name>
+							<PrivateCode>10881442</PrivateCode>
+							<TypeOfEquipmentRef version="any" ref="door:slidingDoor"/>
+							<Width>1.6</Width>
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<Door>true</Door>
+							<KeptOpen>true</KeptOpen>
+							<RevolvingDoor>false</RevolvingDoor>
+							<NumberOfGates>1</NumberOfGates>
+							<AutomaticDoor>true</AutomaticDoor>
+							<DoorControlElementHeight>80</DoorControlElementHeight>
+							<GlassDoor>false</GlassDoor>
+							<WheelchairPassable>true</WheelchairPassable>
+							<WheelchairUnaided>true</WheelchairUnaided>
+							<DoorstepMark>false</DoorstepMark>
+							<!--https://github.com/NeTEx-CEN/NeTEx/issues/539-->
+							<NecessaryForceToOpen>noForce</NecessaryForceToOpen>
+							<SuitableForCycles>true</SuitableForCycles>
+						</EntranceEquipment>
+					</placeEquipments>
+					<StopPlaceType>railStation</StopPlaceType>
+					<BorderCrossing>false</BorderCrossing>
+					<quays>
+						<!--Banhsteig 1-->
+						<Quay id="aa2367ca-af8b-44c8-b388-5105287d2544" version="any">
+							<Name lang="de-DE">Bahnsteig 1, Gleis 1</Name>
+							<LevelRef ref="O8d4c40d8-43d0-440c-a6c4-a863edf20cda" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace version="any" id="1187a007-a596-406e-bee3-de53327e7fb9">
+									<Centroid>
+										<Location>
+											<Longitude>8.25872</Longitude>
+											<Latitude>50.001117</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EntranceEquipmentRef ref="90e06d86-e987-42b6-95c6-4e7e1c257010" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
+							<QuayType>railIslandPlatform</QuayType>
+						</Quay>
+					</quays>
+					<accessSpaces>
+						<AccessSpace id="67141e07-abb5-452c-ab10-ca01b03d13d5" version="any">
+							<Name lang="de-DE">Tunnel Unterführung</Name>
+							<LevelRef ref="96a6f6b1-c5e8-458c-a454-492016b3d6e1" version="any"/>
+						</AccessSpace>
+						<AccessSpace id="e2f67303-9e4c-4b74-82c2-ad4ead581629" version="any">
+							<Name lang="de-DE">Empfangsgebäude</Name>
+							<PrivateCode>03898-04</PrivateCode>
+						</AccessSpace>
+						<AccessSpace id="2958c45c-f170-473f-9e2e-b5c1708ac56e" version="any">
+							<Name lang="de-DE">Flügel B (Ost) Erdgeschoss Mittelteil</Name>
+							<PrivateCode>03898-04-FLB-ERG</PrivateCode>
+							<LevelRef ref="O8d4c40d8-43d0-440c-a6c4-a863edf20cda" />
+							<equipmentPlaces>
+								<EquipmentPlace version="any" id="1187a007-a596-406e-bee3-de53327e7fb9">
+									<Centroid>
+										<Location>
+											<Longitude>8.25872</Longitude>
+											<Latitude>50.001117</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EntranceEquipmentRef ref="90e06d86-e987-42b6-95c6-4e7e1c257010" />
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
+						</AccessSpace>
+					</accessSpaces>
+				</StopPlace>
+			</stopPlaces>
+		</SiteFrame>
+		<ResourceFrame version="any" id="c7d5938f-a7ff-443b-8818-cbc2c28895c8">
+			<typesOfValue>
+				<ValueSet version="any" id="doors">
+					<Name lang="de-DE">Ausprägungestypen von Türen</Name>
+					<values>
+						<TypeOfEquipment version="any" id="door:swingDoor">
+							<Name lang="de-DE">Flügeltür (hat nur einen Flügel und einseitig drückbar)</Name>
+						</TypeOfEquipment>
+						<TypeOfEquipment version="any" id="door:doubleSwingDoor">
+							<Name lang="de-DE">Doppelpendeltür (pendelt in beide Richtungen und hat zwei Flügel)</Name>
+						</TypeOfEquipment>
+						<TypeOfEquipment version="any" id="door:revolvingDoor">
+							<Name lang="de-DE">Drehtür</Name>
+						</TypeOfEquipment>
+						<TypeOfEquipment version="any" id="door:slidingDoor">
+							<Name lang="de-DE">Schiebetür</Name>
+						</TypeOfEquipment>
+					</values>
+				</ValueSet>
+			</typesOfValue>
+		</ResourceFrame>
+	</dataObjects>
+</PublicationDelivery>
