@@ -183,9 +183,8 @@
 									<SafeForGuideDog>true</SafeForGuideDog>
 									<Door>true</Door>
 									<KeptOpen>true</KeptOpen>
-									<RevolvingDoor>true</RevolvingDoor>
-									<NumberOfGates>2</NumberOfGates>
-									<DropKerbOutside>true</DropKerbOutside>
+									<RevolvingDoor>false</RevolvingDoor>
+									<NumberOfGates>3</NumberOfGates>
 									<AutomaticDoor>true</AutomaticDoor>
 									<DoorControlElementHeight>80</DoorControlElementHeight>
 									<GlassDoor>true</GlassDoor>
@@ -2335,10 +2334,10 @@
 					<Name lang="de-DE">Ausprägungestypen von Türen</Name>
 					<values>
 						<TypeOfEquipment version="any" id="door:swingDoor">
-							<Name lang="de-DE">Flügeltür</Name>
+							<Name lang="de-DE">Flügeltür (hat nur einen Flügel und einseitig drückbar)</Name>
 						</TypeOfEquipment>
 						<TypeOfEquipment version="any" id="door:doubleSwingDoor">
-							<Name lang="de-DE">Doppelpendeltür</Name>
+							<Name lang="de-DE">Doppelpendeltür (pendelt in beide Richtungen und hat zwei Flügel)</Name>
 						</TypeOfEquipment>
 						<TypeOfEquipment version="any" id="door:revolvingDoor">
 							<Name lang="de-DE">Drehtür</Name>
