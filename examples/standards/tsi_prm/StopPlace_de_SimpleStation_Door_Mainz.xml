@@ -102,7 +102,7 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EntranceEquipmentRef ref="90e06d86-e987-42b6-95c6-4e7e1c257010" />
+										<EntranceEquipmentRef ref="90e06d86-e987-42b6-95c6-4e7e1c257010"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -121,7 +121,7 @@
 						<AccessSpace id="2958c45c-f170-473f-9e2e-b5c1708ac56e" version="any">
 							<Name lang="de-DE">Flügel B (Ost) Erdgeschoss Mittelteil</Name>
 							<PrivateCode>03898-04-FLB-ERG</PrivateCode>
-							<LevelRef ref="O8d4c40d8-43d0-440c-a6c4-a863edf20cda" />
+							<LevelRef ref="O8d4c40d8-43d0-440c-a6c4-a863edf20cda"/>
 							<equipmentPlaces>
 								<EquipmentPlace version="any" id="1187a007-a596-406e-bee3-de53327e7fb9">
 									<Centroid>
@@ -131,7 +131,7 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EntranceEquipmentRef ref="90e06d86-e987-42b6-95c6-4e7e1c257010" />
+										<EntranceEquipmentRef ref="90e06d86-e987-42b6-95c6-4e7e1c257010"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
