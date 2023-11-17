@@ -154,6 +154,7 @@
 						</Entrance>
 					</entrances>
 					<placeEquipments>
+						<!--Fahrtreppen-->
 						<EscalatorEquipment id="35e20b34-355d-4292-8ecb-a022cdb432cb" version="any">
 							<Name lang="de">zu Gleis 1</Name>
 							<PrivateCode>12345601</PrivateCode>
@@ -193,6 +194,7 @@
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 						</EscalatorEquipment>
+						<!--Fahrsteige-->
 						<TravelatorEquipment id="1b148168-db2e-4ad9-aa57-6818386301d3" version="any">
 							<Name lang="de">Fahrsteig Gl. 1 aufwärts 462.01.002</Name>
 							<PrivateCode>12345603</PrivateCode>
@@ -203,6 +205,7 @@
 							<Length>15</Length>
 							<Gradient>10</Gradient>
 						</TravelatorEquipment>
+						<!--Rampen-->
 						<RampEquipment id="351cc641-a69f-4193-b12f-9ea8469d91f0" version="any">
 							<Name lang="de">Rampe Bstg 2/3/4</Name>
 							<PrivateCode>12345604</PrivateCode>
@@ -221,6 +224,28 @@
 							<Temporary>false</Temporary>
 							<SuitableForCycles>true</SuitableForCycles>
 						</RampEquipment>
+						<!--Treppen-->
+						<StaircaseEquipment id="ef0931b3-0f6a-4ebe-8246-f5b8be498dc2" version="any">
+							<Name lang="de">Treppe E-2 bis-1,NST,S,Brücke Tr.13</Name>
+							<PrivateCode>12345605</PrivateCode>
+							<Width>1.6</Width>
+							<NumberOfSteps>22</NumberOfSteps>
+							<StepHeight>0.17</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>1.2</HandrailHeight>
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<LowerHandrailHeight>1.0</LowerHandrailHeight>
+							<TopEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</TopEnd>
+							<BottomEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</BottomEnd>
+							<SpiralStair>false</SpiralStair>
+						</StaircaseEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -672,6 +697,20 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="55c5b188-0a50-4b14-8d8a-9d39dd49d5f4" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="deb3e474-359c-4420-adb9-cf79f8e1885f" version="any">
+									<Name lang="de">Treppe Ausgang West</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="ef0931b3-0f6a-4ebe-8246-f5b8be498dc2"/>
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 						</AccessSpace>
 						<AccessSpace id="b2dc60fe-acbe-48fd-96ce-7bf54f3318a1" version="any">
 							<keyList>
@@ -689,6 +728,20 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="aa8e7215-7e13-4447-9bbd-b8753a7b92a6" version="any">
+									<Name lang="de">Treppe Ausgang West</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="ef0931b3-0f6a-4ebe-8246-f5b8be498dc2"/>
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 						</AccessSpace>
 					</accessSpaces>
 				</StopPlace>
