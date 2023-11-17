@@ -203,16 +203,24 @@
 							<Length>15</Length>
 							<Gradient>10</Gradient>
 						</TravelatorEquipment>
-						<TravelatorEquipment id="2a33254d-3261-4ba2-8d1e-217d5c0245b5" version="any">
-							<Name lang="de">Fahrsteig Gl. 1 abwärts 462.01.001	</Name>
+						<RampEquipment id="351cc641-a69f-4193-b12f-9ea8469d91f0" version="any">
+							<Name lang="de">Rampe Bstg 2/3/4</Name>
 							<PrivateCode>12345604</PrivateCode>
 							<OutOfService>false</OutOfService>
-							<Width>1.0</Width>
-							<DirectionOfUse>down</DirectionOfUse>
-							<Speed>0.5</Speed>
-							<Length>15</Length>
-							<Gradient>10</Gradient>
-						</TravelatorEquipment>
+							<Width>1.6</Width>
+							<Length>30</Length>
+							<Gradient>3</Gradient>
+							<GradientType>medium</GradientType>
+							<Pedestal>false</Pedestal>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>1.2</HandrailHeight>
+							<LowerHandrailHeight>0.8</LowerHandrailHeight>
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<TactileGuidanceStrips>true</TactileGuidanceStrips>
+							<VisualGuidanceBands>true</VisualGuidanceBands>
+							<Temporary>false</Temporary>
+							<SuitableForCycles>true</SuitableForCycles>
+						</RampEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -439,16 +447,16 @@
 										<EscalatorEquipmentRef ref="1b148168-db2e-4ad9-aa57-6818386301d3"/>
 									</placeEquipments>
 								</EquipmentPlace>
-								<EquipmentPlace id="78e2d0d0-aa84-41c2-8b47-5e9884701b70" version="any">
-									<Name lang="de">Abwärts</Name>
+								<EquipmentPlace id="7d0d7cdd-b50e-41ad-a6b4-f143c154b474" version="any">
+									<Name lang="de">Rampe</Name>
 									<Centroid>
 										<Location>
-											<Longitude>8.356111</Longitude>
-											<Latitude>49.441667</Latitude>
+											<Longitude>6.99124</Longitude>
+											<Latitude>49.2413</Latitude>
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EscalatorEquipmentRef ref="2a33254d-3261-4ba2-8d1e-217d5c0245b5"/>
+										<RampEquipmentRef ref="351cc641-a69f-4193-b12f-9ea8469d91f0"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -634,16 +642,16 @@
 										<EscalatorEquipmentRef ref="1b148168-db2e-4ad9-aa57-6818386301d3"/>
 									</placeEquipments>
 								</EquipmentPlace>
-								<EquipmentPlace id="1690455c-3ead-4473-bf7f-150945bae7cc" version="any">
-									<Name lang="de">Abwärts</Name>
+								<EquipmentPlace id="412d89d8-cc62-443e-a5ff-554dde1113a4" version="any">
+									<Name lang="de">Rampe</Name>
 									<Centroid>
 										<Location>
-											<Longitude>8.356111</Longitude>
-											<Latitude>49.441667</Latitude>
+											<Longitude>6.99124</Longitude>
+											<Latitude>49.2413</Latitude>
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EscalatorEquipmentRef ref="2a33254d-3261-4ba2-8d1e-217d5c0245b5"/>
+										<RampEquipmentRef ref="351cc641-a69f-4193-b12f-9ea8469d91f0"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
