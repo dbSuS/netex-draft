@@ -193,6 +193,26 @@
 								<VisualContrast>true</VisualContrast>
 							</BottomEnd>
 						</EscalatorEquipment>
+						<TravelatorEquipment id="1b148168-db2e-4ad9-aa57-6818386301d3" version="any">
+							<Name lang="de">Fahrsteig Gl. 1 aufwärts 462.01.002</Name>
+							<PrivateCode>12345603</PrivateCode>
+							<OutOfService>false</OutOfService>
+							<Width>1.0</Width>
+							<DirectionOfUse>up</DirectionOfUse>
+							<Speed>0.5</Speed>
+							<Length>15</Length>
+							<Gradient>10</Gradient>
+						</TravelatorEquipment>
+						<TravelatorEquipment id="2a33254d-3261-4ba2-8d1e-217d5c0245b5" version="any">
+							<Name lang="de">Fahrsteig Gl. 1 abwärts 462.01.001	</Name>
+							<PrivateCode>12345604</PrivateCode>
+							<OutOfService>false</OutOfService>
+							<Width>1.0</Width>
+							<DirectionOfUse>down</DirectionOfUse>
+							<Speed>0.5</Speed>
+							<Length>15</Length>
+							<Gradient>10</Gradient>
+						</TravelatorEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -406,6 +426,32 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="6485a850-24f3-423b-8e6e-2e71729fa556" version="any">
+									<Name lang="de">Aufwärts</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EscalatorEquipmentRef ref="1b148168-db2e-4ad9-aa57-6818386301d3"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="78e2d0d0-aa84-41c2-8b47-5e9884701b70" version="any">
+									<Name lang="de">Abwärts</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EscalatorEquipmentRef ref="2a33254d-3261-4ba2-8d1e-217d5c0245b5"/>
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 							<Length>430</Length>
 							<Width>5.10</Width>
 							<QuayType>railIslandPlatform</QuayType>
@@ -574,6 +620,30 @@
 									</Centroid>
 									<placeEquipments>
 										<EscalatorEquipmentRef ref="35e20b34-355d-4292-8ecb-a022cdb432cb"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="4ef9a8af-0d5d-47bb-9e18-3ea7ab50c675" version="any">
+									<Name lang="de">Aufwärts</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EscalatorEquipmentRef ref="1b148168-db2e-4ad9-aa57-6818386301d3"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="1690455c-3ead-4473-bf7f-150945bae7cc" version="any">
+									<Name lang="de">Abwärts</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EscalatorEquipmentRef ref="2a33254d-3261-4ba2-8d1e-217d5c0245b5"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
