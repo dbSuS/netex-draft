@@ -288,6 +288,52 @@
 							</BottomEnd>
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
+						<!--Aufzüge-->
+						<LiftEquipment id="e11b10cf-8bcc-4047-9c27-fde80f0843a8" status="active" version="any">
+							<Name lang="de">Gleis 2/3/4 (C/D) - Brücke</Name>
+							<PrivateCode>12345608</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>1050</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
+						</LiftEquipment>
+						<LiftEquipment id="3e7536d4-a537-4455-b570-cfea8f949a43" status="active" version="any">
+							<Name lang="de">Gleis 1 (C/D) - Brücke</Name>
+							<PrivateCode>12345609</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>1050</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
+						</LiftEquipment>
+						<LiftEquipment id="c460003c-8622-4107-b104-21e11de11718" status="active" version="any">
+							<Name lang="de">Gebäudeteil West - Brücke</Name>
+							<PrivateCode>12345610</PrivateCode>
+							<Width>0.8</Width>
+							<Depth>1</Depth>
+							<MaximumLoad>1050</MaximumLoad>
+							<InternalWidth>1.8</InternalWidth>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>80</HandrailHeight>
+							<CallButtonHeight>80</CallButtonHeight>
+							<BrailleButtons>true</BrailleButtons>
+							<ThroughLoader>true</ThroughLoader>
+							<AudioAnnouncements>true</AudioAnnouncements>
+							<ButtonsHeight>80</ButtonsHeight>
+						</LiftEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -348,6 +394,18 @@
 									</Centroid>
 									<placeEquipments>
 										<StaircaseEquipmentRef ref="d55e3a14-2f33-4f24-9ce1-227e8ad4f58f"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="e350edca-3fc6-489e-b12a-a35d3703876c" version="any">
+									<Name lang="de">Aufzug zu Brücke</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="3e7536d4-a537-4455-b570-cfea8f949a43"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -548,6 +606,18 @@
 									</Centroid>
 									<placeEquipments>
 										<StaircaseEquipmentRef ref="6ea786bc-9934-4756-b32f-81685c80ecbb"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="adeddf47-97c0-4858-8bb3-012d4a2ab085" version="any">
+									<Name lang="de">Aufzug zu Brücke</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="e11b10cf-8bcc-4047-9c27-fde80f0843a8"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -800,6 +870,42 @@
 										<StaircaseEquipmentRef ref="d55e3a14-2f33-4f24-9ce1-227e8ad4f58f"/>
 									</placeEquipments>
 								</EquipmentPlace>
+								<EquipmentPlace id="e9d331bd-35df-466b-a8e3-c58b64831b04" version="any">
+									<Name lang="de">Aufzug zu Gleis 2/3/4</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="e11b10cf-8bcc-4047-9c27-fde80f0843a8"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="18949d13-b10d-4ef1-a576-eeadb8b521e9" version="any">
+									<Name lang="de">Aufzug zu Gleis 1</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="3e7536d4-a537-4455-b570-cfea8f949a43"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="a34fcd16-07b0-43ff-9215-4bf5ef935a6c" version="any">
+									<Name lang="de">Aufzug zu Gebäudeteil West</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="c460003c-8622-4107-b104-21e11de11718"/>
+									</placeEquipments>
+								</EquipmentPlace>
 							</equipmentPlaces>
 						</AccessSpace>
 						<AccessSpace id="b2dc60fe-acbe-48fd-96ce-7bf54f3318a1" version="any">
@@ -829,6 +935,18 @@
 									</Centroid>
 									<placeEquipments>
 										<StaircaseEquipmentRef ref="ef0931b3-0f6a-4ebe-8246-f5b8be498dc2"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="e7841da0-003a-4825-a140-1f563d283f01" version="any">
+									<Name lang="de">Aufzug zu Gebäudeteil West</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<LiftEquipmentRef ref="c460003c-8622-4107-b104-21e11de11718"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
