@@ -289,7 +289,7 @@
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
 						<!--Aufzüge-->
-						<LiftEquipment id="e11b10cf-8bcc-4047-9c27-fde80f0843a8" status="active" version="any">
+						<LiftEquipment id="e11b10cf-8bcc-4047-9c27-fde80f0843a8" version="any">
 							<Name lang="de">Gleis 2/3/4 (C/D) - Brücke</Name>
 							<PrivateCode>12345608</PrivateCode>
 							<Width>0.8</Width>
@@ -304,7 +304,7 @@
 							<AudioAnnouncements>true</AudioAnnouncements>
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
-						<LiftEquipment id="3e7536d4-a537-4455-b570-cfea8f949a43" status="active" version="any">
+						<LiftEquipment id="3e7536d4-a537-4455-b570-cfea8f949a43" version="any">
 							<Name lang="de">Gleis 1 (C/D) - Brücke</Name>
 							<PrivateCode>12345609</PrivateCode>
 							<Width>0.8</Width>
@@ -319,7 +319,7 @@
 							<AudioAnnouncements>true</AudioAnnouncements>
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
-						<LiftEquipment id="c460003c-8622-4107-b104-21e11de11718" status="active" version="any">
+						<LiftEquipment id="c460003c-8622-4107-b104-21e11de11718" version="any">
 							<Name lang="de">Gebäudeteil West - Brücke</Name>
 							<PrivateCode>12345610</PrivateCode>
 							<Width>0.8</Width>
