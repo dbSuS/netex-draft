@@ -246,6 +246,48 @@
 							</BottomEnd>
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
+						<StaircaseEquipment id="6ea786bc-9934-4756-b32f-81685c80ecbb" version="any">
+							<Name lang="de">Treppe E-2 bis-1,NST,S,Brücke Tr.14</Name>
+							<PrivateCode>12345606</PrivateCode>
+							<Width>1.6</Width>
+							<NumberOfSteps>22</NumberOfSteps>
+							<StepHeight>0.17</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>1.2</HandrailHeight>
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<LowerHandrailHeight>1.0</LowerHandrailHeight>
+							<TopEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</TopEnd>
+							<BottomEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</BottomEnd>
+							<SpiralStair>false</SpiralStair>
+						</StaircaseEquipment>
+						<StaircaseEquipment id="d55e3a14-2f33-4f24-9ce1-227e8ad4f58f" version="any">
+							<Name lang="de">Treppe E-2 bis-1,NST,S,Brücke Tr.15</Name>
+							<PrivateCode>12345607</PrivateCode>
+							<Width>1.6</Width>
+							<NumberOfSteps>22</NumberOfSteps>
+							<StepHeight>0.17</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>1.2</HandrailHeight>
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<LowerHandrailHeight>1.0</LowerHandrailHeight>
+							<TopEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</TopEnd>
+							<BottomEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</BottomEnd>
+							<SpiralStair>false</SpiralStair>
+						</StaircaseEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -273,7 +315,7 @@
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="a99a206b-5c82-4aec-b2a7-61d29132914e" version="any">
-									<Name lang="de">Abgang</Name>
+									<Name lang="de">Abgang zu Tunnel</Name>
 									<Centroid>
 										<Location>
 											<Longitude>8.356111</Longitude>
@@ -285,7 +327,7 @@
 									</placeEquipments>
 								</EquipmentPlace>
 								<EquipmentPlace id="d3d833dc-a1d7-45b3-b908-96f5e6ccf9e3" version="any">
-									<Name lang="de">Aufgang</Name>
+									<Name lang="de">Aufgang zu Bahnsteig</Name>
 									<Centroid>
 										<Location>
 											<Longitude>8.356111</Longitude>
@@ -294,6 +336,18 @@
 									</Centroid>
 									<placeEquipments>
 										<EscalatorEquipmentRef ref="35e20b34-355d-4292-8ecb-a022cdb432cb"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="b87a5b03-83d7-4b80-82d1-293622d9bc3f" version="any">
+									<Name lang="de">Treppe zu Brücke</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="d55e3a14-2f33-4f24-9ce1-227e8ad4f58f"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -482,6 +536,18 @@
 									</Centroid>
 									<placeEquipments>
 										<RampEquipmentRef ref="351cc641-a69f-4193-b12f-9ea8469d91f0"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="a8aae7a5-d5ee-4281-9204-cd1ff5fcd2b5" version="any">
+									<Name lang="de">Treppe zu Brücke</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="6ea786bc-9934-4756-b32f-81685c80ecbb"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -708,6 +774,30 @@
 									</Centroid>
 									<placeEquipments>
 										<StaircaseEquipmentRef ref="ef0931b3-0f6a-4ebe-8246-f5b8be498dc2"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="2d1b1226-0a6b-4aed-a7a7-4a0afa050ae6" version="any">
+									<Name lang="de">Treppe Bahnsteig 2/3/4</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="6ea786bc-9934-4756-b32f-81685c80ecbb"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="308e1475-f7d8-42eb-99e5-85deca59e70f" version="any">
+									<Name lang="de">Treppe Bahnsteig 1</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="d55e3a14-2f33-4f24-9ce1-227e8ad4f58f"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
