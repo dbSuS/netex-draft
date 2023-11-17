@@ -36,8 +36,8 @@
 							<Value>8060825</Value>
 						</KeyValue>
 					</keyList>
-					<Name lang="de-DE">Musterstadt Hbf</Name>
-					<ShortName lang="de-DE">Musterstadt</ShortName>
+					<Name lang="de-DE">Musterhausen Hbf</Name>
+					<ShortName lang="de-DE">Musterhausen</ShortName>
 					<Centroid>
 						<Location>
 							<Longitude>8.356111</Longitude>
@@ -56,7 +56,7 @@
 						<CountryName lang="de-DE">Deutschland</CountryName>
 						<HouseNumber>1</HouseNumber>
 						<Street lang="de-DE">Bahnhofstr.</Street>
-						<Town lang="de-DE">Musterstadt</Town>
+						<Town lang="de-DE">Musterhausen</Town>
 						<PostCode>12345</PostCode>
 						<Province lang="de-DE">Musterland</Province>
 					</PostalAddress>
@@ -64,12 +64,12 @@
 						<AlternativeName version="any">
 							<NameType>alias</NameType>
 							<TypeOfName>speechShort</TypeOfName>
-							<Name lang="de-DE">Musterstadt</Name>
+							<Name lang="de-DE">Musterhausen</Name>
 						</AlternativeName>
 						<AlternativeName version="any">
 							<NameType>alias</NameType>
 							<TypeOfName>speechLong</TypeOfName>
-							<Name lang="de-DE">Musterstadt Hauptbahnhof</Name>
+							<Name lang="de-DE">Musterhausen Hauptbahnhof</Name>
 						</AlternativeName>
 					</alternativeNames>
 					<levels>
