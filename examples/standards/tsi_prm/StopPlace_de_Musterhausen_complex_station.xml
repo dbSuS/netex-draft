@@ -749,6 +749,10 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
+							<entrances>
+								<EntranceRef ref="bc141b43-0848-4e6a-bd41-cc13605fedba" />
+								<EntranceRef ref="5643e9fe-dece-4fc7-8428-08c348f25ebd" />
+							</entrances>
 						</AccessSpace>
 						<AccessSpace id="4c87d985-7207-4bdd-a654-de572a556675" version="any">
 							<keyList>
@@ -907,6 +911,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<entrances>
+								<EntranceRef ref="f0558bce-53af-4204-ab1b-9f51a6a70d64" />
+							</entrances>
 						</AccessSpace>
 						<AccessSpace id="b2dc60fe-acbe-48fd-96ce-7bf54f3318a1" version="any">
 							<keyList>
