@@ -749,6 +749,79 @@
 								</Location>
 							</Centroid>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="b80af754-0f64-45e9-81b7-a8cd875399f9" version="any">
+									<Name lang="de-DE">WC-Anlagen im Empfangsgebäude</Name>
+									<placeEquipments>
+										<SanitaryEquipment id="027b1a3b-9b18-43c4-a188-1dcff6813d70" version="any">
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/027b1a3b-9b18-43c4-a188-1dcff6813d70</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de-DE">WC (behinderten gerecht)</Name>
+											<PrivateCode>12345614</PrivateCode>
+											<OutOfService>false</OutOfService>
+											<Gender>both</Gender>
+											<SanitaryFacilityList>wheelchairBabyChange washingAndChangeFacilities shower toilet</SanitaryFacilityList>
+											<NumberOfToilets>1</NumberOfToilets>
+											<FreeToUse>true</FreeToUse>
+											<WheelchairTurningCircle>180</WheelchairTurningCircle>
+											<SupportBarHeight>0.8</SupportBarHeight>
+											<CallButtonAvailable>true</CallButtonAvailable>
+											<SharpsDisposal>false</SharpsDisposal>
+											<Staffing>unmanned</Staffing>
+											<LockedAccess>true</LockedAccess>
+											<KeyScheme>Euro Key</KeyScheme>
+										</SanitaryEquipment>
+										<SanitaryEquipment id="783210f5-f99d-4fa3-875a-3499b05d7664" version="any">
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/783210f5-f99d-4fa3-875a-3499b05d7664</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de-DE">WC (Herren)</Name>
+											<PrivateCode>12345615</PrivateCode>
+											<OutOfService>false</OutOfService>
+											<Gender>maleOnly</Gender>
+											<SanitaryFacilityList>toilet babyChange shoeShiner</SanitaryFacilityList>
+											<NumberOfToilets>5</NumberOfToilets>
+											<FreeToUse>false</FreeToUse>
+											<Charge>1.30</Charge>
+											<Currency>EUR</Currency>
+											<PaymentMethods>coin creditCard</PaymentMethods>
+											<ChangeAvailable>true</ChangeAvailable>
+											<SharpsDisposal>true</SharpsDisposal>
+											<Staffing>fullTime</Staffing>
+											<LockedAccess>false</LockedAccess>
+										</SanitaryEquipment>
+										<SanitaryEquipment id="92ee6a43-7add-4118-9604-86a069ae09ef" version="any">
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/92ee6a43-7add-4118-9604-86a069ae09ef</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de-DE">WC (Damen)</Name>
+											<PrivateCode>12345616</PrivateCode>
+											<OutOfService>false</OutOfService>
+											<Gender>femaleOnly</Gender>
+											<SanitaryFacilityList>toilet babyChange shoeShiner</SanitaryFacilityList>
+											<NumberOfToilets>8</NumberOfToilets>
+											<FreeToUse>false</FreeToUse>
+											<Charge>1.30</Charge>
+											<Currency>EUR</Currency>
+											<PaymentMethods>coin creditCard</PaymentMethods>
+											<ChangeAvailable>true</ChangeAvailable>
+											<SharpsDisposal>true</SharpsDisposal>
+											<Staffing>fullTime</Staffing>
+											<LockedAccess>false</LockedAccess>
+										</SanitaryEquipment>
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
 						</AccessSpace>
 						<AccessSpace id="4c87d985-7207-4bdd-a654-de572a556675" version="any">
 							<keyList>
