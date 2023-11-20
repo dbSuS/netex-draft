@@ -479,7 +479,7 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EntranceEquipmentRef ref="780fddc6-2738-4397-9731-78aaf1d2fc90" />
+										<EntranceEquipmentRef ref="780fddc6-2738-4397-9731-78aaf1d2fc90"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -833,12 +833,12 @@
 										</Location>
 									</Centroid>
 									<placeEquipments>
-										<EntranceEquipmentRef ref="780fddc6-2738-4397-9731-78aaf1d2fc90" />
+										<EntranceEquipmentRef ref="780fddc6-2738-4397-9731-78aaf1d2fc90"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<entrances>
-								<EntranceRef ref="bc141b43-0848-4e6a-bd41-cc13605fedba" />
+								<EntranceRef ref="bc141b43-0848-4e6a-bd41-cc13605fedba"/>
 							</entrances>
 						</AccessSpace>
 						<AccessSpace id="4c87d985-7207-4bdd-a654-de572a556675" version="any">
@@ -999,7 +999,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<entrances>
-								<EntranceRef ref="f0558bce-53af-4204-ab1b-9f51a6a70d64" />
+								<EntranceRef ref="f0558bce-53af-4204-ab1b-9f51a6a70d64"/>
 							</entrances>
 						</AccessSpace>
 						<AccessSpace id="b2dc60fe-acbe-48fd-96ce-7bf54f3318a1" version="any">
