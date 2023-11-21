@@ -404,7 +404,6 @@
 									<Value>https://data.bahnhof.de/resource/639cead2-fdd1-476e-b32a-2521c8440b76</Value>
 								</KeyValue>
 							</keyList>
-							
 							<Name>Drehkreuz zwischen WC-Anlagen und Eingangshalle</Name>
 							<PrivateCode>12345621</PrivateCode>
 							<TypeOfEquipmentRef version="any" ref="entranceEquipment:turnstile"/>
@@ -1172,7 +1171,7 @@
 											<SharpsDisposal>true</SharpsDisposal>
 											<Staffing>fullTime</Staffing>
 											<LockedAccess>false</LockedAccess>
-										</SanitaryEquipment>		
+										</SanitaryEquipment>
 									</placeEquipments>
 								</EquipmentPlace>
 								<EquipmentPlace version="any" id="bf5b5d8e-d199-482c-ad86-dc1310ae866d">
