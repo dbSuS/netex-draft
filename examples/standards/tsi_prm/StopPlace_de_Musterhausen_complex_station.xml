@@ -122,7 +122,7 @@
 									</keyList>
 									<Name>Doppelpendeltür zum Eingang von Stadtmitte</Name>
 									<PrivateCode>12345611</PrivateCode>
-									<TypeOfEquipmentRef version="any" ref="door:doubleSwingDoor"/>
+									<TypeOfEquipmentRef version="any" ref="entranceEquipment:doubleSwingDoor"/>
 									<Width>3.8</Width>
 									<SafeForGuideDog>true</SafeForGuideDog>
 									<Door>true</Door>
@@ -169,7 +169,7 @@
 									</keyList>
 									<Name>Schiebetür zum Eingang von Stadtmitte</Name>
 									<PrivateCode>12345612</PrivateCode>
-									<TypeOfEquipmentRef version="any" ref="door:slidingDoor"/>
+									<TypeOfEquipmentRef version="any" ref="entranceEquipment:slidingDoor"/>
 									<Width>1.6</Width>
 									<SafeForGuideDog>true</SafeForGuideDog>
 									<Door>true</Door>
@@ -370,6 +370,7 @@
 							<AudioAnnouncements>true</AudioAnnouncements>
 							<ButtonsHeight>80</ButtonsHeight>
 						</LiftEquipment>
+						<!--Türen-->
 						<EntranceEquipment id="780fddc6-2738-4397-9731-78aaf1d2fc90" version="any">
 							<keyList>
 								<KeyValue>
@@ -379,7 +380,7 @@
 							</keyList>
 							<Name>Tür zwischen Eingangshalle und Bahnsteig</Name>
 							<PrivateCode>12345613</PrivateCode>
-							<TypeOfEquipmentRef version="any" ref="door:slidingDoor"/>
+							<TypeOfEquipmentRef version="any" ref="entranceEquipment:slidingDoor"/>
 							<Width>1.6</Width>
 							<SafeForGuideDog>true</SafeForGuideDog>
 							<Door>true</Door>
@@ -395,6 +396,32 @@
 							<!--https://github.com/NeTEx-CEN/NeTEx/issues/539-->
 							<NecessaryForceToOpen>noForce</NecessaryForceToOpen>
 							<SuitableForCycles>true</SuitableForCycles>
+						</EntranceEquipment>
+						<EntranceEquipment id="639cead2-fdd1-476e-b32a-2521c8440b76" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>URI</Key>
+									<Value>https://data.bahnhof.de/resource/639cead2-fdd1-476e-b32a-2521c8440b76</Value>
+								</KeyValue>
+							</keyList>
+							
+							<Name>Drehkreuz zwischen WC-Anlagen und Eingangshalle</Name>
+							<PrivateCode>12345621</PrivateCode>
+							<TypeOfEquipmentRef version="any" ref="entranceEquipment:turnstile"/>
+							<Width>2.8</Width>
+							<SafeForGuideDog>true</SafeForGuideDog>
+							<Door>false</Door>
+							<KeptOpen>false</KeptOpen>
+							<RevolvingDoor>false</RevolvingDoor>
+							<NumberOfGates>2</NumberOfGates>
+							<AutomaticDoor>true</AutomaticDoor>
+							<DoorControlElementHeight>80</DoorControlElementHeight>
+							<WheelchairPassable>true</WheelchairPassable>
+							<WheelchairUnaided>true</WheelchairUnaided>
+							<DoorstepMark>false</DoorstepMark>
+							<!--https://github.com/NeTEx-CEN/NeTEx/issues/539-->
+							<NecessaryForceToOpen>noForce</NecessaryForceToOpen>
+							<SuitableForCycles>false</SuitableForCycles>
 						</EntranceEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
@@ -836,6 +863,18 @@
 										<EntranceEquipmentRef ref="780fddc6-2738-4397-9731-78aaf1d2fc90"/>
 									</placeEquipments>
 								</EquipmentPlace>
+								<EquipmentPlace version="any" id="039f96da-6dcd-434a-8174-e4d7381a0ba5">
+									<Name lang="de-DE">Drehkreuz zu WC-Anlagen</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356121</Longitude>
+											<Latitude>49.441637</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EntranceEquipmentRef ref="639cead2-fdd1-476e-b32a-2521c8440b76"/>
+									</placeEquipments>
+								</EquipmentPlace>
 							</equipmentPlaces>
 							<entrances>
 								<EntranceRef ref="bc141b43-0848-4e6a-bd41-cc13605fedba"/>
@@ -1133,7 +1172,19 @@
 											<SharpsDisposal>true</SharpsDisposal>
 											<Staffing>fullTime</Staffing>
 											<LockedAccess>false</LockedAccess>
-										</SanitaryEquipment>
+										</SanitaryEquipment>		
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace version="any" id="bf5b5d8e-d199-482c-ad86-dc1310ae866d">
+									<Name lang="de-DE">Drehkreuz zu Empfangshalle</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356121</Longitude>
+											<Latitude>49.441637</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<EntranceEquipmentRef ref="639cead2-fdd1-476e-b32a-2521c8440b76"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -1158,20 +1209,23 @@
 						</TypeOfPlace>
 					</values>
 				</ValueSet>
-				<ValueSet version="any" id="doors">
+				<ValueSet version="any" id="entranceEquipments">
 					<Name lang="de-DE">Ausprägungestypen von Türen</Name>
 					<values>
-						<TypeOfEquipment version="any" id="door:swingDoor">
+						<TypeOfEquipment version="any" id="entranceEquipment:swingDoor">
 							<Name lang="de-DE">Flügeltür (hat nur einen Flügel und einseitig drückbar)</Name>
 						</TypeOfEquipment>
-						<TypeOfEquipment version="any" id="door:doubleSwingDoor">
+						<TypeOfEquipment version="any" id="entranceEquipment:doubleSwingDoor">
 							<Name lang="de-DE">Doppelpendeltür (pendelt in beide Richtungen und hat zwei Flügel)</Name>
 						</TypeOfEquipment>
-						<TypeOfEquipment version="any" id="door:revolvingDoor">
+						<TypeOfEquipment version="any" id="entranceEquipment:revolvingDoor">
 							<Name lang="de-DE">Drehtür</Name>
 						</TypeOfEquipment>
-						<TypeOfEquipment version="any" id="door:slidingDoor">
+						<TypeOfEquipment version="any" id="entranceEquipment:slidingDoor">
 							<Name lang="de-DE">Schiebetür</Name>
+						</TypeOfEquipment>
+						<TypeOfEquipment version="any" id="entranceEquipment:turnstile">
+							<Name lang="de-DE">Drehkreuz</Name>
 						</TypeOfEquipment>
 					</values>
 				</ValueSet>
