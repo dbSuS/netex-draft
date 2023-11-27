@@ -1113,7 +1113,7 @@
 											<PrivateCode>12345614</PrivateCode>
 											<OutOfService>false</OutOfService>
 											<Gender>both</Gender>
-											<SanitaryFacilityList>wheelchairBabyChange washingAndChangeFacilities shower toilet</SanitaryFacilityList>
+											<SanitaryFacilityList>wheelchairAccessToilet wheelchairBabyChange washingAndChangeFacilities shower toilet</SanitaryFacilityList>
 											<NumberOfToilets>1</NumberOfToilets>
 											<FreeToUse>true</FreeToUse>
 											<WheelchairTurningCircle>180</WheelchairTurningCircle>
