@@ -687,12 +687,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="babyChange"/>
 			<xsd:enumeration value="wheelchairBabyChange"/>
 			<xsd:enumeration value="shoeShiner"/>
-			<xsd:enumeration value="adultChange"/>
-			<xsd:enumeration value="bathTub"/>
-			<xsd:enumeration value="ceilingHoist"/>
-			<xsd:enumeration value="emergencyPullstring"/>
-			<xsd:enumeration value="mirror"/>
-			<xsd:enumeration value="supportRails"/>
 			<xsd:enumeration value="other"/>
 		</xsd:restriction>
 	</xsd:simpleType>

@@ -186,16 +186,6 @@ Rail transport, Roads and Road transport
 					<xsd:documentation>Whether there is a facility for the disposal of sharps in toilet.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="DrierHeight" type="LengthType" minOccurs="0">
-				<xsd:annotation>
-					<xsd:documentation>Height of the drier (when there is one).</xsd:documentation>
-				</xsd:annotation>
-			</xsd:element>
-			<xsd:element name="SoapHeight" type="LengthType" minOccurs="0">
-				<xsd:annotation>
-					<xsd:documentation>Height of the soap from floor.</xsd:documentation>
-				</xsd:annotation>
-			</xsd:element>
 			<xsd:element name="Staffing" type="StaffingEnumeration" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Staffing of facility.</xsd:documentation>
