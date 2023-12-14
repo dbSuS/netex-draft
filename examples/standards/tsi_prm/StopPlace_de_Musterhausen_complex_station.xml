@@ -517,7 +517,6 @@
 									</Centroid>
 									<placeEquipments>
 										<PassengerInformationEquipment id="61f9ed4c-f962-4444-a2cf-10581c4911bf" version="any">
-											<PrivateCode>10957468</PrivateCode>
 											<keyList>
 												<KeyValue>
 													<Key>URI</Key>
@@ -525,8 +524,9 @@
 												</KeyValue>
 											</keyList>
 											<Name lang="de">Zugzielanzeiger Gl.1 Nord</Name>
+											<PrivateCode>10957468</PrivateCode>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="foo"/>
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:trainDestinationDisplay"/>
 											<PassengerInformationFacilityList>realTimeConnections nextStopIndicator</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
@@ -542,7 +542,6 @@
 									</Centroid>
 									<placeEquipments>
 										<PassengerInformationEquipment id="a7923259-6b75-47f6-9b39-56483e2efd7a" version="any">
-											<PrivateCode>10783245</PrivateCode>
 											<keyList>
 												<KeyValue>
 													<Key>URI</Key>
@@ -550,7 +549,9 @@
 												</KeyValue>
 											</keyList>
 											<Name lang="de">Zugzielanzeiger Gl.1 Süd</Name>
+											<PrivateCode>10783245</PrivateCode>
 											<Fixed>true</Fixed>
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:trainDestinationDisplay" />
 											<PassengerInformationFacilityList>realTimeConnections nextStopIndicator</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
