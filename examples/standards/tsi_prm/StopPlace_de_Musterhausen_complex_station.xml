@@ -421,6 +421,21 @@
 							<NecessaryForceToOpen>noForce</NecessaryForceToOpen>
 							<SuitableForCycles>false</SuitableForCycles>
 						</EntranceEquipment>
+						<!--Beschallungsanlagen-->
+						<PassengerInformationEquipment id="8ba40644-a504-44df-9433-2b4f9c091984" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>URI</Key>
+									<Value>https://data.bahnhof.de/resource/8ba40644-a504-44df-9433-2b4f9c091984</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Akustische Beschallungsanlage</Name>
+							<PrivateCode>10876429</PrivateCode>
+							<Fixed>true</Fixed>
+							<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:audioInformationSystem" />
+							<PassengerInformationFacilityList>realTimeConnections stopAnnouncements</PassengerInformationFacilityList>
+							<AccessibilityInfoFacilityList>audioInformation</AccessibilityInfoFacilityList>
+						</PassengerInformationEquipment>
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -558,6 +573,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<placeEquipments>
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+							</placeEquipments>
 							<Length>430</Length>
 							<Width>5.14</Width>
 							<QuayType>railIslandPlatform</QuayType>
@@ -795,6 +813,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<placeEquipments>
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+							</placeEquipments>
 							<Length>430</Length>
 							<Width>5.10</Width>
 							<QuayType>railIslandPlatform</QuayType>
@@ -949,6 +970,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<placeEquipments>
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+							</placeEquipments>
 							<entrances>
 								<EntranceRef ref="bc141b43-0848-4e6a-bd41-cc13605fedba"/>
 							</entrances>
@@ -1019,6 +1043,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<placeEquipments>
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+							</placeEquipments>
 						</AccessSpace>
 						<AccessSpace id="11f5960e-6150-42be-9905-12cc75a2fb7f" version="any">
 							<keyList>
@@ -1110,6 +1137,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<placeEquipments>
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+							</placeEquipments>
 							<entrances>
 								<EntranceRef ref="f0558bce-53af-4204-ab1b-9f51a6a70d64"/>
 							</entrances>
@@ -1156,6 +1186,9 @@
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
+							<placeEquipments>
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+							</placeEquipments>
 						</AccessSpace>
 						<AccessSpace id="14aa40ba-0c6f-4bff-9e54-d73727bb2ff6" version="any">
 							<keyList>
@@ -1307,6 +1340,9 @@
 						</TypeOfPlace>
 						<TypeOfPlace version="any" id="passengerInformationEquipment:dynamicTextDisplay">
 							<Name lang="de">Dynamischer Schriftanzeiger</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="passengerInformationEquipment:audioInformationSystem">
+							<Name lang="de">Akustische Beschallungsanlage</Name>
 						</TypeOfPlace>
 					</values>
 				</ValueSet>
