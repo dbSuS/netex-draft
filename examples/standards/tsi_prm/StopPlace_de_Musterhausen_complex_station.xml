@@ -788,7 +788,7 @@
 											<Name lang="de">Dynamischer Schriftanzeiger zu Gl.2/3/4</Name>
 											<PrivateCode>10472539</PrivateCode>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:dynamicTextDisplay" />
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:dynamicTextDisplay"/>
 											<PassengerInformationFacilityList>realTimeConnections stopAnnouncements</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired audioInformation</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
