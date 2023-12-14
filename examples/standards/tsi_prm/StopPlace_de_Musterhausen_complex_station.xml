@@ -432,7 +432,7 @@
 							<Name lang="de">Akustische Beschallungsanlage</Name>
 							<PrivateCode>10876429</PrivateCode>
 							<Fixed>true</Fixed>
-							<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:audioInformationSystem" />
+							<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:audioInformationSystem"/>
 							<PassengerInformationFacilityList>realTimeConnections stopAnnouncements</PassengerInformationFacilityList>
 							<AccessibilityInfoFacilityList>audioInformation</AccessibilityInfoFacilityList>
 						</PassengerInformationEquipment>
@@ -574,7 +574,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
 							</placeEquipments>
 							<Length>430</Length>
 							<Width>5.14</Width>
@@ -814,7 +814,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
 							</placeEquipments>
 							<Length>430</Length>
 							<Width>5.10</Width>
@@ -971,7 +971,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
 							</placeEquipments>
 							<entrances>
 								<EntranceRef ref="bc141b43-0848-4e6a-bd41-cc13605fedba"/>
@@ -1044,7 +1044,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
 							</placeEquipments>
 						</AccessSpace>
 						<AccessSpace id="11f5960e-6150-42be-9905-12cc75a2fb7f" version="any">
@@ -1138,7 +1138,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
 							</placeEquipments>
 							<entrances>
 								<EntranceRef ref="f0558bce-53af-4204-ab1b-9f51a6a70d64"/>
@@ -1187,7 +1187,7 @@
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984" />
+								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
 							</placeEquipments>
 						</AccessSpace>
 						<AccessSpace id="14aa40ba-0c6f-4bff-9e54-d73727bb2ff6" version="any">
