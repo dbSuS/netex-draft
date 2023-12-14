@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex ../../../xsd/NeTEx_publication.xsd">
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.netex.org.uk/netex"
+	xsi:schemaLocation="http://www.netex.org.uk/netex ../../../xsd/NeTEx_publication.xsd">
 	<PublicationTimestamp>2023-09-20T11:00:00.0Z</PublicationTimestamp>
 	<ParticipantRef>DB</ParticipantRef>
 	<dataObjects>
@@ -505,6 +506,55 @@
 									</Centroid>
 									<placeEquipments>
 										<EntranceEquipmentRef ref="780fddc6-2738-4397-9731-78aaf1d2fc90"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace version="any" id="3a3ec1c2-6afa-44d1-a03b-b8d7de2fba7f">
+									<Name lang="de">Zugzielanzeiger Nord</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<PassengerInformationEquipment id="61f9ed4c-f962-4444-a2cf-10581c4911bf" version="any">
+											<PrivateCode>10957468</PrivateCode>
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/61f9ed4c-f962-4444-a2cf-10581c4911bf</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de">Zugzielanzeiger Gl.1 Nord</Name>
+											<Fixed>true</Fixed>
+											<TypeOfPassengerInformationEquipmentRef ref="foo" />
+											<PassengerInformationFacilityList>realTimeConnections nextStopIndicator</PassengerInformationFacilityList>
+											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired</AccessibilityInfoFacilityList>
+										</PassengerInformationEquipment>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace version="any" id="e13a09dd-878e-4cb0-b062-74b793994d87">
+									<Name lang="de">Zugzielanzeiger Süd</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<PassengerInformationEquipment id="a7923259-6b75-47f6-9b39-56483e2efd7a" version="any">
+											<PrivateCode>10783245</PrivateCode>
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/a7923259-6b75-47f6-9b39-56483e2efd7a</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de">Zugzielanzeiger Gl.1 Süd</Name>
+											<Fixed>true</Fixed>
+											<PassengerInformationFacilityList>realTimeConnections nextStopIndicator</PassengerInformationFacilityList>
+											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired</AccessibilityInfoFacilityList>
+										</PassengerInformationEquipment>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
@@ -1222,6 +1272,14 @@
 						<TypeOfEquipment version="any" id="entranceEquipment:turnstile">
 							<Name lang="de">Drehkreuz</Name>
 						</TypeOfEquipment>
+					</values>
+				</ValueSet>
+				<ValueSet version="any" id="passengerInformationEquipments">
+					<Name lang="de">Ausprägungestypen von PassengerInformationEquipments</Name>
+					<values>
+						<TypeOfPlace version="any" id="passengerInformationEquipment:trainDestinationDisplay">
+							<Name lang="de">Zugzielanzeiger</Name>
+						</TypeOfPlace>
 					</values>
 				</ValueSet>
 			</typesOfValue>
