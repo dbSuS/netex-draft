@@ -769,6 +769,31 @@
 										<LiftEquipmentRef ref="e11b10cf-8bcc-4047-9c27-fde80f0843a8"/>
 									</placeEquipments>
 								</EquipmentPlace>
+								<EquipmentPlace version="any" id="7bac6e57-46e9-4709-a866-f35b40a51490">
+									<Name lang="de">Dynamischer Schriftanzeiger</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<PassengerInformationEquipment id="248352d2-f69a-4887-b147-4796438bb92e" version="any">
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/248352d2-f69a-4887-b147-4796438bb92e</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de">Dynamischer Schriftanzeiger zu Gl.2/3/4</Name>
+											<PrivateCode>10472539</PrivateCode>
+											<Fixed>true</Fixed>
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:dynamicTextDisplay" />
+											<PassengerInformationFacilityList>realTimeConnections stopAnnouncements</PassengerInformationFacilityList>
+											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired audioInformation</AccessibilityInfoFacilityList>
+										</PassengerInformationEquipment>
+									</placeEquipments>
+								</EquipmentPlace>
 							</equipmentPlaces>
 							<Length>430</Length>
 							<Width>5.10</Width>
@@ -1279,6 +1304,9 @@
 					<values>
 						<TypeOfPlace version="any" id="passengerInformationEquipment:trainDestinationDisplay">
 							<Name lang="de">Zugzielanzeiger</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="passengerInformationEquipment:dynamicTextDisplay">
+							<Name lang="de">Dynamischer Schriftanzeiger</Name>
 						</TypeOfPlace>
 					</values>
 				</ValueSet>
