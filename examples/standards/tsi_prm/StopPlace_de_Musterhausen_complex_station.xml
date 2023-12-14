@@ -526,7 +526,7 @@
 											</keyList>
 											<Name lang="de">Zugzielanzeiger Gl.1 Nord</Name>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="foo" />
+											<TypeOfPassengerInformationEquipmentRef ref="foo"/>
 											<PassengerInformationFacilityList>realTimeConnections nextStopIndicator</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
