@@ -988,7 +988,7 @@
 											<Name lang="de">Abfahrtstafel Empfangsgebäude</Name>
 											<PrivateCode>10487236</PrivateCode>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:departureBoard" />
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:departureBoard"/>
 											<PassengerInformationFacilityList>realTimeConnections</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
@@ -1229,7 +1229,7 @@
 											<Name lang="de">Abfahrtstafel Gebäudeteil West</Name>
 											<PrivateCode>10237489</PrivateCode>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:departureBoard" />
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:departureBoard"/>
 											<PassengerInformationFacilityList>realTimeConnections</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
