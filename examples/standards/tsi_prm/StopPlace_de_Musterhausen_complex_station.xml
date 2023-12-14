@@ -551,7 +551,7 @@
 											<Name lang="de">Zugzielanzeiger Gl.1 Süd</Name>
 											<PrivateCode>10783245</PrivateCode>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:trainDestinationDisplay" />
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:trainDestinationDisplay"/>
 											<PassengerInformationFacilityList>realTimeConnections nextStopIndicator</PassengerInformationFacilityList>
 											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
