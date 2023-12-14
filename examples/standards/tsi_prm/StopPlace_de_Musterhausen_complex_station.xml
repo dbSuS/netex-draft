@@ -969,6 +969,31 @@
 										<EntranceEquipmentRef ref="639cead2-fdd1-476e-b32a-2521c8440b76"/>
 									</placeEquipments>
 								</EquipmentPlace>
+								<EquipmentPlace version="any" id="ee4aab46-2f8a-4934-98fe-933151ab5e62">
+									<Name lang="de">Abfahrtstafel</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356121</Longitude>
+											<Latitude>49.441637</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<PassengerInformationEquipment id="5c204703-f96f-4f75-bd3c-fae11a1978c2" version="any">
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/5c204703-f96f-4f75-bd3c-fae11a1978c2</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de">Abfahrtstafel Empfangsgebäude</Name>
+											<PrivateCode>10487236</PrivateCode>
+											<Fixed>true</Fixed>
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:departureBoard" />
+											<PassengerInformationFacilityList>realTimeConnections</PassengerInformationFacilityList>
+											<AccessibilityInfoFacilityList>visualDisplays</AccessibilityInfoFacilityList>
+										</PassengerInformationEquipment>
+									</placeEquipments>
+								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
 								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
@@ -1185,6 +1210,31 @@
 										<LiftEquipmentRef ref="c460003c-8622-4107-b104-21e11de11718"/>
 									</placeEquipments>
 								</EquipmentPlace>
+								<EquipmentPlace version="any" id="ee4aab46-2f8a-4934-98fe-933151ab5e62">
+									<Name lang="de">Abfahrtstafel</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356121</Longitude>
+											<Latitude>49.441637</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<PassengerInformationEquipment id="0167129c-b7ab-4a16-8ab1-09794157e271" version="any">
+											<keyList>
+												<KeyValue>
+													<Key>URI</Key>
+													<Value>https://data.bahnhof.de/resource/0167129c-b7ab-4a16-8ab1-09794157e271</Value>
+												</KeyValue>
+											</keyList>
+											<Name lang="de">Abfahrtstafel Gebäudeteil West</Name>
+											<PrivateCode>10237489</PrivateCode>
+											<Fixed>true</Fixed>
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:departureBoard" />
+											<PassengerInformationFacilityList>realTimeConnections</PassengerInformationFacilityList>
+											<AccessibilityInfoFacilityList>visualDisplays</AccessibilityInfoFacilityList>
+										</PassengerInformationEquipment>
+									</placeEquipments>
+								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
 								<PassengerInformationEquipmentRef version="any" ref="8ba40644-a504-44df-9433-2b4f9c091984"/>
@@ -1343,6 +1393,9 @@
 						</TypeOfPlace>
 						<TypeOfPlace version="any" id="passengerInformationEquipment:audioInformationSystem">
 							<Name lang="de">Akustische Beschallungsanlage</Name>
+						</TypeOfPlace>
+						<TypeOfPlace version="any" id="passengerInformationEquipment:departureBoard">
+							<Name lang="de">Abfahrtstafel</Name>
 						</TypeOfPlace>
 					</values>
 				</ValueSet>
