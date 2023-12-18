@@ -1005,7 +1005,7 @@
 												<InfoLink typeOfInfoLink="info">https://www.bahnhof.de/service/db-information</InfoLink>
 											</infoLinks>
 											<Fixed>true</Fixed>
-											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:helpDesk" />
+											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:helpDesk"/>
 											<LowCounterAccess>true</LowCounterAccess>
 											<HeightOfLowCounter>0.6</HeightOfLowCounter>
 											<InductionLoops>true</InductionLoops>
