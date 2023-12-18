@@ -1487,8 +1487,8 @@
 					<parts>
 						<OrganisationPart version="any" id="d546b5ec-ae50-43c4-9285-9da4522ceb71">
 							<Name>Personenbahnhof</Name>
-							<ShortName></ShortName>
-							<Description></Description>
+							<ShortName/>
+							<Description/>
 						</OrganisationPart>
 					</parts>
 				</GeneralOrganisation>
