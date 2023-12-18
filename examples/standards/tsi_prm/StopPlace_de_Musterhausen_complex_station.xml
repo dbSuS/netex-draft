@@ -1468,9 +1468,31 @@
 						<TypeOfPlace version="any" id="passengerInformationEquipment:departureBoard">
 							<Name lang="de">Abfahrtstafel</Name>
 						</TypeOfPlace>
+						<TypeOfPlace version="any" id="passengerInformationEquipment:helpDesk">
+							<Name lang="de">Kundenbetreuungsschalter</Name>
+						</TypeOfPlace>
 					</values>
 				</ValueSet>
 			</typesOfValue>
+			<organisations>
+				<GeneralOrganisation version="any" id="23ba25b1-b960-4cd5-a9d9-16570bb4c041">
+					<Name>DB InfraGO AG</Name>
+					<ShortName>DB</ShortName>
+					<LegalName>DB InfraGO AG</LegalName>
+					<TradingName>52990063S23N13HU4E98</TradingName>
+					<Status>true</Status>
+					<ValidityPeriod>
+						<FromDate>2024-01-01T00:00:00Z</FromDate>
+					</ValidityPeriod>
+					<parts>
+						<OrganisationPart version="any" id="d546b5ec-ae50-43c4-9285-9da4522ceb71">
+							<Name>Personenbahnhof</Name>
+							<ShortName></ShortName>
+							<Description></Description>
+						</OrganisationPart>
+					</parts>
+				</GeneralOrganisation>
+			</organisations>
 		</ResourceFrame>
 	</dataObjects>
 </PublicationDelivery>
