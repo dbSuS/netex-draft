@@ -808,7 +808,7 @@
 											<Fixed>true</Fixed>
 											<TypeOfPassengerInformationEquipmentRef ref="passengerInformationEquipment:dynamicTextDisplay"/>
 											<PassengerInformationFacilityList>realTimeConnections stopAnnouncements</PassengerInformationFacilityList>
-											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired audioInformation</AccessibilityInfoFacilityList>
+											<AccessibilityInfoFacilityList>visualDisplays displaysForVisuallyImpaired audioInformation audioForHearingImpaired</AccessibilityInfoFacilityList>
 										</PassengerInformationEquipment>
 									</placeEquipments>
 								</EquipmentPlace>
