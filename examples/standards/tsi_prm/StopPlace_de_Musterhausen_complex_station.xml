@@ -60,6 +60,88 @@
 						<PostCode>12345</PostCode>
 						<Province lang="de">Musterland</Province>
 					</PostalAddress>
+					<AccessibilityAssessment version="any" id="12c8c598-c3d4-4aae-b783-e285cde6a46a">
+						<MobilityImpairedAccess>true</MobilityImpairedAccess>
+						<limitations>
+							<AccessibilityLimitation>
+								<WheelchairAccess>true</WheelchairAccess>
+								<StepFreeAccess>true</StepFreeAccess>
+								<StairFreeAccess>true</StairFreeAccess>
+								<EscalatorFreeAccess>true</EscalatorFreeAccess>
+								<LiftFreeAccess>true</LiftFreeAccess>
+								<RampFreeAccess>true</RampFreeAccess>
+								<LevelAccessIntoVehicle>partial</LevelAccessIntoVehicle>
+								<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
+								<VisualSignsAvailable>true</VisualSignsAvailable>
+								<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+								<GuideDogAccess>true</GuideDogAccess>
+							</AccessibilityLimitation>
+						</limitations>
+						<suitabilities>
+							<Suitability id="ebc16967-64c7-47f0-951c-2721593176e8">
+								<MobilityNeed>wheelchair</MobilityNeed>
+								<Excluded>false</Excluded>
+								<NeedRanking>5</NeedRanking>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="e649f2a9-4e81-453d-ba91-55f4f397c0ca">
+								<MobilityNeed>assistedWheelchair</MobilityNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="4ee98e63-188b-4361-9e0b-7c39ff6ff2c2">
+								<MobilityNeed>motorizedWheelchair</MobilityNeed>
+								<Suitable>notSuitable</Suitable>
+							</Suitability>
+							<Suitability id="3a840250-b354-425a-8332-06b5f3171deb">
+								<EncumbranceNeed>pushchair</EncumbranceNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="9dc23ac0-e8e0-4d29-82d2-010f65eb5112">
+								<EncumbranceNeed>oversizeBaggage</EncumbranceNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="12e657ff-6628-4f08-9a2d-5c8fbf3958b0">
+								<EncumbranceNeed>guideDog</EncumbranceNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="836c59c7-b853-4717-aaf2-448e6049ec7d">
+								<EncumbranceNeed>baggageTrolley</EncumbranceNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="147d5d6e-95cf-4f3e-9563-94a4ac87ef16">
+								<MedicalNeed>heartCondition</MedicalNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="7c89997c-c4ce-429e-b026-b2833e0987c4">
+								<MedicalNeed>allergic</MedicalNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="d72edf7d-a57c-4f43-b807-596d216ed89d">
+								<PsychosensoryNeed>visualImpairment</PsychosensoryNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="9b83fdba-8831-4e40-8894-0def2733ee9b">
+								<PsychosensoryNeed>auditoryImpairment</PsychosensoryNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="3d133ded-38a6-487e-a5a7-82c17a4f9f91">
+								<PsychosensoryNeed>averseToCrowds</PsychosensoryNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="f3cfdd75-7869-4f69-88db-1745a2942453">
+								<PsychosensoryNeed>averseToConfinedSpaces</PsychosensoryNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="2fa96e9a-a7ef-4dc8-b318-9429f7daad29">
+								<PsychosensoryNeed>averseToLifts</PsychosensoryNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+							<Suitability id="40bc75bb-9129-4c1d-bd1f-a54cae398972">
+								<PsychosensoryNeed>averseToEscalators</PsychosensoryNeed>
+								<Suitable>suitable</Suitable>
+							</Suitability>
+						</suitabilities>
+					</AccessibilityAssessment>
 					<alternativeNames>
 						<AlternativeName version="any">
 							<NameType>alias</NameType>
