@@ -60,18 +60,18 @@
 						<PostCode>12345</PostCode>
 						<Province lang="de">Musterland</Province>
 					</PostalAddress>
-					<AccessibilityAssessment version="any" id="12c8c598-c3d4-4aae-b783-e285cde6a46a">
-						<MobilityImpairedAccess>true</MobilityImpairedAccess>
+					<AccessibilityAssessment version="any" id="ad8d331d-7758-47cb-b30f-be852b2a824a">
+						<MobilityImpairedAccess>partial</MobilityImpairedAccess>
 						<limitations>
 							<AccessibilityLimitation>
-								<WheelchairAccess>true</WheelchairAccess>
-								<StepFreeAccess>true</StepFreeAccess>
-								<StairFreeAccess>true</StairFreeAccess>
+								<WheelchairAccess>partial</WheelchairAccess>
+								<StepFreeAccess>partial</StepFreeAccess>
+								<StairFreeAccess>partial</StairFreeAccess>
 								<EscalatorFreeAccess>true</EscalatorFreeAccess>
 								<LiftFreeAccess>true</LiftFreeAccess>
 								<RampFreeAccess>true</RampFreeAccess>
-								<LevelAccessIntoVehicle>partial</LevelAccessIntoVehicle>
-								<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
+								<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
+								<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
 								<VisualSignsAvailable>true</VisualSignsAvailable>
 								<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
 								<GuideDogAccess>true</GuideDogAccess>
@@ -569,6 +569,24 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="bcc89b62-0611-4e74-92dd-a5be123c687e">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="a99a206b-5c82-4aec-b2a7-61d29132914e" version="any">
@@ -793,6 +811,24 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="acc89b62-0611-4e74-92dd-a5be123c687e">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="6485a850-24f3-423b-8e6e-2e71729fa556" version="any">
@@ -973,6 +1009,24 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="1c9d0117-48bf-4639-865f-6462412d4de3">
+								<MobilityImpairedAccess>false</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>false</WheelchairAccess>
+										<StepFreeAccess>false</StepFreeAccess>
+										<StairFreeAccess>false</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="5b491bc6-7ddc-41a2-bb23-c36d468958fa" version="any">
