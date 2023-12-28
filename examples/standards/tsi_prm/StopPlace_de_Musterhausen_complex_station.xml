@@ -193,6 +193,17 @@
 								</Location>
 							</Centroid>
 							<ParentZoneRef version="any" ref="f6eec549-a621-4bba-90ee-77874cf7b796"/>
+							<AccessibilityAssessment version="any" id="9aa63854-f25e-4365-b990-9930352ba387">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<placeEquipments>
 								<EntranceEquipment id="2ebcb0bf-005f-46d1-9145-22f39fdc103c" version="any">
@@ -1111,6 +1122,23 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="ba39ea50-c31f-4409-a7ea-c89ac6dba588">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace version="any" id="142f8c50-9028-41d4-85f0-a87ed4434b5b">
@@ -1157,6 +1185,23 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="07c3e8fa-fde0-4db4-950b-8bf94ab5a8c1">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="2d43b616-c751-46c5-bbb4-a6993e3fc6a4" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="f44a4d1f-cc76-4e9e-9d9d-c37981696a33" version="any">
@@ -1236,6 +1281,23 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="b25b1bac-7a06-4ec8-94ef-0d3e0872e0c4">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="55c5b188-0a50-4b14-8d8a-9d39dd49d5f4" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="deb3e474-359c-4420-adb9-cf79f8e1885f" version="any">
@@ -1342,6 +1404,23 @@
 									<Latitude>49.441667</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="a52213de-016e-4a6f-a447-e01c377575e9">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="aa8e7215-7e13-4447-9bbd-b8753a7b92a6" version="any">
@@ -1385,6 +1464,23 @@
 									<Latitude>49.441663</Latitude>
 								</Location>
 							</Centroid>
+							<AccessibilityAssessment version="any" id="29710704-0976-46c7-9bd2-67f61e7ec846">
+								<MobilityImpairedAccess>true</MobilityImpairedAccess>
+								<limitations>
+									<AccessibilityLimitation>
+										<WheelchairAccess>true</WheelchairAccess>
+										<StepFreeAccess>true</StepFreeAccess>
+										<StairFreeAccess>true</StairFreeAccess>
+										<EscalatorFreeAccess>true</EscalatorFreeAccess>
+										<LiftFreeAccess>true</LiftFreeAccess>
+										<RampFreeAccess>true</RampFreeAccess>
+										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<VisualSignsAvailable>true</VisualSignsAvailable>
+										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<GuideDogAccess>true</GuideDogAccess>
+									</AccessibilityLimitation>
+								</limitations>
+							</AccessibilityAssessment>
 							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
 							<equipmentPlaces>
 								<EquipmentPlace id="b80af754-0f64-45e9-81b7-a8cd875399f9" version="any">
