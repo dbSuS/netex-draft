@@ -406,6 +406,48 @@
 							</BottomEnd>
 							<SpiralStair>false</SpiralStair>
 						</StaircaseEquipment>
+						<StaircaseEquipment id="703813dd-4f4f-4237-bdc3-b7a4392acda3" version="any">
+							<Name lang="de">Treppe E-2 bis-1,NST,S,Brücke Tr.16</Name>
+							<PrivateCode>19874321</PrivateCode>
+							<Width>1.6</Width>
+							<NumberOfSteps>22</NumberOfSteps>
+							<StepHeight>0.17</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>1.2</HandrailHeight>
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<LowerHandrailHeight>1.0</LowerHandrailHeight>
+							<TopEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</TopEnd>
+							<BottomEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</BottomEnd>
+							<SpiralStair>false</SpiralStair>
+						</StaircaseEquipment>
+						<StaircaseEquipment id="2b5c2925-1e1c-4caf-9691-b26b1444eddf" version="any">
+							<Name lang="de">Treppe E-2 bis-1,NST,S,Tunnel Tr.17</Name>
+							<PrivateCode>19847235</PrivateCode>
+							<Width>1.6</Width>
+							<NumberOfSteps>22</NumberOfSteps>
+							<StepHeight>0.17</StepHeight>
+							<StepColourContrast>true</StepColourContrast>
+							<HandrailType>bothSides</HandrailType>
+							<HandrailHeight>1.2</HandrailHeight>
+							<HandrailTactileSign>true</HandrailTactileSign>
+							<LowerHandrailHeight>1.0</LowerHandrailHeight>
+							<TopEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</TopEnd>
+							<BottomEnd>
+								<TexturedSurface>true</TexturedSurface>
+								<VisualContrast>true</VisualContrast>
+							</BottomEnd>
+							<SpiralStair>false</SpiralStair>
+						</StaircaseEquipment>
 						<!--Aufzüge-->
 						<LiftEquipment id="e11b10cf-8bcc-4047-9c27-fde80f0843a8" version="any">
 							<Name lang="de">Gleis 2/3/4 (C/D) - Brücke</Name>
@@ -912,6 +954,92 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:17007:0815:2"/>
 						</Quay>
+						<Quay id="de:17007:0815:3" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>aa22a9fc-cb0d-4e86-b9ac-dd407dddaf1a</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>URI</Key>
+									<Value>https://data.bahnhof.de/resource/de%3A17007%3A0815%3A3</Value>
+								</KeyValue>
+							</keyList>
+							<Name lang="de">Bahnsteig 5</Name>
+							<PrivateCode>09200-01-B03</PrivateCode>
+							<Centroid>
+								<Location>
+									<Longitude>8.356111</Longitude>
+									<Latitude>49.441667</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
+							<equipmentPlaces>
+								<EquipmentPlace id="5b491bc6-7ddc-41a2-bb23-c36d468958fa" version="any">
+									<Name lang="de">Treppe zum Tunnel</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="2b5c2925-1e1c-4caf-9691-b26b1444eddf"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="ecf1c542-804a-487b-a1c3-176261ea6017" version="any">
+									<Name lang="de">Treppe zu Brücke</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="703813dd-4f4f-4237-bdc3-b7a4392acda3"/>
+									</placeEquipments>
+								</EquipmentPlace>
+							</equipmentPlaces>
+							<Length>430</Length>
+							<Width>5.10</Width>
+							<QuayType>railIslandPlatform</QuayType>
+						</Quay>
+						<!--Gleise Bahnsteig 5-->
+						<Quay id="de:17007:0815:3:1" version="any">
+							<keyList>
+								<KeyValue>
+									<Key>UUID</Key>
+									<Value>e22ef397-f7d9-4856-a07e-3eae5118ba7c</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>URI</Key>
+									<Value>https://data.bahnhof.de/resource/de%3A17007%3A0815%3A3%3A1</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>EVA</Key>
+									<Value>800985</Value>
+								</KeyValue>
+								<KeyValue>
+									<Key>RL100</Key>
+									<Value>MS</Value>
+								</KeyValue>
+							</keyList>
+							<Name>5</Name>
+							<PrivateCode>09200-01-B03-G05</PrivateCode>
+							<Centroid>
+								<Location>
+									<Longitude>8.356111</Longitude>
+									<Latitude>49.441667</Latitude>
+								</Location>
+							</Centroid>
+							<LevelRef ref="c81c95e8-f2dd-4c03-96f7-96f6af2165f9" version="any"/>
+							<TransportMode>rail</TransportMode>
+							<Length>430</Length>
+							<QuayType>railPlatform</QuayType>
+							<PlatformHeight>0.85</PlatformHeight>
+							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
+							<ParentQuayRef ref="de:17007:0815:3"/>
+						</Quay>
 					</quays>
 					<accessSpaces>
 						<AccessSpace id="f6eec549-a621-4bba-90ee-77874cf7b796" version="any">
@@ -1025,6 +1153,18 @@
 										<RampEquipmentRef ref="351cc641-a69f-4193-b12f-9ea8469d91f0"/>
 									</placeEquipments>
 								</EquipmentPlace>
+								<EquipmentPlace id="bf66c712-22fa-4306-8e36-b1546ac52d7e" version="any">
+									<Name lang="de">Treppe zum Bahnsteig 5</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="2b5c2925-1e1c-4caf-9691-b26b1444eddf"/>
+									</placeEquipments>
+								</EquipmentPlace>
 							</equipmentPlaces>
 						</AccessSpace>
 						<AccessSpace id="11f5960e-6150-42be-9905-12cc75a2fb7f" version="any">
@@ -1114,6 +1254,18 @@
 									</Centroid>
 									<placeEquipments>
 										<LiftEquipmentRef ref="c460003c-8622-4107-b104-21e11de11718"/>
+									</placeEquipments>
+								</EquipmentPlace>
+								<EquipmentPlace id="9a4109ca-a3a1-44f1-88af-3b95ec83a4b3" version="any">
+									<Name lang="de">Treppe zum Bahnsteig 5</Name>
+									<Centroid>
+										<Location>
+											<Longitude>8.356111</Longitude>
+											<Latitude>49.441667</Latitude>
+										</Location>
+									</Centroid>
+									<placeEquipments>
+										<StaircaseEquipmentRef ref="2b5c2925-1e1c-4caf-9691-b26b1444eddf"/>
 									</placeEquipments>
 								</EquipmentPlace>
 							</equipmentPlaces>
