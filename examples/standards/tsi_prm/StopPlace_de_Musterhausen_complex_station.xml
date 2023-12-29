@@ -425,8 +425,7 @@
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
 					<unlocalisedEquipments>
-						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa"
-							version="any">
+						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
 							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
 							<BookingArrangements>
 								<BookingContact>
@@ -444,7 +443,7 @@
 							<VehicleMode>rail</VehicleMode>
 							<!-- TODO: Once the Organisational is merged we can reference InfraGo as
 							Operators-->
-							<OperatorRef ref=""></OperatorRef>
+							<OperatorRef ref=""/>
 						</AssistanceBookingService>
 						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
 							<AssistanceFacilityList>wheelchairUse boardingAssistance
