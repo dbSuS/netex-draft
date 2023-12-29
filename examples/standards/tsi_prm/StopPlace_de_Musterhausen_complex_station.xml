@@ -424,6 +424,37 @@
 					</placeEquipments>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
+					<unlocalisedEquipments>
+						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa"
+							version="any">
+							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
+							<BookingArrangements>
+								<BookingContact>
+									<Email>msz@deutschebahn.com</Email>
+									<Phone>+49 30 65212888</Phone>
+									<Fax>+49 30 65212899</Fax>
+									<Url>https://msz-bahn.de/</Url>
+								</BookingContact>
+								<BookingMethods>callOffice online atOffice</BookingMethods>
+								<BookingAccess>public</BookingAccess>
+								<BookWhen>advanceAndDayOfTravel</BookWhen>
+								<MinimumBookingPeriod>P1D</MinimumBookingPeriod>
+								<BookingUrl>https://msz-bahn.de/</BookingUrl>
+							</BookingArrangements>
+							<VehicleMode>rail</VehicleMode>
+							<!-- TODO: Once the Organisational is merged we can reference InfraGo as
+							Operators-->
+							<OperatorRef ref=""></OperatorRef>
+						</AssistanceBookingService>
+						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
+							<AssistanceFacilityList>wheelchairUse boardingAssistance
+								wheelchairAssistance</AssistanceFacilityList>
+							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
+							<Staffing>partTime</Staffing>
+							<Languages>de en</Languages>
+							<AccessibilityTrainedStaff>true</AccessibilityTrainedStaff>
+						</AssistanceService>
+					</unlocalisedEquipments>
 					<quays>
 						<!--Banhsteig 1-->
 						<Quay id="de:17007:0815:1" version="any">
