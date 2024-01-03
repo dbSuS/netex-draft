@@ -215,7 +215,7 @@ At least at a designated wheelchair door position the gap between platform and v
 	</xsd:element>
 	<xsd:element name="StandardPlatformHeightAvailable" type="LimitationStatusEnumeration" default="unknown">
 		<xsd:annotation>
-			<xsd:documentation>Whether the Place has standard platform height >= 55 cm.</xsd:documentation>
+			<xsd:documentation>Whether the Place has standard platform height &gt;= 55 cm.</xsd:documentation>
 		</xsd:annotation>
 	</xsd:element>
 	<!--======Limitation=======================================================================================-->
