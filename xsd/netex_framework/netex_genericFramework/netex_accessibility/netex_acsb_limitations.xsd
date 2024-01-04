@@ -68,6 +68,7 @@ Rail transport, Roads and Road transport
 			<xsd:element ref="LiftFreeAccess" minOccurs="0"/>
 			<xsd:element ref="RampFreeAccess" minOccurs="0"/>
 			<xsd:element ref="LevelAccessIntoVehicle" minOccurs="0"/>
+			<xsd:element ref="LevelAccessIntoVehicleOrAccessAssistanceAvailable" minOccurs="0"/>
 			<xsd:element ref="AutomaticDoorAccess" minOccurs="0"/>
 			<xsd:element ref="TactileGuidanceAccess" minOccurs="0"/>
 			<xsd:element ref="PassengerInformationDisplayAvailable" minOccurs="0"/>
@@ -165,6 +166,11 @@ Rail transport, Roads and Road transport
 	<xsd:element name="AutomaticDoorAccess" type="LimitationStatusEnumeration" default="unknown">
 		<xsd:annotation>
 			<xsd:documentation>Whether a PLACE allows access from outside with automatic doors or swing door.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LevelAccessIntoVehicleOrAccessAssistanceAvailable" type="LimitationStatusEnumeration" default="unknown">
+		<xsd:annotation>
+			<xsd:documentation>Whether the platform is high enough and gap is small enough for level access into vehicle or an access assistance to the vehicle is available.</xsd:documentation>
 		</xsd:annotation>
 	</xsd:element>
 	<xsd:element name="TactileGuidanceAccess" type="LimitationStatusEnumeration" default="unknown">

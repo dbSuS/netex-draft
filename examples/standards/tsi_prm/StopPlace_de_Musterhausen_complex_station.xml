@@ -606,8 +606,9 @@
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
-										<!--Weitr. barr. Niveaugleicher Fahrzeugeinstieg oder Einstiegshilfe (in der Beschreibung steht nichts von Einstiegshilfen)-->
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
+										<!--Weitr. barr. Niveaugleicher Fahrzeugeinstieg oder Einstiegshilfe (in der Beschreibung steht nichts von Einstiegshilfen)-->
+										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
 										<!--neues Attribut: Weitr. barr. Automatik- oder Flügeltüren zum Empfangsgebäude als Zugang -->
 										<AutomaticDoorAccess>true</AutomaticDoorAccess>
 										<!--neues Attribut: Weitr. barr. Taktile Wegeleitung zum Bahnsteig -->
