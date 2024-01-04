@@ -600,32 +600,21 @@
 								<limitations>
 									<AccessibilityLimitation>
 										<WheelchairAccess>true</WheelchairAccess>
-										<!--Weitr. barr. stufenfreier Zugang -->
 										<StepFreeAccess>true</StepFreeAccess>
 										<StairFreeAccess>true</StairFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-										<!--Weitr. barr. Niveaugleicher Fahrzeugeinstieg oder Einstiegshilfe (in der Beschreibung steht nichts von Einstiegshilfen)-->
 										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
-										<!--neues Attribut: Weitr. barr. Automatik- oder Flügeltüren zum Empfangsgebäude als Zugang -->
 										<AutomaticDoorAccess>true</AutomaticDoorAccess>
-										<!--neues Attribut: Weitr. barr. Taktile Wegeleitung zum Bahnsteig -->
 										<TactileGuidanceAccess>true</TactileGuidanceAccess>
-										<!--neues Attribut: Weitr. barr. Zugzielanzeiger oder dynamische Schritanzeiger (DSA) vorhanden -->
 										<PassengerInformationDisplayAvailable>true</PassengerInformationDisplayAvailable>
-										<!--neues Attribut: Weitr. barr. Bahnstaighöhen von mind. 55 cm -->
 										<StandardPlatformHeightAvailable>true</StandardPlatformHeightAvailable>
-										<!--neues Attribut: Weitr. barr. Kontrastreiche Markierungen von Treppenstufen -->
 										<StairsMarkingAccess>true</StairsMarkingAccess>
-										<!--neues Attribut: Weitr. barr. Taktile Handlaufschilder an Handläufen vno Treppen oder Rampen^ -->
 										<TactileHandrailLabelAccess>true</TactileHandrailLabelAccess>
-										<!--Weitr. barr. Dynamische Schriftanzeiger mit Akustikmodul oder Lautsprecheranlagen -->
 										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
-										<!--Weitr. barr. kontrastreiche Wegeleitung/Beschilderung-->
 										<VisualSignsAvailable>true</VisualSignsAvailable>
-										<!--Weitr. barr. Taktile Wegeleitung auf dem Bahnsteig -->
 										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
 										<GuideDogAccess>true</GuideDogAccess>
 									</AccessibilityLimitation>
