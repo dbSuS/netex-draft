@@ -71,9 +71,16 @@
 								<LiftFreeAccess>true</LiftFreeAccess>
 								<RampFreeAccess>true</RampFreeAccess>
 								<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-								<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
-								<VisualSignsAvailable>true</VisualSignsAvailable>
-								<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+								<LevelAccessIntoVehicleOrAccessAssistanceAvailable>partial</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+								<AutomaticDoorAccess>true</AutomaticDoorAccess>
+								<TactileGuidanceAccess>true</TactileGuidanceAccess>
+								<PassengerInformationDisplayAvailable>partial</PassengerInformationDisplayAvailable>
+								<StandardPlatformHeightAvailable>true</StandardPlatformHeightAvailable>
+								<StairsMarkingAccess>partial</StairsMarkingAccess>
+								<TactileHandrailLabelAccess>partial</TactileHandrailLabelAccess>
+								<AudibleSignalsAvailable>partial</AudibleSignalsAvailable>
+								<VisualSignsAvailable>partial</VisualSignsAvailable>
+								<TactileGuidanceAvailable>partial</TactileGuidanceAvailable>
 								<GuideDogAccess>true</GuideDogAccess>
 							</AccessibilityLimitation>
 						</limitations>
@@ -613,7 +620,7 @@
 										<StandardPlatformHeightAvailable>true</StandardPlatformHeightAvailable>
 										<StairsMarkingAccess>true</StairsMarkingAccess>
 										<TactileHandrailLabelAccess>true</TactileHandrailLabelAccess>
-										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
 										<VisualSignsAvailable>true</VisualSignsAvailable>
 										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
 										<GuideDogAccess>true</GuideDogAccess>
@@ -908,7 +915,14 @@
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
+										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+										<AutomaticDoorAccess>true</AutomaticDoorAccess>
+										<TactileGuidanceAccess>true</TactileGuidanceAccess>
+										<PassengerInformationDisplayAvailable>true</PassengerInformationDisplayAvailable>
+										<StandardPlatformHeightAvailable>true</StandardPlatformHeightAvailable>
+										<StairsMarkingAccess>true</StairsMarkingAccess>
+										<TactileHandrailLabelAccess>true</TactileHandrailLabelAccess>
+										<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
 										<VisualSignsAvailable>true</VisualSignsAvailable>
 										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
 										<GuideDogAccess>true</GuideDogAccess>
@@ -1104,6 +1118,7 @@
 							<EdgeToTrackCenterDistance>1.5</EdgeToTrackCenterDistance>
 							<ParentQuayRef ref="de:17007:0815:2"/>
 						</Quay>
+						<!--Bahnsteig 5-->
 						<Quay id="de:17007:0815:3" version="any">
 							<keyList>
 								<KeyValue>
@@ -1134,9 +1149,16 @@
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
+										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+										<AutomaticDoorAccess>true</AutomaticDoorAccess>
+										<TactileGuidanceAccess>true</TactileGuidanceAccess>
+										<PassengerInformationDisplayAvailable>false</PassengerInformationDisplayAvailable>
+										<StandardPlatformHeightAvailable>true</StandardPlatformHeightAvailable>
+										<StairsMarkingAccess>false</StairsMarkingAccess>
+										<TactileHandrailLabelAccess>false</TactileHandrailLabelAccess>
 										<AudibleSignalsAvailable>false</AudibleSignalsAvailable>
-										<VisualSignsAvailable>true</VisualSignsAvailable>
-										<TactileGuidanceAvailable>true</TactileGuidanceAvailable>
+										<VisualSignsAvailable>false</VisualSignsAvailable>
+										<TactileGuidanceAvailable>false</TactileGuidanceAvailable>
 										<GuideDogAccess>true</GuideDogAccess>
 									</AccessibilityLimitation>
 								</limitations>
