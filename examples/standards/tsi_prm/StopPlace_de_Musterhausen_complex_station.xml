@@ -456,9 +456,7 @@
 								<BookingUrl>https://msz-bahn.de/</BookingUrl>
 							</BookingArrangements>
 							<VehicleMode>rail</VehicleMode>
-							<!-- TODO: Once the Organisational is merged we can reference InfraGo as
-							Operators-->
-							<OperatorRef ref=""/>
+							<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
 						</AssistanceBookingService>
 						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
 							<AssistanceFacilityList>wheelchairUse boardingAssistance
@@ -1522,6 +1520,10 @@
 						</OrganisationPart>
 					</parts>
 				</GeneralOrganisation>
+				<Operator version="any" id="a9cd9059-2a48-4c0d-a3e7-e382e68034eb">
+					<Name>DB InfraGO AG</Name>
+					<ShortName>DB InfraGO AG</ShortName>
+				</Operator>
 			</organisations>
 		</ResourceFrame>
 	</dataObjects>
