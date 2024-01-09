@@ -440,7 +440,21 @@
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
 					<unlocalisedEquipments>
+						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
+							<AssistanceFacilityList>wheelchairUse boardingAssistance
+								wheelchairAssistance</AssistanceFacilityList>
+							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
+							<Staffing>partTime</Staffing>
+							<Languages>de en</Languages>
+							<AccessibilityTrainedStaff>true</AccessibilityTrainedStaff>
+						</AssistanceService>
 						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
+							<validityConditions>
+								<AvailabilityCondition version="any" id="1a3a88df-d35b-40e5-8a5f-b2e21d48dd43">
+									<FromDate>2023-01-01T00:00:00Z</FromDate>
+									<ToDate>2023-12-31T00:00:00Z</ToDate>
+								</AvailabilityCondition>
+							</validityConditions>
 							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
 							<BookingArrangements>
 								<BookingContact>
@@ -458,14 +472,6 @@
 							<VehicleMode>rail</VehicleMode>
 							<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
 						</AssistanceBookingService>
-						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
-							<AssistanceFacilityList>wheelchairUse boardingAssistance
-								wheelchairAssistance</AssistanceFacilityList>
-							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
-							<Staffing>partTime</Staffing>
-							<Languages>de en</Languages>
-							<AccessibilityTrainedStaff>true</AccessibilityTrainedStaff>
-						</AssistanceService>
 					</unlocalisedEquipments>
 					<quays>
 						<!--Banhsteig 1-->
