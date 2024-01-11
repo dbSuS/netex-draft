@@ -515,11 +515,9 @@
 							<AccessibilityInfoFacilityList>audioInformation</AccessibilityInfoFacilityList>
 						</PassengerInformationEquipment>
 					</placeEquipments>
-					<StopPlaceType>railStation</StopPlaceType>
-					<BorderCrossing>false</BorderCrossing>
-					<unlocalisedEquipments>
+					<localServices>
 						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
-							<validityConditions>												
+							<validityConditions>
 								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">Öffnungszeiten</AvailabilityConditionRef>
 							</validityConditions>
 							<AssistanceFacilityList>wheelchairUse boardingAssistance
@@ -552,7 +550,9 @@
 							<VehicleMode>rail</VehicleMode>
 							<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
 						</AssistanceBookingService>
-					</unlocalisedEquipments>
+					</localServices>
+					<StopPlaceType>railStation</StopPlaceType>
+					<BorderCrossing>false</BorderCrossing>
 					<quays>
 						<!--Banhsteig 1-->
 						<Quay id="de:17007:0815:1" version="any">
