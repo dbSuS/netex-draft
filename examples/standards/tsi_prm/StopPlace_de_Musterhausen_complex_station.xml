@@ -520,7 +520,7 @@
 					<unlocalisedEquipments>
 						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
 							<validityConditions>												
-								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any"></AvailabilityConditionRef>
+								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">Öffnungszeiten</AvailabilityConditionRef>
 							</validityConditions>
 							<AssistanceFacilityList>wheelchairUse boardingAssistance
 								wheelchairAssistance</AssistanceFacilityList>
@@ -532,6 +532,7 @@
 						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
 							<validityConditions>
 								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+									Öffnungszeiten
 								</AvailabilityConditionRef>
 							</validityConditions>
 							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
@@ -1249,6 +1250,7 @@
 										<PassengerInformationEquipment id="de84fede-6f71-4fba-bd40-ff52e66dc0d5" version="any">
 											<validityConditions>
 												<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+													Öffnungszeiten
 												</AvailabilityConditionRef>
 											</validityConditions>
 											<keyList>
