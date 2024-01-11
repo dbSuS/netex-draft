@@ -519,6 +519,9 @@
 					<BorderCrossing>false</BorderCrossing>
 					<unlocalisedEquipments>
 						<AssistanceService id="b423d8d8-70eb-44df-b4ea-4e3372c0601b" version="any">
+							<validityConditions>												
+								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any"></AvailabilityConditionRef>
+							</validityConditions>
 							<AssistanceFacilityList>wheelchairUse boardingAssistance
 								wheelchairAssistance</AssistanceFacilityList>
 							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
@@ -528,42 +531,8 @@
 						</AssistanceService>
 						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
 							<validityConditions>
-								<AvailabilityCondition id="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
-									<dayTypes>
-										<DayType id="10e6f79b-b7fb-4d5d-a5e6-4ec505b3cf12" version="any">
-											<Name lang="de">Montag bis Freitag</Name>
-											<properties>
-												<PropertyOfDay>
-													<DaysOfWeek>Monday Tuesday Wednesday Thursday Friday</DaysOfWeek>
-												</PropertyOfDay>
-											</properties>
-											<timebands>
-												<Timeband id="9f6a0450-2365-4dec-9184-71280cde638b" version="any">
-													<StartTime>08:00:00</StartTime>
-													<EndTime>12:00:00</EndTime>
-												</Timeband>
-												<Timeband id="df3f5f89-0224-4083-842f-fc740b46ec22" version="any">
-													<StartTime>13:00:00</StartTime>
-													<EndTime>23:00:00</EndTime>
-												</Timeband>
-											</timebands>
-										</DayType>
-										<DayType id="8d30a515-6363-4bbf-b1bc-411e4c99b270" version="any">
-											<Name lang="de">Samstag und Sonntag</Name>
-											<properties>
-												<PropertyOfDay>
-													<DaysOfWeek>Saturday Sunday</DaysOfWeek>
-												</PropertyOfDay>
-											</properties>
-											<timebands>
-												<Timeband id="fe7c4c98-1ab8-4f01-a12c-8136243b3852" version="any">
-													<StartTime>08:00:00</StartTime>
-													<EndTime>12:30:00</EndTime>
-												</Timeband>
-											</timebands>
-										</DayType>
-									</dayTypes>
-								</AvailabilityCondition>
+								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+								</AvailabilityConditionRef>
 							</validityConditions>
 							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
 							<BookingArrangements>
@@ -1279,42 +1248,8 @@
 									<placeEquipments>
 										<PassengerInformationEquipment id="de84fede-6f71-4fba-bd40-ff52e66dc0d5" version="any">
 											<validityConditions>
-												<AvailabilityCondition id="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
-													<dayTypes>
-														<DayType id="10e6f79b-b7fb-4d5d-a5e6-4ec505b3cf12" version="any">
-															<Name lang="de">Montag bis Freitag</Name>
-															<properties>
-																<PropertyOfDay>
-																	<DaysOfWeek>Monday Tuesday Wednesday Thursday Friday</DaysOfWeek>
-																</PropertyOfDay>
-															</properties>
-															<timebands>
-																<Timeband id="9f6a0450-2365-4dec-9184-71280cde638b" version="any">
-																	<StartTime>08:00:00</StartTime>
-																	<EndTime>12:00:00</EndTime>
-																</Timeband>
-																<Timeband id="df3f5f89-0224-4083-842f-fc740b46ec22" version="any">
-																	<StartTime>13:00:00</StartTime>
-																	<EndTime>23:00:00</EndTime>
-																</Timeband>
-															</timebands>
-														</DayType>
-														<DayType id="8d30a515-6363-4bbf-b1bc-411e4c99b270" version="any">
-															<Name lang="de">Samstag und Sonntag</Name>
-															<properties>
-																<PropertyOfDay>
-																	<DaysOfWeek>Saturday Sunday</DaysOfWeek>
-																</PropertyOfDay>
-															</properties>
-															<timebands>
-																<Timeband id="fe7c4c98-1ab8-4f01-a12c-8136243b3852" version="any">
-																	<StartTime>08:00:00</StartTime>
-																	<EndTime>12:30:00</EndTime>
-																</Timeband>
-															</timebands>
-														</DayType>
-													</dayTypes>
-												</AvailabilityCondition>
+												<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+												</AvailabilityConditionRef>
 											</validityConditions>
 											<keyList>
 												<KeyValue>
@@ -1833,6 +1768,44 @@
 			</stopPlaces>
 		</SiteFrame>
 		<ResourceFrame version="any" id="e84d07ca-b1e1-416c-b134-219f29b349d3">
+			<validityConditions>
+				<AvailabilityCondition id="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+					<dayTypes>
+						<DayType id="10e6f79b-b7fb-4d5d-a5e6-4ec505b3cf12" version="any">
+							<Name lang="de">Montag bis Freitag</Name>
+							<properties>
+								<PropertyOfDay>
+									<DaysOfWeek>Monday Tuesday Wednesday Thursday Friday</DaysOfWeek>
+								</PropertyOfDay>
+							</properties>
+							<timebands>
+								<Timeband id="9f6a0450-2365-4dec-9184-71280cde638b" version="any">
+									<StartTime>08:00:00</StartTime>
+									<EndTime>12:00:00</EndTime>
+								</Timeband>
+								<Timeband id="df3f5f89-0224-4083-842f-fc740b46ec22" version="any">
+									<StartTime>13:00:00</StartTime>
+									<EndTime>23:00:00</EndTime>
+								</Timeband>
+							</timebands>
+						</DayType>
+						<DayType id="8d30a515-6363-4bbf-b1bc-411e4c99b270" version="any">
+							<Name lang="de">Samstag und Sonntag</Name>
+							<properties>
+								<PropertyOfDay>
+									<DaysOfWeek>Saturday Sunday</DaysOfWeek>
+								</PropertyOfDay>
+							</properties>
+							<timebands>
+								<Timeband id="fe7c4c98-1ab8-4f01-a12c-8136243b3852" version="any">
+									<StartTime>08:00:00</StartTime>
+									<EndTime>12:30:00</EndTime>
+								</Timeband>
+							</timebands>
+						</DayType>
+					</dayTypes>
+				</AvailabilityCondition>
+			</validityConditions>
 			<typesOfValue>
 				<ValueSet version="any" id="quays">
 					<Name lang="de">Ausprägungestypen von Quays</Name>
