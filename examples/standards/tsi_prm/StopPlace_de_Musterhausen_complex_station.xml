@@ -527,6 +527,7 @@
 							<Languages>de en</Languages>
 							<AccessibilityTrainedStaff>true</AccessibilityTrainedStaff>
 						</AssistanceService>
+						<AssistanceBookingServiceRef ref="22952fa8-c1bf-44b0-aeb1-fa564ef13afa"/>
 					</localServices>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
