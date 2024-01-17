@@ -71,7 +71,7 @@
 								<LiftFreeAccess>true</LiftFreeAccess>
 								<RampFreeAccess>true</RampFreeAccess>
 								<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-								<LevelAccessIntoVehicleOrAccessAssistanceAvailable>partial</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+								<AccessAssistanceAvailable>partial</AccessAssistanceAvailable>
 								<AutomaticDoorAccess>true</AutomaticDoorAccess>
 								<TactileGuidanceAccess>true</TactileGuidanceAccess>
 								<PassengerInformationDisplayAvailable>partial</PassengerInformationDisplayAvailable>
@@ -527,29 +527,6 @@
 							<Languages>de en</Languages>
 							<AccessibilityTrainedStaff>true</AccessibilityTrainedStaff>
 						</AssistanceService>
-						<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
-							<validityConditions>
-								<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
-									Öffnungszeiten
-								</AvailabilityConditionRef>
-							</validityConditions>
-							<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
-							<BookingArrangements>
-								<BookingContact>
-									<Email>msz@deutschebahn.com</Email>
-									<Phone>+49 30 65212888</Phone>
-									<Fax>+49 30 65212899</Fax>
-									<Url>https://msz-bahn.de/</Url>
-								</BookingContact>
-								<BookingMethods>callOffice online atOffice</BookingMethods>
-								<BookingAccess>public</BookingAccess>
-								<BookWhen>advanceAndDayOfTravel</BookWhen>
-								<MinimumBookingPeriod>P1D</MinimumBookingPeriod>
-								<BookingUrl>https://msz-bahn.de/</BookingUrl>
-							</BookingArrangements>
-							<VehicleMode>rail</VehicleMode>
-							<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
-						</AssistanceBookingService>
 					</localServices>
 					<StopPlaceType>railStation</StopPlaceType>
 					<BorderCrossing>false</BorderCrossing>
@@ -585,7 +562,7 @@
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+										<AccessAssistanceAvailable>true</AccessAssistanceAvailable>
 										<AutomaticDoorAccess>true</AutomaticDoorAccess>
 										<TactileGuidanceAccess>true</TactileGuidanceAccess>
 										<PassengerInformationDisplayAvailable>true</PassengerInformationDisplayAvailable>
@@ -887,7 +864,7 @@
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+										<AccessAssistanceAvailable>true</AccessAssistanceAvailable>
 										<AutomaticDoorAccess>true</AutomaticDoorAccess>
 										<TactileGuidanceAccess>true</TactileGuidanceAccess>
 										<PassengerInformationDisplayAvailable>true</PassengerInformationDisplayAvailable>
@@ -1121,7 +1098,7 @@
 										<LiftFreeAccess>true</LiftFreeAccess>
 										<RampFreeAccess>true</RampFreeAccess>
 										<LevelAccessIntoVehicle>unknown</LevelAccessIntoVehicle>
-										<LevelAccessIntoVehicleOrAccessAssistanceAvailable>true</LevelAccessIntoVehicleOrAccessAssistanceAvailable>
+										<AccessAssistanceAvailable>true</AccessAssistanceAvailable>
 										<AutomaticDoorAccess>true</AutomaticDoorAccess>
 										<TactileGuidanceAccess>true</TactileGuidanceAccess>
 										<PassengerInformationDisplayAvailable>false</PassengerInformationDisplayAvailable>
@@ -1887,6 +1864,29 @@
 					<ShortName>DB InfraGO AG</ShortName>
 				</Operator>
 			</organisations>
+			<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
+				<validityConditions>
+					<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+						Öffnungszeiten
+					</AvailabilityConditionRef>
+				</validityConditions>
+				<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
+				<BookingArrangements>
+					<BookingContact>
+						<Email>msz@deutschebahn.com</Email>
+						<Phone>+49 30 65212888</Phone>
+						<Fax>+49 30 65212899</Fax>
+						<Url>https://msz-bahn.de/</Url>
+					</BookingContact>
+					<BookingMethods>callOffice online atOffice</BookingMethods>
+					<BookingAccess>public</BookingAccess>
+					<BookWhen>advanceAndDayOfTravel</BookWhen>
+					<MinimumBookingPeriod>P1D</MinimumBookingPeriod>
+					<BookingUrl>https://msz-bahn.de/</BookingUrl>
+				</BookingArrangements>
+				<VehicleMode>rail</VehicleMode>
+				<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
+			</AssistanceBookingService>
 		</ResourceFrame>
 	</dataObjects>
 </PublicationDelivery>
