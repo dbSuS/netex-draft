@@ -1867,29 +1867,29 @@
 			</organisations>
 			<equipments>
 				<AssistanceBookingService id="22952fa8-c1bf-44b0-aeb1-fa564ef13afa" version="any">
-				<validityConditions>
-					<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
+					<validityConditions>
+						<AvailabilityConditionRef ref="8978fe8f-b077-47c2-9ba1-33b32a7cfb77" version="any">
 						Öffnungszeiten
 					</AvailabilityConditionRef>
-				</validityConditions>
-				<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
-				<BookingArrangements>
-					<BookingContact>
-						<Email>msz@deutschebahn.com</Email>
-						<Phone>+49 30 65212888</Phone>
-						<Fax>+49 30 65212899</Fax>
-						<Url>https://msz-bahn.de/</Url>
-					</BookingContact>
-					<BookingMethods>callOffice online atOffice</BookingMethods>
-					<BookingAccess>public</BookingAccess>
-					<BookWhen>advanceAndDayOfTravel</BookWhen>
-					<MinimumBookingPeriod>P1D</MinimumBookingPeriod>
-					<BookingUrl>https://msz-bahn.de/</BookingUrl>
-				</BookingArrangements>
-				<VehicleMode>rail</VehicleMode>
-				<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
-			</AssistanceBookingService>
-		</equipments>
+					</validityConditions>
+					<AssistanceAvailability>availableIfBooked</AssistanceAvailability>
+					<BookingArrangements>
+						<BookingContact>
+							<Email>msz@deutschebahn.com</Email>
+							<Phone>+49 30 65212888</Phone>
+							<Fax>+49 30 65212899</Fax>
+							<Url>https://msz-bahn.de/</Url>
+						</BookingContact>
+						<BookingMethods>callOffice online atOffice</BookingMethods>
+						<BookingAccess>public</BookingAccess>
+						<BookWhen>advanceAndDayOfTravel</BookWhen>
+						<MinimumBookingPeriod>P1D</MinimumBookingPeriod>
+						<BookingUrl>https://msz-bahn.de/</BookingUrl>
+					</BookingArrangements>
+					<VehicleMode>rail</VehicleMode>
+					<OperatorRef ref="a9cd9059-2a48-4c0d-a3e7-e382e68034eb"/>
+				</AssistanceBookingService>
+			</equipments>
 		</ResourceFrame>
 	</dataObjects>
 </PublicationDelivery>
