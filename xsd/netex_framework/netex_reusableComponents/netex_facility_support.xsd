@@ -490,13 +490,13 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="xsd:NMTOKEN">
 			<xsd:enumeration value="unknown"/>
+			<xsd:enumeration value="other"/>
 			<xsd:enumeration value="smoking"/>
 			<xsd:enumeration value="noSmoking"/>
 			<xsd:enumeration value="familyArea"/>
 			<xsd:enumeration value="childfreeArea"/>
 			<xsd:enumeration value="animalsAllowed"/>
 			<xsd:enumeration value="noAnimals"/>
-			<xsd:enumeration value="animalsAllowed"/>
 			<xsd:enumeration value="breastfeedingFriendly"/>
 			<xsd:enumeration value="mobilePhoneUseZone"/>
 			<xsd:enumeration value="mobilePhoneFreeZone"/>

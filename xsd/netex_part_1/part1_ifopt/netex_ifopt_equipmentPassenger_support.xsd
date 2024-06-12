@@ -160,7 +160,7 @@ Rail transport, Roads and Road transport
 	</xsd:complexType>
 	<xsd:simpleType name="BeaconTypeEnumeration">
 		<xsd:annotation>
-			<xsd:documentation>Allowed values for Beacon Type </xsd:documentation>
+			<xsd:documentation>Allowed values for Beacon Type.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:NMTOKEN">
 			<xsd:enumeration value="ble">
@@ -199,7 +199,7 @@ Rail transport, Roads and Road transport
 	</xsd:simpleType>
 	<xsd:simpleType name="BeaconProtocolEnumeration">
 		<xsd:annotation>
-			<xsd:documentation>Allowed values for beacon protocols </xsd:documentation>
+			<xsd:documentation>Allowed values for beacon protocols.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:NMTOKEN">
 			<xsd:enumeration value="iBeacon">
@@ -266,6 +266,22 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="specificDevice"/>
 			<xsd:enumeration value="pushButton"/>
 			<xsd:enumeration value="other"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<!-- ======================================================================= -->
+	<xsd:simpleType name="ToiletsTypeEnumeration">
+		<xsd:annotation>
+			<xsd:documentation>Allowed values for Toilet Type.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:NMTOKEN">
+			<xsd:enumeration value="seated"/>
+			<xsd:enumeration value="urinal"/>
+			<xsd:enumeration value="squat"/>
+			<xsd:enumeration value="seatedAndUrinal">
+				<xsd:annotation>
+					<xsd:documentation>Both seated and urinal positions are available in the toilet.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<!-- ======================================================================= -->

@@ -201,6 +201,21 @@ Rail transport, Roads and Road transport
 					<xsd:documentation>Key issuing scheme under which facility is accessible.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
+			<xsd:element name="HandWashing" type="xsd:boolean" default="true" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Whether the toilets have a sink allowing hand washing with soap.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DrinkingWater" type="xsd:boolean" default="true" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Whether the tap inside the toilet supplies drinking water.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ToiletsType" type="ToiletsTypeEnumeration" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Indicates the position of using the toilet.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
 		</xsd:sequence>
 	</xsd:group>
 	<xsd:group name="SanitaryEquipmentPaymentGroup">
@@ -477,12 +492,12 @@ Rail transport, Roads and Road transport
 			<xsd:element ref="AccessibilityAssessment" minOccurs="0"/>
 			<xsd:element name="BeaconType" type="BeaconTypeEnumeration" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>The type of the beacon</xsd:documentation>
+					<xsd:documentation>The type of the beacon.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="BeaconDirection" type="BeaconDirectionEnumeration" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>If the Beacon is unidirectional or bidirectional</xsd:documentation>
+					<xsd:documentation>If the Beacon is unidirectional or bidirectional.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="BeaconProtocol" type="BeaconProtocolEnumeration" minOccurs="0">
@@ -492,7 +507,7 @@ Rail transport, Roads and Road transport
 			</xsd:element>
 			<xsd:element name="BeaconBackendUrl" type="xsd:anyURI" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>The  to reach the back end system for the usage of the beacon.</xsd:documentation>
+					<xsd:documentation>The to reach the back end system for the usage of the beacon.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 		</xsd:sequence>
